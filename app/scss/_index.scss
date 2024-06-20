@@ -1,0 +1,143 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #231f20;
+}
+.main {
+  overflow: hidden;
+  width: 100%;
+}
+
+.header {
+  position: relative;
+  z-index: 100;
+  padding-bottom: 40px;
+  &__top {
+    background: #eef2f4;
+    padding: 8px 0;
+    &__navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__menu {
+      li {
+
+        &:not(:last-child) {
+          padding-right: 50px;
+        }
+        a {
+          display: block;
+          height: 32px;
+          font-size: 14px;
+          line-height: 32px;
+          color: #231f20;
+          text-decoration: none;
+          &:hover {
+            color: #828b90;
+          }
+        }
+      }
+    }
+    &__soc {
+      li {
+        padding-left: 16px;
+        a {
+          text-decoration: none;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+
+  &__middle {
+    padding: 40px 0;
+    &__col {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 44px;
+    }
+    &__row {
+      display: flex;
+      align-items: center;
+    }
+
+    &__right {
+      display: flex;
+      &__col1 {
+        width: 230px;
+        min-width: 230px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+  &__logo {
+    display: flex;
+    text-decoration: none;
+    color: #231f20;
+    font-size: 14px;
+    line-height: 1.2;
+    align-items: center;
+    &__slogan {
+      padding-left: 30px;
+    }
+  }
+
+  &__phone {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #231f20;
+    min-width: 150px;
+  }
+  &__phone-city {
+    color: #828b90;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__footer {
+    &__left {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__catalog-btn {
+    width: 198px;
+    min-width: 198px;
+    padding-right: 30px;
+  }
+}
+.icon-caption {
+  display: flex;
+  color: #404042;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  &__ico {
+    width: 26px;
+    min-width: 26px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    svg {
+      display: block;
+    }
+  }
+}
+a.icon-caption:hover {
+  color: #828b90;
+}
+.ico-green {
+  color: #24a44a;
+}
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+
+}

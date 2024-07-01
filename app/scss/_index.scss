@@ -516,7 +516,7 @@ a.icon-caption:hover {
 
   &__item {
     min-height: 255px;
-    padding: 30px 190px 30px 35px;
+    padding: 30px 160px 30px 35px;
     background: #eef2f4;
     position: relative;
     overflow: hidden;
@@ -642,6 +642,9 @@ a.icon-caption:hover {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.2;
+    &--fs-24 {
+      font-size: 24px;
+    }
   }
 }
 
@@ -786,9 +789,11 @@ a.icon-caption:hover {
     color: #404042;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     margin-top: -24px;
+
     &--next {
       right: -30px;
     }
+
     &--prev {
       left: -30px;
     }
@@ -800,9 +805,11 @@ a.icon-caption:hover {
     }
   }
 }
+
 .swiper-button-disabled {
   opacity: 0;
 }
+
 .status {
   display: block;
   padding-left: 18px;
@@ -840,7 +847,7 @@ a.icon-caption:hover {
   &__old {
     margin-right: auto;
     position: relative;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
     color: #b1bdc3;
     font-size: 16px;
     font-weight: bold;
@@ -915,4 +922,288 @@ a.icon-caption:hover {
   li {
     padding-bottom: 10px;
   }
+}
+
+.box__services-list {
+  padding-bottom: 50px;
+
+  li {
+    padding-bottom: 30px;
+
+    &:first-child {
+      .box__services-list__item {
+        border-radius: 80px 0 0 0;
+      }
+    }
+
+    &:last-child {
+      .box__services-list__item {
+        border-radius: 0 0 80px 0;
+      }
+    }
+  }
+
+  &__item {
+    min-height: 240px;
+    padding: 35px 30px 30px 35px;
+    display: flex;
+    flex-direction: column;
+    background: #eef2f4;
+    text-decoration: none;
+
+    &:hover {
+      h3 {
+        color: #24a44a;
+      }
+    }
+
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+
+    }
+
+    &__ico {
+      flex-grow: 1;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #404042;
+      line-height: 1.3;
+      margin: 0 0 5px 0;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+      color: #828b90;
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+}
+
+.box__consultation {
+  padding: 55px 85px;
+  border-radius: 20px;
+  background-image: -moz-linear-gradient(90deg, rgb(31, 162, 74) 0%, rgb(110, 184, 91) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(31, 162, 74) 0%, rgb(110, 184, 91) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(31, 162, 74) 0%, rgb(110, 184, 91) 100%);
+  background-image: linear-gradient(90deg, rgb(31, 162, 74) 0%, rgb(110, 184, 91) 100%);
+
+  &__desc {
+    h2 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1;
+      margin: 0 0 12px 0;
+    }
+
+    p {
+      margin: 0;
+      color: #fff;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  &__form {
+    &__wrap {
+      position: relative;
+    }
+
+    &__inp {
+      width: 100%;
+      padding: 5px 180px 5px 15px;
+      border: none;
+      position: relative;
+      z-index: 1;
+      background: #fff;
+      border-radius: 10px;
+      font-size: 18px;
+      height: 64px;
+      color: #404042;
+
+      &:hover,
+      &:focus,
+      &:active {
+        outline: none;
+      }
+
+      &::placeholder {
+        color: #93999c;
+        opacity: 1;
+      }
+    }
+
+    &__ps {
+      padding-top: 5px;
+      font-size: 13px;
+      line-height: 16px;
+      color: #fff;
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+
+    &__submit {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index: 2;
+    }
+
+  }
+}
+
+.price__info {
+  position: absolute;
+  z-index: 12;
+  left: 100%;
+  top: 5px;
+  margin-left: 5px;
+
+  &__ico {
+    color: #f64747;
+    width: 16px;
+    cursor: pointer;
+    height: 16px;
+  }
+
+  &__desc {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    z-index: 15;
+    bottom: 100%;
+    left: 50%;
+    width: 168px;
+    margin-left: -80px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    line-height: 1.3;
+    color: #404042;
+    font-weight: 400;
+    &__cost {
+
+      font-weight: bold;
+    }
+  }
+  &:hover {
+    .price__info__desc {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+#sliderBrand {
+  height: 210px !important;
+  .swiper-slide {
+    height: 90px !important;
+  }
+}
+
+.box__slider__brand-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 90px;
+  background: #eef2f4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+  img {
+    display: block;
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    max-height: 40px;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    background: transparent;
+    img {
+      opacity: 1;
+    }
+  }
+}
+.swiper-lazy-preloader  {
+  --swiper-theme-color: #24a44a;
+}
+
+.news-item {
+  display: block;
+  text-decoration: none;
+  color: #404042;
+  &__img {
+    padding-bottom: 15px;
+    img {
+      display: block;
+      border-radius: 15px;
+    }
+  }
+  &__desc {
+    padding: 0 20px;
+  }
+  &__date {
+    color: #828b90;
+    font-size: 14px;
+    line-height: 1.2;
+    padding-bottom: 15px;
+  }
+  &__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__footer {
+    padding-top: 15px;
+    li {
+      padding: 0 5px 0 0;
+      span {
+        display: inline-flex;
+        align-items: center;
+        padding: 0 6px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.02em;
+        height: 20px;
+        line-height: 20px;
+        &.news-item__cat-new {
+          background: #26c281;
+        }
+        &.news-item__cat-action {
+          background: #f64747;
+        }
+        &.news-item__cat-news {
+          background: #404042;
+        }
+      }
+    }
+  }
+  &:hover {
+    color: #24a44a;
+  }
+}
+
+.tpad30 {
+  padding-top: 30px;
 }

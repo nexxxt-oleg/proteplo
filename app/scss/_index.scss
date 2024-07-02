@@ -1207,3 +1207,147 @@ a.icon-caption:hover {
 .tpad30 {
   padding-top: 30px;
 }
+
+.fs-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.y-market {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: auto;
+  &__img {
+    padding-right: 12px;
+  }
+  &__stars {
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    color: #f9b42d;
+    padding-top: 5px;
+    &__count {
+      padding-left: 3px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #404042;
+      line-height: 18px;
+    }
+  }
+}
+
+.review {
+  &__block {
+    flex-grow: 1;
+    padding: 20px 20px 35px;
+    border: 1px solid #eef2f4;
+    color: #404042;
+  }
+  &__star {
+    padding-bottom: 15px;
+    li {
+      padding-right: 5px;
+      color: #eef2f4;
+      &.active {
+        color: #f9b42d;
+      }
+    }
+  }
+  &__name {
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  &__date {
+    display: block;
+    color: #828b90;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.box__slider.box__slider--news {
+  .box__slider__nav {
+    top: 118px;
+  }
+}
+
+.text {
+  h1,
+  & h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #828b90;
+  }
+}
+.seo-text {
+  &__footer {
+    margin-top: 25px;
+  }
+}
+
+.footer {
+  background: #373e46;
+  padding: 70px 0 50px;
+  &__nav {
+    li:not(:last-child) {
+      padding-bottom: 8px;
+    }
+    a {
+      color: #adb6bf;
+      font-size: 15px;
+      line-height: 2;
+      text-decoration: none;
+      &:hover {
+        color: #fff;
+      }
+    }
+    &__caption {
+      font-size: 15px;
+      line-height: 2;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+  &__phones {
+    padding-bottom: 10px;
+    &__item {
+      display: flex;
+      align-items: center;
+      padding-bottom: 10px;
+      &__value {
+        font-size: 18px;
+        line-height: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        min-width: 155px;
+      }
+      &__phone-city {
+        color: #adb6bf;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+  &__soc {
+    li {
+      padding-right: 12px;
+    }
+  }
+}

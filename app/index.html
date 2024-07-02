@@ -751,7 +751,7 @@
             </a>
         </header>
 
-        <div class="box__slider">
+        <div class="box__slider box__slider--news">
             <div class="swiper" id="sliderNews">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -864,78 +864,187 @@
                 <h2 class="box__title">Отзывы покупателей</h2>
             </div>
             <div class="col-lg-4">
-                Более 2000 клиентов рекомендуют нас!
+                <span class="fs-16">Более 2000 клиентов рекомендуют нас!</span>
             </div>
-            <div class="col-lg-4">
-                <a href="" class="">
-                    5
+            <div class="col-lg-4 d-flex">
+                <a href="" class="y-market">
+                    <div class="y-market__img">
+                        <img class="d-block" src="images/dist/ymarket.png" width="140" height="27" alt="">
+                    </div>
+                    <div class="y-market__stars">
+                        <svg width="18" height="18" class="d-block">
+                            <use xlink:href="#svg-stars"></use>
+                        </svg>
+                        <div class="y-market__stars__count">
+                            5
+                        </div>
+                    </div>
                 </a>
             </div>
 
         </header>
-
-        <div class="review__row row">
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name">Андрей Ч.</span>
-                    <p>Оперативность! Составил заказ и на следующий день позвонили подтвердить.
-                        Приехал за 30 мин до закрытия из за пробок, и погрузчик уже ушел. Но мне помог сотрудник
-                        отзывчивый сотрудник фирмы все погрузить, который оформлял документы на заказ. Недостатков
-                        нет.</p><span class="review__date">14 августа 2023, Санкт-Петербург</span>
+        <div class="review">
+            <div class="review__row row">
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Андрей Ч.</span>
+                        <p>Оперативность! Составил заказ и на следующий день позвонили подтвердить.
+                            Приехал за 30 мин до закрытия из за пробок, и погрузчик уже ушел. Но мне помог сотрудник
+                            отзывчивый сотрудник фирмы все погрузить, который оформлял документы на заказ. Недостатков
+                            нет.</p><span class="review__date">14 августа 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name">Юлия Шеменева</span>
-                    <p>Сделала заказ, через два дня насос уже был у меня, спасибо за быструю и четкую работу!</p><span
-                        class="review__date">7 августа 2023, Санкт-Петербург</span>
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Юлия Шеменева</span>
+                        <p>Сделала заказ, через два дня насос уже был у меня, спасибо за быструю и четкую работу!</p>
+                        <span class="review__date">7 августа 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name">Julya.byhanova </span>
-                    <p>Оперативная работа менеджера и оператора доставки. Уважительное отношение к клиенту.
-                        Привлекательная цена</p><span class="review__date">2 августа 2023, Санкт-Петербург</span>
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Julya.byhanova </span>
+                        <p>Оперативная работа менеджера и оператора доставки. Уважительное отношение к клиенту.
+                            Привлекательная цена</p><span class="review__date">2 августа 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name"><b>Д</b>аниил</span>
-                    <p>Приобрел скважинный насос, по стоимости даже с доставкой вышло выгоднее, чем в других магазинах с
-                        самовывозом. Устанавливал сам, все работает четко согласно заявленным характеристикам</p><span
-                        class="review__date">16 июля 2023, Санкт-Петербург</span>
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Даниил</span>
+                        <p>Приобрел скважинный насос, по стоимости даже с доставкой вышло выгоднее, чем в других
+                            магазинах с
+                            самовывозом. Устанавливал сам, все работает четко согласно заявленным характеристикам</p>
+                        <span
+                                class="review__date">16 июля 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <section class="box fpad70">
+        <div class="text seo-text" id="seoText">
+            <h1>Системы водоснабжения и отопления «ПроТепло-СПб»</h1>
+
+            <p>Качественные системы водоснабжения и системы отопления в Петербурге – основа создания уюта и комфорта в современных домах, коттеджах и других зданиях. Благодаря инженерным системам, сегодня можно решить множество задач, таких как: горячее водоснабжение загородного дома, центральное отопление, установка системы отопления «теплый пол» или радиаторов, удачный монтаж оборудования в соответствии с дизайном помещения и т.д.</p>
+
+            <p>При этом очень важно выбрать как фирму-производителя системы отопления и водоснабжения, так и компанию, которая на выгодных условиях и в сжатые сроки доставит их на Ваш объект, и грамотно произведет монтаж системы отопления и водоснабжения в Вашем доме или на предприятии. Позвонив менеджерам интернет-магазина «ПроТепло-СПб», Вы получите грамотную консультацию, список необходимого оборудования и расчеты стоимости всей системы. Цена на каждую позицию указана на сайте.</p>
+
+            <h2>Системы водоснабжения и отопления «ПроТепло-СПб»</h2>
+
+            <p>Качественные системы водоснабжения и системы отопления в Петербурге – основа создания уюта и комфорта в современных домах, коттеджах и других зданиях. Благодаря инженерным системам, сегодня можно решить множество задач, таких как: горячее водоснабжение загородного дома, центральное отопление, установка системы отопления «теплый пол» или радиаторов, удачный монтаж оборудования в соответствии с дизайном помещения и т.д.</p>
+
+            <p>При этом очень важно выбрать как фирму-производителя системы отопления и водоснабжения, так и компанию, которая на выгодных условиях и в сжатые сроки доставит их на Ваш объект, и грамотно произведет монтаж системы отопления и водоснабжения в Вашем доме или на предприятии. Позвонив менеджерам интернет-магазина «ПроТепло-СПб», Вы получите грамотную консультацию, список необходимого оборудования и расчеты стоимости всей системы. Цена на каждую позицию указана на сайте.</p>
+
+        </div>
     </section>
 </div>
 <!--#include virtual="/parts/footer.html" -->

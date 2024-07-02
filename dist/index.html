@@ -2672,7 +2672,7 @@
             </a>
         </header>
 
-        <div class="box__slider">
+        <div class="box__slider box__slider--news">
             <div class="swiper" id="sliderNews">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -2785,192 +2785,294 @@
                 <h2 class="box__title">Отзывы покупателей</h2>
             </div>
             <div class="col-lg-4">
-                Более 2000 клиентов рекомендуют нас!
+                <span class="fs-16">Более 2000 клиентов рекомендуют нас!</span>
             </div>
-            <div class="col-lg-4">
-                <a href="" class="">
-                    5
+            <div class="col-lg-4 d-flex">
+                <a href="" class="y-market">
+                    <div class="y-market__img">
+                        <img class="d-block" src="images/dist/ymarket.png" width="140" height="27" alt="">
+                    </div>
+                    <div class="y-market__stars">
+                        <svg width="18" height="18" class="d-block">
+                            <use xlink:href="#svg-stars"></use>
+                        </svg>
+                        <div class="y-market__stars__count">
+                            5
+                        </div>
+                    </div>
                 </a>
             </div>
 
         </header>
-
-        <div class="review__row row">
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name">Андрей Ч.</span>
-                    <p>Оперативность! Составил заказ и на следующий день позвонили подтвердить.
-                        Приехал за 30 мин до закрытия из за пробок, и погрузчик уже ушел. Но мне помог сотрудник
-                        отзывчивый сотрудник фирмы все погрузить, который оформлял документы на заказ. Недостатков
-                        нет.</p><span class="review__date">14 августа 2023, Санкт-Петербург</span>
+        <div class="review">
+            <div class="review__row row">
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Андрей Ч.</span>
+                        <p>Оперативность! Составил заказ и на следующий день позвонили подтвердить.
+                            Приехал за 30 мин до закрытия из за пробок, и погрузчик уже ушел. Но мне помог сотрудник
+                            отзывчивый сотрудник фирмы все погрузить, который оформлял документы на заказ. Недостатков
+                            нет.</p><span class="review__date">14 августа 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name">Юлия Шеменева</span>
-                    <p>Сделала заказ, через два дня насос уже был у меня, спасибо за быструю и четкую работу!</p><span
-                        class="review__date">7 августа 2023, Санкт-Петербург</span>
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Юлия Шеменева</span>
+                        <p>Сделала заказ, через два дня насос уже был у меня, спасибо за быструю и четкую работу!</p>
+                        <span class="review__date">7 августа 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name">Julya.byhanova </span>
-                    <p>Оперативная работа менеджера и оператора доставки. Уважительное отношение к клиенту.
-                        Привлекательная цена</p><span class="review__date">2 августа 2023, Санкт-Петербург</span>
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Julya.byhanova </span>
+                        <p>Оперативная работа менеджера и оператора доставки. Уважительное отношение к клиенту.
+                            Привлекательная цена</p><span class="review__date">2 августа 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 fpad30">
-                <div class="review__block">
-                    <ul class="review__star nav">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <span class="review__name"><b>Д</b>аниил</span>
-                    <p>Приобрел скважинный насос, по стоимости даже с доставкой вышло выгоднее, чем в других магазинах с
-                        самовывозом. Устанавливал сам, все работает четко согласно заявленным характеристикам</p><span
-                        class="review__date">16 июля 2023, Санкт-Петербург</span>
+                <div class="col-lg-3 fpad30 d-flex flex-column">
+                    <div class="review__block">
+                        <ul class="review__star nav">
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                            <li class="active">
+                                <svg width="18" height="18" >
+                                    <use xlink:href="#svg-stars"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <span class="review__name">Даниил</span>
+                        <p>Приобрел скважинный насос, по стоимости даже с доставкой вышло выгоднее, чем в других
+                            магазинах с
+                            самовывозом. Устанавливал сам, все работает четко согласно заявленным характеристикам</p>
+                        <span
+                                class="review__date">16 июля 2023, Санкт-Петербург</span>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <section class="box fpad70">
+        <div class="text seo-text" id="seoText">
+            <h1>Системы водоснабжения и отопления «ПроТепло-СПб»</h1>
+
+            <p>Качественные системы водоснабжения и системы отопления в Петербурге – основа создания уюта и комфорта в современных домах, коттеджах и других зданиях. Благодаря инженерным системам, сегодня можно решить множество задач, таких как: горячее водоснабжение загородного дома, центральное отопление, установка системы отопления «теплый пол» или радиаторов, удачный монтаж оборудования в соответствии с дизайном помещения и т.д.</p>
+
+            <p>При этом очень важно выбрать как фирму-производителя системы отопления и водоснабжения, так и компанию, которая на выгодных условиях и в сжатые сроки доставит их на Ваш объект, и грамотно произведет монтаж системы отопления и водоснабжения в Вашем доме или на предприятии. Позвонив менеджерам интернет-магазина «ПроТепло-СПб», Вы получите грамотную консультацию, список необходимого оборудования и расчеты стоимости всей системы. Цена на каждую позицию указана на сайте.</p>
+
+            <h2>Системы водоснабжения и отопления «ПроТепло-СПб»</h2>
+
+            <p>Качественные системы водоснабжения и системы отопления в Петербурге – основа создания уюта и комфорта в современных домах, коттеджах и других зданиях. Благодаря инженерным системам, сегодня можно решить множество задач, таких как: горячее водоснабжение загородного дома, центральное отопление, установка системы отопления «теплый пол» или радиаторов, удачный монтаж оборудования в соответствии с дизайном помещения и т.д.</p>
+
+            <p>При этом очень важно выбрать как фирму-производителя системы отопления и водоснабжения, так и компанию, которая на выгодных условиях и в сжатые сроки доставит их на Ваш объект, и грамотно произведет монтаж системы отопления и водоснабжения в Вашем доме или на предприятии. Позвонив менеджерам интернет-магазина «ПроТепло-СПб», Вы получите грамотную консультацию, список необходимого оборудования и расчеты стоимости всей системы. Цена на каждую позицию указана на сайте.</p>
+
+        </div>
     </section>
 </div>
-<footer class="cinema__footer">
-    <div class="container fpad80">
-        <div class="row">
-            <div class="col-12 cinema__footer__top-row">
-                <a href="/" class="cinema__footer__logo">
-                    <img src="images/dist/logo.svg" alt="" width="199" height="41">
+<footer class="footer">
+    <div class="container position-relative">
+        <div class="row fpad30">
+            <div class="col-lg-3  col-6 fpad30">
+                <ul class="nav flex-column footer__nav">
+                    <li class="footer__nav__caption">Каталог</li>
+                    <li><a href="">Отопление</a></li>
+                    <li><a href="">Водоснабжение</a></li>
+                    <li><a href="">Канализация</a></li>
+                    <li><a href="">Сантехника</a></li>
+                    <li><a href="">Кондиционирование</a></li>
+                    <li><a href="">Энергоснабжение</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6 fpad30">
+                <ul class="nav flex-column footer__nav">
+                    <li class="footer__nav__caption">Услуги</li>
+                    <li><a href="">Монтаж оборудования</a></li>
+                    <li><a href="">Монтаж систем коммуникаций</a></li>
+                    <li><a href="">Проектирование систем коммуникаций</a></li>
+                    <li><a href="">Проекты «под ключ»</a></li>
+                    <li><a href="">Сервисные услуги</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6 fpad30">
+                <ul class="nav flex-column footer__nav">
+                    <li class="footer__nav__caption">Покупателям</li>
+                    <li><a href="">Оплата</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Гарантии</a></li>
+                    <li><a href="">Постпродажное обслуживание</a></li>
+                    <li><a href="">Дисконтная программа</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6 fpad30">
+                <ul class="nav flex-column footer__nav">
+                    <li class="footer__nav__caption">Компания</li>
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Сертификаты</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Сотрудничество</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row fpad30">
+            <div class="col-lg-3 col-6 fpad30">
+                <div class="footer__phones">
+                    <div class="footer__phones__item">
+                        <a href="tel:88124907790" class="footer__phones__item__value">8 812 490-77-90</a>
+                        <span class="footer__phones__item__phone-city">Санкт-Петербург</span>
+                    </div>
+                    <div class="footer__phones__item">
+                        <a href="tel:88007756303" class="footer__phones__item__value">8 800 775-63-03</a>
+                        <span class="footer__phones__item__phone-city">Бесплатно по России</span>
+                    </div>
+                </div>
+                <ul class="nav footer__soc">
+                    <li>
+                        <a class="d-block" href="" target="_blank">
+                            <img class="d-block" src="images/dist/telegram.svg" alt="" width="32" height="32">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-block" href="" target="_blank">
+                            <img class="d-block" src="images/dist/whatsapp.svg" alt="" width="32" height="32">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-6 fpad30">
+                <div class="footer__address">
+                    г. Санкт-Петербург, Чугунная, дом 14, лит. К, (въезд с Менделеевской 5)
+                </div>
+                <div class="footer__work-time">
+                    Понедельник - Среда: 10:00 - 19:00<br>
+                    Четверг - Пятница: 10:00 - 18:00
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 fpad30">
+                <ul class="nav footer__soc-big">
+                    <li>
+                        <a class="d-block footer__soc-big__vk" href="" target="_blank">
+                            <svg width="24" height="15">
+                                <use xlink:href="#svg-vk"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-block footer__soc-big__yt" href="" target="_blank">
+                            <svg width="24" height="16">
+                                <use xlink:href="#svg-yt"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <a href="" target="_blank" class="footer__y-market">
+                    <img class="d-block" src="images/dist/y-maket2.png" alt="" width="99" height="38">
                 </a>
             </div>
-            <div class="col-lg-5 col-12">
-                <div class="row">
-                    <div class="col-6">
-                        <ul class="nav flex-column cinema__footer__nav">
-                            <li><a href="">Расписание</a></li>
-                            <li><a href="">MoriArt</a></li>
-                            <li><a href="">MoriBonus</a></li>
-                            <li><a href="">MoriRent</a></li>
-                            <li><a href="">Киновподарок</a></li>
-                            <li><a href="">Акции</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <ul class="nav flex-column cinema__footer__nav">
-                            <li><a href="">История компании</a></li>
-                            <li><a href="">Реклама в кинотеатрах</a></li>
-                            <li><a href="">Услуги кинотеатра</a></li>
-                            <li><a href="">Аренда площадей</a></li>
-                            <li><a href="">Вакансии</a></li>
-                            <li><a href="">Обратная связь</a></li>
-                            <li><a href="">Контакты</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7 col-12">
-                <div class="d-flex cinema__footer__app-row align-items-center fpad40">
-                    <div class="cinema__footer__app-desc">
-                        <b>Приложение MORI CINEMA</b>
-                        Загружайте и покупайте билеты онлайн
-                    </div>
-                    <div class="cinema__footer__app-link flex-grow-1">
-                        <div class="row">
-                            <div class="col-6">
-                                <a href="" class="btn-yellow btn-yellow--app" target="_blank">
-                                    <span class="btn-yellow__app-ico">
-                                        <svg width="23" height="28">
-                                            <use xlink:href="#svg-apple"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="btn-yellow__app-text">
-                                        Загрузить в
-                                        <b class="text-nowrap">App Store</b>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="" class="btn-yellow btn-yellow--app" target="_blank">
-                                    <span class="btn-yellow__app-ico">
-                                        <svg width="26" height="28">
-                                            <use xlink:href="#svg-gp"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="btn-yellow__app-text">
-                                    Доступно в
-                                    <b class="text-nowrap">Google Play</b>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex cinema__footer__app-row align-items-center fpad40">
-                    <div class="cinema__footer__app-desc">
-                        <b>Мы в социальных сетях</b>
-                        Будьте в курсе последних событий
-                    </div>
-                    <div class="cinema__footer__app-link flex-grow-1">
-                        <ul class="nav cinema__account-menu__footer">
-                            <li>
-                                <a href="" target="_blank" class="btn-yellow btn-yellow--ico">
-                                    <svg width="24" height="13">
-                                        <use xlink:href="#svg-vk"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank" class="btn-yellow btn-yellow--ico">
-                                    <svg width="24" height="20">
-                                        <use xlink:href="#svg-telegram"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="cinema__footer__bottom">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <span class="cinema__footer__bottom__copy">© 2022 Сеть кинотеатров MORI CINEMA. <span>Все права защищены.</span></span>
-                </div>
-                <div class="col-lg-4 cinema__footer__col-link">
-                    <a href="" target="_blank">Политика конфиденциальности</a>
-                </div>
-                <div class="col-lg-3 text-right">
-                    <span>Разработка сайта - <a href="" target="_blank">“Клондайк”</a></span>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </footer>
 
 <div class="modal fade" id="cityFirstModal" tabindex="-1">
@@ -3021,116 +3123,6 @@
     </div>
 </div>
 
-<div class="modal fade" id="cityLastModal" tabindex="-1">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="modal-title">
-                    Выбор города
-                </div>
-                <div class="btn-close2" data-bs-dismiss="modal">
-                    <svg width="18" height="18">
-                        <use xlink:href="#svg-close"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="modal-body">
-                <ul class="modal__list-city nav flex-column">
-                    <li>
-                        <label class="cinema__modal-city">
-                            <input type="radio" name="city" value="Санкт-Петербург" checked>
-                            <span class="cinema__modal-city__wrap">
-                                <span class="cinema__modal-city__ico">
-                                     <svg class="marker" width="20" height="24">
-                                       <use xlink:href="#svg-marker"></use>
-                                    </svg>
-                                    <img width="20" height="24" src="images/dist/marker-active.svg" alt=""
-                                         class="marker-active">
-                                </span>
-                                <span class="cinema__modal-city__val">
-                                    <span class="cinema__modal-city__val__name">Санкт-Петербург</span>
-                                    <span class="cinema__modal-city__val__adr">Индустриальный просп., д. 24, литера А, ТРЦ «ИЮНЬ»</span>
-                                </span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="cinema__modal-city">
-                            <input type="radio" name="city" value="Красноярск">
-                            <span class="cinema__modal-city__wrap">
-                                <span class="cinema__modal-city__ico">
-                                    <svg class="marker" width="20" height="24">
-                                       <use xlink:href="#svg-marker"></use>
-                                    </svg>
-                                    <img width="20" height="24" src="images/dist/marker-active.svg" alt=""
-                                         class="marker-active">
-                                </span>
-                                <span class="cinema__modal-city__val">
-                                    <span class="cinema__modal-city__val__name">Красноярск</span>
-                                    <span class="cinema__modal-city__val__adr">ул. Партизана Железняка, д. 23, ТРЦ «ИЮНЬ»</span>
-                                </span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="cinema__modal-city">
-                            <input type="radio" name="city" value="Красноярск">
-                            <span class="cinema__modal-city__wrap">
-                                <span class="cinema__modal-city__ico">
-                                    <svg class="marker" width="20" height="24">
-                                       <use xlink:href="#svg-marker"></use>
-                                    </svg>
-                                    <img width="20" height="24" src="images/dist/marker-active.svg" alt=""
-                                         class="marker-active">
-                                </span>
-                                <span class="cinema__modal-city__val">
-                                    <span class="cinema__modal-city__val__name">Красноярск</span>
-                                    <span class="cinema__modal-city__val__adr">ул. Партизана Железняка, д. 23, ТРЦ «ИЮНЬ»</span>
-                                </span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="cinema__modal-city">
-                            <input type="radio" name="city" value="Красноярск">
-                            <span class="cinema__modal-city__wrap">
-                                <span class="cinema__modal-city__ico">
-                                    <svg class="marker" width="20" height="24">
-                                       <use xlink:href="#svg-marker"></use>
-                                    </svg>
-                                    <img width="20" height="24" src="images/dist/marker-active.svg" alt=""
-                                         class="marker-active">
-                                </span>
-                                <span class="cinema__modal-city__val">
-                                    <span class="cinema__modal-city__val__name">Красноярск</span>
-                                    <span class="cinema__modal-city__val__adr">ул. Партизана Железняка, д. 23, ТРЦ «ИЮНЬ»</span>
-                                </span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="cinema__modal-city">
-                            <input type="radio" name="city" value="Красноярск">
-                            <span class="cinema__modal-city__wrap">
-                                <span class="cinema__modal-city__ico">
-                                    <svg class="marker" width="20" height="24">
-                                       <use xlink:href="#svg-marker"></use>
-                                    </svg>
-                                    <img width="20" height="24" src="images/dist/marker-active.svg" alt=""
-                                         class="marker-active">
-                                </span>
-                                <span class="cinema__modal-city__val">
-                                    <span class="cinema__modal-city__val__name">Красноярск</span>
-                                    <span class="cinema__modal-city__val__adr">ул. Партизана Железняка, д. 23, ТРЦ «ИЮНЬ»</span>
-                                </span>
-                            </span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="modal fade" id="regModal" tabindex="-1">
     <div class="modal-dialog">
@@ -3625,7 +3617,31 @@
         </symbol>
 
         <symbol width="16" height="16" id="svg-info" viewBox="0 0 512 512">
-            <path class="cls-1" d="m256,0C114.51,0,0,114.5,0,256s114.5,256,256,256,256-114.5,256-256S397.5,0,256,0Zm26.29,357.62c0,8.09-11.79,16.17-26.28,16.17s-25.95-8.09-25.95-16.17v-128.39c0-9.43,10.78-15.84,25.95-15.84s26.28,6.4,26.28,15.84v128.39Zm-26.28-175.23c-15.5,0-27.63-11.46-27.63-24.26s12.13-23.93,27.63-23.93,27.3,11.12,27.3,23.93-12.13,24.26-27.3,24.26Z"/>
+            <path d="m256,0C114.51,0,0,114.5,0,256s114.5,256,256,256,256-114.5,256-256S397.5,0,256,0Zm26.29,357.62c0,8.09-11.79,16.17-26.28,16.17s-25.95-8.09-25.95-16.17v-128.39c0-9.43,10.78-15.84,25.95-15.84s26.28,6.4,26.28,15.84v128.39Zm-26.28-175.23c-15.5,0-27.63-11.46-27.63-24.26s12.13-23.93,27.63-23.93,27.3,11.12,27.3,23.93-12.13,24.26-27.3,24.26Z"/>
+        </symbol>
+
+        <symbol id="svg-stars" viewBox="0 0 512 492.86">
+            <polygon fill="currentColor"
+                     points="512 188.25 325.96 176.02 255.9 0 185.84 176.02 0 188.25 142.53 309.27 95.76 492.86 255.9 391.64 416.04 492.86 369.26 309.27 512 188.25"/>
+        </symbol>
+
+        <symbol id="svg-bottom" viewBox="0 0 512 269.98">
+            <path fill="currentColor"
+                  d="m0,45.38l203.09,202.82c29.19,29.05,76.37,29.05,105.56,0l203.35-203.05L466.75,0l-203.33,203.05c-4.17,4.16-10.92,4.16-15.08,0L45.25.21,0,45.38Z"/>
+        </symbol>
+
+        <symbol id="svg-up" viewBox="0 0 512 269.98">
+            <path fill="currentColor"
+                  d="m512,224.61L308.91,21.79c-29.19-29.05-76.37-29.05-105.56,0L0,224.84l45.25,45.14L248.58,66.93c4.17-4.16,10.92-4.16,15.08,0l203.09,202.84,45.25-45.16Z"/>
+        </symbol>
+
+        <symbol id="svg-vk"  viewBox="0 0 66.71 41.62">
+            <path fill="currentColor"
+                  d="m0,0c.54,26,13.54,41.62,36.33,41.62h1.29v-14.88c8.38.83,14.71,6.96,17.25,14.88h11.83c-3.25-11.83-11.79-18.38-17.13-20.88,5.33-3.08,12.83-10.58,14.62-20.75h-10.75c-2.33,8.25-9.25,15.75-15.83,16.46V0h-10.75v28.83c-6.67-1.67-15.08-9.75-15.46-28.83H0Z"/>
+        </symbol>
+
+        <symbol id="svg-yt"  viewBox="0 0 639.37 447.66">
+            <path class="cls-1" d="m626.2,70.05c-7.37-27.39-28.96-48.98-56.35-56.36C519.82,0,319.68,0,319.68,0c0,0-200.13,0-250.16,13.17-26.86,7.37-48.98,29.49-56.35,56.88C0,120.08,0,223.83,0,223.83c0,0,0,104.28,13.17,153.78,7.38,27.39,28.96,48.98,56.36,56.36,50.56,13.69,250.17,13.69,250.17,13.69,0,0,200.13,0,250.16-13.17,27.39-7.37,48.98-28.96,56.36-56.35,13.16-50.03,13.16-153.78,13.16-153.78,0,0,.53-104.28-13.17-154.31Zm-370.24,249.63V127.98l166.42,95.85-166.42,95.85Z"/>
         </symbol>
     </svg>
 </div>
@@ -3683,27 +3699,10 @@
     </div>
 </div>
 
-<div class="cinema__cookies" id="cookies">
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-xl-7 col-lg-8">
-                <div class="cinema__cookies__box">
-                    <div class="cinema__cookies__box__desc">
-                        Продолжая использовать наш сайт, вы даете согласие
-                        на обработку файлов cookie, которые обеспечивают
-                        правильную работу сайта.
-                    </div>
-                    <div class="cinema__cookies__box__btn">
-                        <button class="btn-yellow w-100" onclick="document.getElementById('cookies').remove()">ХОРОШО</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 </div><!-- end main-->
 <script src="js/vendor.min.js"></script>
 
 <script src="js/app.min.js"></script>
 </body>
 </html>
+

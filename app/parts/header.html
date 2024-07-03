@@ -23,7 +23,7 @@
 
 </head>
 <body>
-<div class="main">
+<div class="main" id="top">
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -53,8 +53,9 @@
                 </nav>
             </div>
         </div>
-        <div class="container">
-            <div class="header__middle">
+
+        <div class="header__middle">
+            <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4">
                         <a href="/" class="header__logo" title="Интернет-магазин отопления и водоснабжения">
@@ -126,100 +127,105 @@
                     </div>
                 </div>
             </div>
-            <div class="header__footer">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="header__footer__left">
-                            <div class="header__catalog-btn">
-                                <button class="btn btn--black w-100">
+        </div>
+        <div class="header__footer" id="fixNav">
+            <div class="header__footer__wrap">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 header__footer__col-1">
+                            <div class="header__footer__left">
+                                <div class="header__catalog-btn">
+                                    <button class="btn btn--black w-100">
                                     <span class="header__catalog-btn__ico">
                                         <span></span>
                                     </span>
-                                    Каталог
-                                </button>
-                            </div>
-                            <div class="header__search">
-                                <form>
-                                    <div class="header__search__wrap">
-                                        <input type="text" class="header__search__inp" placeholder="Поиск" required >
-                                        <button class="header__search__submit" type="submit">
-                                            <svg width="18" height="18">
-                                                <use xlink:href="#svg-search"></use>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </form>
+                                        Каталог
+                                    </button>
+                                </div>
+                                <div class="header__search">
+                                    <form>
+                                        <div class="header__search__wrap">
+                                            <input type="text" class="header__search__inp" placeholder="Поиск" required>
+                                            <button class="header__search__submit" type="submit">
+                                                <svg width="18" height="18">
+                                                    <use xlink:href="#svg-search"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="header__icons">
-                            <ul class="nav align-items-center">
-                                <li>
-                                    <a href="" class="header__icons__item">
-                                        <div class="header__icons__item__ico">
-                                            <svg width="24" height="24">
-                                                <use xlink:href="#svg-services"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="header__icons__item__caption">
-                                            Услуги
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="header__icons__item">
-                                        <div class="header__icons__item__ico">
-                                            <svg width="24" height="24">
-                                                <use xlink:href="#svg-action"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="header__icons__item__caption">
-                                            Акции
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="header__icons__item">
-                                        <div class="header__icons__item__ico">
-                                            <svg width="21" height="24">
-                                                <use xlink:href="#svg-compare"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="header__icons__item__caption">
-                                            Сравнение
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="header__icons__item">
-                                        <div class="header__icons__item__ico">
-                                            <svg width="24" height="22">
-                                                <use xlink:href="#svg-fav"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="header__icons__item__caption">
-                                            Избранное
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="header__icons__item">
-                                        <div class="header__icons__item__count">2</div>
-                                        <div class="header__icons__item__ico">
-                                            <svg width="24" height="24">
-                                                <use xlink:href="#svg-cart"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="header__icons__item__caption">
-                                            Корзина
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="col-lg-5 header__footer__col-2">
+                            <div class="header__icons">
+                                <ul class="nav align-items-center">
+                                    <li>
+                                        <a href="" class="header__icons__item">
+                                            <div class="header__icons__item__ico">
+                                                <svg width="24" height="24">
+                                                    <use xlink:href="#svg-services"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="header__icons__item__caption">
+                                                Услуги
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="header__icons__item">
+                                            <div class="header__icons__item__ico">
+                                                <svg width="24" height="24">
+                                                    <use xlink:href="#svg-action"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="header__icons__item__caption">
+                                                Акции
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="header__icons__item">
+                                            <div class="header__icons__item__ico">
+                                                <svg width="21" height="24">
+                                                    <use xlink:href="#svg-compare"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="header__icons__item__caption">
+                                                Сравнение
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="header__icons__item">
+                                            <div class="header__icons__item__ico">
+                                                <svg width="24" height="22">
+                                                    <use xlink:href="#svg-fav"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="header__icons__item__caption">
+                                                Избранное
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="header__icons__item">
+                                            <div class="header__icons__item__count">2</div>
+                                            <div class="header__icons__item__ico">
+                                                <svg width="24" height="24">
+                                                    <use xlink:href="#svg-cart"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="header__icons__item__caption">
+                                                Корзина
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </header>

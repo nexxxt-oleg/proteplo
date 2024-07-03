@@ -27,16 +27,17 @@ body {
       li {
 
         &:not(:last-child) {
-          padding-right: 50px;
+          padding-right: 64px;
         }
 
         a {
           display: block;
           height: 32px;
           font-size: 14px;
-          line-height: 32px;
+          line-height: 24px;
           color: #231f20;
           text-decoration: none;
+          padding-top: 2px;
 
           &:hover {
             color: #828b90;
@@ -61,13 +62,13 @@ body {
   }
 
   &__middle {
-    padding: 40px 0;
+    padding: 38px 0;
 
     &__col {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 44px;
+      height: 50px;
     }
 
     &__row {
@@ -116,6 +117,9 @@ body {
   }
 
   &__footer {
+    position: relative;
+    z-index: 100;
+    height: 48px;
     &__left {
       display: flex;
       align-items: center;
@@ -416,8 +420,8 @@ a.icon-caption:hover {
 
   p {
     font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 20px;
+    line-height: 18px;
+    margin-bottom: 25px;
   }
 }
 
@@ -425,8 +429,8 @@ a.icon-caption:hover {
 
 
   .home-slide__desc {
-    max-width: 500px;
-    padding: 90px 40px 45px 60px;
+    max-width: 520px;
+    padding: 92px 40px 45px 60px;
   }
 
   .home-slide__title {
@@ -449,7 +453,7 @@ a.icon-caption:hover {
     justify-content: center;
     position: absolute;
     z-index: 101;
-    bottom: 30px;
+    bottom: 34px !important;
     left: 0;
     width: 100%;
     height: 12px;
@@ -479,7 +483,7 @@ a.icon-caption:hover {
     overflow: hidden;
 
     .home-slide__desc {
-      padding: 86px 40px 45px;
+      padding: 82px 40px 45px;
     }
 
     .home-slide__title {
@@ -516,7 +520,7 @@ a.icon-caption:hover {
 
   &__item {
     min-height: 255px;
-    padding: 30px 160px 30px 35px;
+    padding: 33px 160px 30px 37px;
     background: #eef2f4;
     position: relative;
     overflow: hidden;
@@ -544,7 +548,7 @@ a.icon-caption:hover {
       font-size: 20px;
       text-decoration: none;
       line-height: 1.2;
-      margin-bottom: 10px;
+      margin-bottom: 9px;
 
       &:hover {
         color: #24a44a;
@@ -568,7 +572,7 @@ a.icon-caption:hover {
       }
 
       &__more-link {
-        padding-top: 10px;
+        padding-top: 5px;
 
         a {
           color: #24a44a !important;
@@ -609,13 +613,13 @@ a.icon-caption:hover {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.1;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
   }
 
   &__text {
     color: #828b90;
     font-size: 15px;
-    line-height: 1.3;
+    line-height: 1.2;
   }
 }
 
@@ -695,7 +699,7 @@ a.icon-caption:hover {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding: 30px 10px 0;
+    padding: 15px 10px 0;
   }
 
   &__params {
@@ -725,8 +729,8 @@ a.icon-caption:hover {
   }
 
   &__rev {
-    width: 45px;
-    min-width: 45px;
+    width: 30px;
+    min-width: 30px;
     padding-left: 18px;
     color: #404042;
     font-size: 13px;
@@ -738,12 +742,13 @@ a.icon-caption:hover {
   }
 
   &__title {
-    margin: 12px 0;
+    margin: 10px 0 5px;
     display: block;
     color: #404042;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
     text-decoration: none;
+    font-weight: bold;
 
     &:hover {
       color: #24a44a;
@@ -759,18 +764,32 @@ a.icon-caption:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: auto;
   }
 
   &__col-price {
     padding-right: 15px;
   }
+  &__col-btn {
+    .btn {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
 }
 
 .box__slider {
   position: relative;
+  flex-grow: 1;
 
   .swiper-slide {
     width: 305px;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    .product-box {
+      flex-grow: 1;
+    }
   }
 
   &__nav {
@@ -1171,6 +1190,7 @@ a.icon-caption:hover {
   &__title {
     font-size: 16px;
     line-height: 24px;
+    font-weight: bold;
   }
   &__footer {
     padding-top: 15px;
@@ -1304,9 +1324,6 @@ a.icon-caption:hover {
   background: #373e46;
   padding: 70px 0 50px;
   &__nav {
-    li:not(:last-child) {
-      padding-bottom: 8px;
-    }
     a {
       color: #adb6bf;
       font-size: 15px;
@@ -1325,7 +1342,7 @@ a.icon-caption:hover {
     }
   }
   &__phones {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     &__item {
       display: flex;
       align-items: center;
@@ -1336,7 +1353,7 @@ a.icon-caption:hover {
         color: #fff;
         text-decoration: none;
         font-weight: bold;
-        min-width: 155px;
+        min-width: 151px;
       }
       &__phone-city {
         color: #adb6bf;
@@ -1350,4 +1367,129 @@ a.icon-caption:hover {
       padding-right: 12px;
     }
   }
+  &__address {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+  }
+  &__work-time {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #adb6bf;
+  }
+  &__soc-big {
+    padding-bottom: 30px;
+    li {
+      padding-right: 20px;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+    &__vk {
+      background: #0077ff;
+      &:hover {
+        background: #3392ff;
+      }
+    }
+    &__yt {
+      background: #ff0000;
+      &:hover {
+        background: #fb1313;
+      }
+    }
+  }
+  &__bottom {
+    border-top: 1px solid #adb6bf;
+    padding-top: 70px;
+    &__logo {
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 35px;
+    }
+    &__copy {
+      font-size: 14px;
+      line-height: 1.2;
+      color: #fff;
+    }
+    &__info {
+      color: #adb6bf;
+      font-size: 14px;
+      line-height: 18px;
+      max-width: 540px;
+      width: 100%;
+      padding-bottom: 20px;
+      margin-top: -2px;
+    }
+    &__nav {
+      li {
+        min-width: 220px;
+        a {
+          font-size: 14px;
+          line-height: 1.2;
+          text-decoration: none;
+          color: #adb6bf;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  &__web {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    &__ico {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background: #fff;
+    }
+    &__caption {
+      font-size: 14px;
+      line-height: 18px;
+      padding-left: 20px;
+    }
+  }
+  &__top-btn {
+    position: absolute;
+    z-index: 10;
+    top: -102px;
+    width: 64px;
+    height: 64px;
+    right: -32px;
+    border-radius: 10px;
+    color: #404042;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    &__caption {
+      text-align: center;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 1.2;
+      padding-top: 8px;
+    }
+  }
+}
+.fpad40 {
+  padding-bottom: 40px;
 }

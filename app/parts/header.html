@@ -139,7 +139,7 @@
             </div>
         </div>
         <div class="header__footer" id="fixNav">
-            <div class="header__footer__wrap">
+            <div class="header__footer__wrap" id="fixNavWrap">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-7 header__footer__col-1">
@@ -150,10 +150,11 @@
                                     </a>
                                 </div>
                                 <div class="header__catalog-btn">
-                                    <button class="btn btn--black w-100">
-                                    <span class="header__catalog-btn__ico">
-                                        <span></span>
-                                    </span>
+                                    <button class="btn btn--black w-100 collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseMenu">
+                                        <span class="header__catalog-btn__ico">
+                                            <span></span>
+                                        </span>
                                         Каталог
                                     </button>
                                 </div>
@@ -365,6 +366,257 @@
                                             </a>
                                         </li>
                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__footer__menu accordion-collapse collapse" id="collapseMenu">
+                    <div class="container">
+                        <div class="header__footer__menu__wrap">
+                            <div class="row catalog-menu">
+                                <div class="col-lg-3">
+                                    <div class="catalog-menu__left">
+                                        <ul class="nav flex-column catalog-menu__nav">
+                                            <li class="active" data-target="nav1">
+                                                <a href="" class="catalog-menu__nav__item " >
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav1.svg" alt="" >
+                                                    </div>
+                                                    <span>Отопление</span>
+                                                </a>
+                                            </li>
+                                            <li  data-target="nav2">
+                                                <a href="" class="catalog-menu__nav__item ">
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav2.svg" alt="" >
+                                                    </div>
+                                                    <span>Водоснабжение</span>
+                                                </a>
+                                            </li>
+                                            <li data-target="nav3">
+                                                <a href="" class="catalog-menu__nav__item" >
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav3.svg" alt="" >
+                                                    </div>
+                                                    <span>Канализация</span>
+                                                </a>
+                                            </li>
+                                            <li data-target="nav4">
+                                                <a href="" class="catalog-menu__nav__item" >
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav4.svg" alt="" >
+                                                    </div>
+                                                    <span>Кондиционирование</span>
+                                                </a>
+                                            </li>
+                                            <li data-target="nav5">
+                                                <a href="" class="catalog-menu__nav__item" >
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav5.svg" alt="" >
+                                                    </div>
+                                                    <span>Сантехника</span>
+                                                </a>
+                                            </li>
+                                            <li data-target="nav6">
+                                                <a href="" class="catalog-menu__nav__item" >
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav6.svg" alt="" >
+                                                    </div>
+                                                    <span>Энергоснабжение</span>
+                                                </a>
+                                            </li>
+                                            <li data-target="nav7">
+                                                <a href="" class="catalog-menu__nav__item" >
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav7.svg" alt="" >
+                                                    </div>
+                                                    <span>Распродажа</span>
+                                                </a>
+                                            </li>
+                                            <li data-target="nav8" class="catalog-menu__nav__bottom">
+                                                <a href="" class="catalog-menu__nav__item" >
+                                                    <div class="catalog-menu__nav__item__ico">
+                                                        <img class="d-block" src="images/dist/nav8.svg" alt="" >
+                                                    </div>
+                                                    <span>Распродажа</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="catalog-menu__list">
+                                        <div class="catalog-menu__list__item active" id="nav1">
+                                            <div class="catalog-menu__list__item__header">
+                                                <a href="" class="btn-link">
+                                                    Отопление
+                                                    <svg width="6" height="12" class="ml-5">
+                                                        <use xlink:href="#svg-right"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="catalog-menu__list__item__body">
+                                                <div class="catalog-menu__list__item__nav">
+                                                    <div class="catalog-menu__list__item__nav__group catalog-menu__submenu">
+                                                        <div class="catalog-menu__submenu__header">
+                                                            <a href="" class="btn-link">
+                                                                Котлы
+                                                                <svg width="6" height="12" class="ml-5">
+                                                                    <use xlink:href="#svg-right"></use>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li>
+                                                                        <a href="">Газовые</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="">Твердотопливные</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="">Электрические</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="">Дизельные котлы отопления</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="">На сжиженном газе</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li><a href="">Пеллетные</a></li>
+                                                                    <li><a href="">Битопливные</a></li>
+                                                                    <li><a href="">Котельные</a></li>
+                                                                    <li><a href="">Насосные группы</a></li>
+                                                                    <li><a href="">Автоматика</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li><a href="">Теплоаккумуляторы (буферные емкости)</a></li>
+                                                                    <li><a href="">Комплектующие</a></li>
+                                                                    <li><a href="">Запчасти для котлов</a></li>
+                                                                    <li><a href="">Котлы со сменным горелками</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__list__item__nav__group catalog-menu__submenu">
+                                                        <div class="catalog-menu__submenu__header">
+                                                            <a href="" class="btn-link">
+                                                                Дымоходы из стали
+                                                                <svg width="6" height="12" class="ml-5">
+                                                                    <use xlink:href="#svg-right"></use>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li>
+                                                                        <a href="">Одностенные</a>
+                                                                    </li>
+                                                                    <li><a href="">Сэндвич</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__list__item__nav__group catalog-menu__submenu">
+                                                        <div class="catalog-menu__submenu__header">
+                                                            <a href="" class="btn-link">
+                                                                Радиаторы отопления
+                                                                <svg width="6" height="12" class="ml-5">
+                                                                    <use xlink:href="#svg-right"></use>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li>
+                                                                        <a href="">Алюминиевые</a>
+                                                                    </li>
+                                                                    <li><a href="">Биметаллические</a></li>
+                                                                    <li><a href="">Стальные панельные</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li>
+                                                                        <a href="">Стальные трубчатые</a>
+                                                                    </li>
+                                                                    <li><a href="">Чугунные</a></li>
+                                                                    <li><a href="">Комплектующие</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__list__item__nav__group catalog-menu__submenu">
+                                                        <div class="catalog-menu__submenu__header">
+                                                            <a href="" class="btn-link">
+                                                                Полотенцесушители
+                                                                <svg width="6" height="12" class="ml-5">
+                                                                    <use xlink:href="#svg-right"></use>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li>
+                                                                        <a href="">Водяные</a>
+                                                                    </li>
+                                                                    <li><a href="">Электрические</a></li>
+                                                                    <li><a href="">Комбинированные</a></li>
+                                                                    <li><a href="">Комплектующие</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <ul class="nav flex-column catalog-menu__submenu__list">
+                                                                    <li><a href="">Полотенцесушители из
+                                                                        нержавеющей стали</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog-menu__list__item__brands">
+                                                    <div class="catalog-menu__brands">
+                                                        <div class="catalog-menu__brands__header">
+                                                            Популярные бренды
+                                                        </div>
+                                                        <ul class="nav flex-column catalog-menu__brands__list">
+                                                            <li><a href="">Buderus</a></li>
+                                                            <li><a href="">Global</a></li>
+                                                            <li><a href="">Kermi</a></li>
+                                                            <li><a href="">Lamborghini</a></li>
+                                                            <li><a href="">Protherm</a></li>
+                                                            <li><a href="">Stropuva</a></li>
+                                                            <li><a href="">Vaillant</a></li>
+                                                            <li><a href="">Viadrus</a></li>
+                                                            <li><a href="">Bosch</a></li>
+                                                            <li><a href="">Vitopend</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="catalog-menu__list__item" id="nav2">
+                                            <div class="catalog-menu__list__item__header">
+                                                <a href="" class="btn-link">
+                                                    Водоснабжение
+                                                    <svg width="6" height="12" class="ml-5">
+                                                        <use xlink:href="#svg-right"></use>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

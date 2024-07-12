@@ -55,28 +55,29 @@
         </div>
         <div class="product-box__footer">
             <div class="product-box__col-price price">
-                <div class="price__old">79 428 руб.</div>
-                <div class="price__val">66 190 руб.</div>
+                <div class="price__old"><span>79 428 руб.</span></div>
+                <div class="price__val"><span>66 190 руб.</span></div>
             </div>
             <div class="product-box__col-btn">
-                <button class="btn btn--green">В КОРЗИНУ</button>
+                <ul class="nav flex-column product-box__btns">
+                    <li>
+                        <button class="btn btn--mini">
+                            <svg width="12" height="14">
+                                <use xlink:href="#svg-compare"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn--mini active">
+                            <svg width="14" height="13">
+                                <use xlink:href="#svg-fav"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+                <button class="btn btn--green product-box__bay">В КОРЗИНУ</button>
             </div>
         </div>
     </div>
-    <ul class="nav flex-column product-box__btns">
-        <li>
-            <button class="btn btn--mini">
-                <svg width="12" height="14">
-                    <use xlink:href="#svg-compare"></use>
-                </svg>
-            </button>
-        </li>
-        <li>
-            <button class="btn btn--mini active">
-                <svg width="14" height="13">
-                    <use xlink:href="#svg-fav"></use>
-                </svg>
-            </button>
-        </li>
-    </ul>
+
 </div>

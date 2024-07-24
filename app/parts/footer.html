@@ -1,18 +1,22 @@
 <footer class="footer">
     <div class="container position-relative">
         <div class="row fpad40">
-            <div class="col-lg-3  col-6 fpad30">
-                <ul class="nav flex-column footer__nav">
-                    <li class="footer__nav__caption">Каталог</li>
-                    <li><a href="">Отопление</a></li>
-                    <li><a href="">Водоснабжение</a></li>
-                    <li><a href="">Канализация</a></li>
-                    <li><a href="">Сантехника</a></li>
-                    <li><a href="">Кондиционирование</a></li>
-                    <li><a href="">Энергоснабжение</a></li>
-                </ul>
+            <div class="col-lg-3  col-md-6 fpad30 footer__nav">
+                <div class="footer__nav__caption collapsed" data-bs-toggle="collapse" data-bs-target="#footer_nav1">
+                    Каталог
+                </div>
+                <div class="accordion-collapse collapse footer__nav__list" id="footer_nav1">
+                    <ul class="nav flex-column ">
+                        <li><a href="">Отопление</a></li>
+                        <li><a href="">Водоснабжение</a></li>
+                        <li><a href="">Канализация</a></li>
+                        <li><a href="">Сантехника</a></li>
+                        <li><a href="">Кондиционирование</a></li>
+                        <li><a href="">Энергоснабжение</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-3 col-6 fpad30">
+            <div class="col-lg-3 col-md-6 fpad30">
                 <ul class="nav flex-column footer__nav">
                     <li class="footer__nav__caption">Услуги</li>
                     <li><a href="">Монтаж оборудования</a></li>
@@ -22,7 +26,7 @@
                     <li><a href="">Сервисные услуги</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-6 fpad30">
+            <div class="col-lg-3 col-md-6 fpad30">
                 <ul class="nav flex-column footer__nav">
                     <li class="footer__nav__caption">Покупателям</li>
                     <li><a href="">Оплата</a></li>
@@ -32,7 +36,7 @@
                     <li><a href="">Дисконтная программа</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-6 fpad30">
+            <div class="col-lg-3 col-md-6 fpad30">
                 <ul class="nav flex-column footer__nav">
                     <li class="footer__nav__caption">Компания</li>
                     <li><a href="">О компании</a></li>
@@ -248,6 +252,105 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="modal fade" id="mobmenuModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+        <div class="modal-content p-0 mob-menu-modal">
+
+
+                <div class="mob-menu-modal__header">
+                    <div class="container">
+                        <div class="mob-menu-modal__header__wrap">
+                            <div class="mob-menu-modal__logo">
+                                <img class="d-block" src="images/dist/logo.svg" alt="" width="100" height="26">
+                            </div>
+                            <div class="btn-close2" data-bs-dismiss="modal">
+                                <svg width="20" height="20">
+                                    <use xlink:href="#svg-close2"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mob-menu-modal__body modal-body pt-0">
+                    <div class="container">
+                        <ul class="nav mob-menu-modal__nav">
+                            <li class="mob-menu-modal__nav__item">
+                                <a href="">Главная</a>
+                            </li>
+                            <li class="mob-menu-modal__nav__item">
+                                <a href="" data-bs-toggle="collapse" data-bs-target="#navmobCat">
+                                    Каталог
+                                    <svg width="6" height="12" class="ms-auto">
+                                        <use xlink:href="#svg-right"></use>
+                                    </svg>
+                                </a>
+                                <div class="accordion-collapse collapse" id="navmobCat">
+                                    <ul class="nav mob-menu-modal__submenu">
+                                        <li><a href="">Отопление</a></li>
+                                        <li><a href="">Водоснабжение</a></li>
+                                        <li><a href="">Канализация</a></li>
+                                        <li><a href="">Кондиционирование</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mob-menu-modal__nav__item">
+                                <a href="" data-bs-toggle="collapse" data-bs-target="#navmobBrends">
+                                    Бренды
+                                    <svg width="6" height="12" class="ms-auto">
+                                        <use xlink:href="#svg-right"></use>
+                                    </svg>
+                                </a>
+                                <div class="accordion-collapse collapse" id="navmobBrends">
+                                    <ul class="nav mob-menu-modal__submenu">
+                                        <li><a href="">Отопление</a></li>
+                                        <li><a href="">Водоснабжение</a></li>
+                                        <li><a href="">Канализация</a></li>
+                                        <li><a href="">Кондиционирование</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mob-menu-modal__nav__item">
+                                <a href="">Акции</a>
+                            </li>
+                            <li class="mob-menu-modal__nav__item">
+                                <a href="">Услуги</a>
+                                <ul class="nav mob-menu-modal__submenu">
+                                    <li><a href="">Монтаж оборудования</a></li>
+                                    <li><a href="">Монтаж систем коммуникаций</a></li>
+                                    <li><a href="">Проектирование систем коммуникаций</a></li>
+                                    <li><a href="">Проекты «под ключ»</a></li>
+                                    <li><a href="">Сервисные услуги</a></li>
+                                </ul>
+                            </li>
+                            <li class="mob-menu-modal__nav__item">
+                                <a href="">Покупателям</a>
+                                <ul class="nav mob-menu-modal__submenu">
+                                    <li><a href="">Оплата</a></li>
+                                    <li><a href="">Доставка</a></li>
+                                    <li><a href="">Гарантии</a></li>
+                                    <li><a href="">Постпродажное обслуживание</a></li>
+                                    <li><a href="">Дисконтная программа</a></li>
+                                </ul>
+                            </li>
+                            <li class="mob-menu-modal__nav__item">
+                                <a href="">Компания</a>
+                                <ul class="nav mob-menu-modal__submenu">
+                                    <li><a href="">О компании</a></li>
+                                    <li><a href="">Сертификаты</a></li>
+                                    <li><a href="">Новости</a></li>
+                                    <li><a href="">Статьи</a></li>
+                                    <li><a href="">Вакансии</a></li>
+                                    <li><a href="">Сотрудничество</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
     </div>
 </div>
 

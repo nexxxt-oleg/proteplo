@@ -11,7 +11,7 @@ body {
 .header {
   position: relative;
   z-index: 100;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 
   &__top {
     background: #eef2f4;
@@ -475,6 +475,7 @@ a.icon-caption:hover {
 }
 
 .home-sliders {
+  padding-top: 10px;
   padding-bottom: 60px;
 
   &__left {

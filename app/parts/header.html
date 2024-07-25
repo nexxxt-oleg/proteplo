@@ -92,7 +92,8 @@
                         <div class="header__middle__right">
                             <div class="header__middle__col header__middle__right__col1">
                                 <div class="header__middle__row">
-                                    <a href="#telModal" class="icon-caption" data-bs-toggle="modal" data-bs-target="#telModal">
+                                    <a href="#telModal" class="icon-caption" data-bs-toggle="modal"
+                                       data-bs-target="#telModal">
                                         <span class="icon-caption__ico ico-green">
                                             <svg width="14" height="14">
                                                 <use xlink:href="#svg-tel"></use>
@@ -198,118 +199,144 @@
                                     </button>
                                 </div>
                                 <div class="header__search">
-                                    <form class="header__form" id="searchBox">
-                                        <div class="header__search__wrap">
-                                            <input autocomplete="off" id="searchHeader" type="text"
-                                                   class="header__search__inp" placeholder="Поиск" required>
-                                            <button class="header__search__submit" type="submit">
-                                                <svg width="18" height="18">
-                                                    <use xlink:href="#svg-search"></use>
-                                                </svg>
-                                            </button>
-                                            <button class="header__search__remove" id="searchBoxRemove">
-                                                <svg width="9" height="9">
-                                                    <use xlink:href="#svg-close"></use>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <div class="header__form__res" id="searchBoxResult">
-                                            <div class="search-res">
-                                                <div class="search-res__item">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <div class="search-res__item__ico">
-                                                            <img src="images/dist/lot-min.jpg" alt="">
-                                                        </div>
-                                                        <div class="d-flex flex-grow-1 align-items-center">
-                                                            <div class="search-res__item__title">
-                                                                Ballu Machine BLC_D-24HN1_21Y Комплект полупромышленной
-                                                                сплит-системы, канального типа
-                                                            </div>
-                                                            <div class="search-res__item__price">
-                                                                108 300 руб.
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="search-res__item">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <div class="search-res__item__ico">
-                                                            <img src="images/dist/lot-min.jpg" alt="">
-                                                        </div>
-                                                        <div class="d-flex flex-grow-1 align-items-center">
-                                                            <div class="search-res__item__title">
-                                                                Ballu Machine BLC_D-24HN1_21Y Комплект полупромышленной
-                                                                сплит-системы, канального типа
-                                                            </div>
-                                                            <div class="search-res__item__price">
-                                                                128 300 руб.
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="search-res__item">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <div class="search-res__item__ico">
-                                                            <img src="images/dist/lot-min.jpg" alt="">
-                                                        </div>
-                                                        <div class="d-flex flex-grow-1 align-items-center">
-                                                            <div class="search-res__item__title">
-                                                                Ballu Machine BLC_D-24HN1_21Y Комплект полупромышленной
-                                                                сплит-системы, канального типа
-                                                            </div>
-                                                            <div class="search-res__item__price">
-                                                                108 300 руб.
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="search-res__item">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <div class="search-res__item__ico">
-                                                            <img src="images/dist/lot-min.jpg" alt="">
-                                                        </div>
-                                                        <div class="d-flex flex-grow-1 align-items-center">
-                                                            <div class="search-res__item__title">
-                                                                Ballu Machine BLC_D-24HN1_21Y Комплект полупромышленной
-                                                                сплит-системы, канального типа
-                                                            </div>
-                                                            <div class="search-res__item__price">
-                                                                128 300 руб.
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="search-res__item">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <div class="search-res__item__ico">
-                                                            <img src="images/dist/lot-min.jpg" alt="">
-                                                        </div>
-                                                        <div class="d-flex flex-grow-1 align-items-center">
-                                                            <div class="search-res__item__title">
-                                                                Ballu Machine BLC_D-24HN1_21Y Комплект полупромышленной
-                                                                сплит-системы, канального типа
-                                                            </div>
-                                                            <div class="search-res__item__price">
-                                                                128 300 руб.
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div class="search-res__footer">
-                                                    <a href="" class="btn-link">
-                                                        Все результаты поиска
-                                                        <svg width="6" height="12">
-                                                            <use xlink:href="#svg-right"></use>
+                                    <div class="offcanvas-lg offcanvas-top" tabindex="-1" id="mobSearch">
+                                        <div class="mob-menu-modal__header offcanvas-header">
+                                            <div class="container">
+                                                <div class="mob-menu-modal__header__wrap">
+                                                    <div class="mob-menu-modal__header__title">
+                                                        Поиск
+                                                    </div>
+
+                                                    <div class="btn-close2"  data-bs-toggle="offcanvas" data-bs-target="#mobSearch">
+                                                        <svg width="20" height="20">
+                                                            <use xlink:href="#svg-close2"></use>
                                                         </svg>
-                                                    </a>
-                                                    <div class="search-res__count">802 товара</div>
-                                                </div>
-                                                <div class="search-res__not">
-                                                    К сожалению, на ваш поисковый запрос ничего не найдено.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </form>
+                                        <div class="offcanvas-body">
+                                            <div class="container">
+                                                <form class="header__form" id="searchBox">
+                                                    <div class="header__search__wrap">
+                                                        <input autocomplete="off" id="searchHeader" type="text"
+                                                               class="header__search__inp" placeholder="Поиск" required>
+                                                        <button class="header__search__submit" type="submit">
+                                                            <svg width="18" height="18">
+                                                                <use xlink:href="#svg-search"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <button class="header__search__remove" id="searchBoxRemove">
+                                                            <svg width="9" height="9">
+                                                                <use xlink:href="#svg-close"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="header__form__res" id="searchBoxResult">
+                                                        <div class="search-res">
+                                                            <div class="search-res__item">
+                                                                <a href="" class="d-flex align-items-center">
+                                                                    <div class="search-res__item__ico">
+                                                                        <img src="images/dist/lot-min.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="d-flex flex-grow-1 align-items-center">
+                                                                        <div class="search-res__item__title">
+                                                                            Ballu Machine BLC_D-24HN1_21Y Комплект
+                                                                            полупромышленной
+                                                                            сплит-системы, канального типа
+                                                                        </div>
+                                                                        <div class="search-res__item__price">
+                                                                            108 300 руб.
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="search-res__item">
+                                                                <a href="" class="d-flex align-items-center">
+                                                                    <div class="search-res__item__ico">
+                                                                        <img src="images/dist/lot-min.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="d-flex flex-grow-1 align-items-center">
+                                                                        <div class="search-res__item__title">
+                                                                            Ballu Machine BLC_D-24HN1_21Y Комплект
+                                                                            полупромышленной
+                                                                            сплит-системы, канального типа
+                                                                        </div>
+                                                                        <div class="search-res__item__price">
+                                                                            128 300 руб.
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="search-res__item">
+                                                                <a href="" class="d-flex align-items-center">
+                                                                    <div class="search-res__item__ico">
+                                                                        <img src="images/dist/lot-min.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="d-flex flex-grow-1 align-items-center">
+                                                                        <div class="search-res__item__title">
+                                                                            Ballu Machine BLC_D-24HN1_21Y Комплект
+                                                                            полупромышленной
+                                                                            сплит-системы, канального типа
+                                                                        </div>
+                                                                        <div class="search-res__item__price">
+                                                                            108 300 руб.
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="search-res__item">
+                                                                <a href="" class="d-flex align-items-center">
+                                                                    <div class="search-res__item__ico">
+                                                                        <img src="images/dist/lot-min.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="d-flex flex-grow-1 align-items-center">
+                                                                        <div class="search-res__item__title">
+                                                                            Ballu Machine BLC_D-24HN1_21Y Комплект
+                                                                            полупромышленной
+                                                                            сплит-системы, канального типа
+                                                                        </div>
+                                                                        <div class="search-res__item__price">
+                                                                            128 300 руб.
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="search-res__item">
+                                                                <a href="" class="d-flex align-items-center">
+                                                                    <div class="search-res__item__ico">
+                                                                        <img src="images/dist/lot-min.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="d-flex flex-grow-1 align-items-center">
+                                                                        <div class="search-res__item__title">
+                                                                            Ballu Machine BLC_D-24HN1_21Y Комплект
+                                                                            полупромышленной
+                                                                            сплит-системы, канального типа
+                                                                        </div>
+                                                                        <div class="search-res__item__price">
+                                                                            128 300 руб.
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="search-res__footer">
+                                                                <a href="" class="btn-link">
+                                                                    Все результаты поиска
+                                                                    <svg width="6" height="12">
+                                                                        <use xlink:href="#svg-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                                <div class="search-res__count">802 товара</div>
+                                                            </div>
+                                                            <div class="search-res__not">
+                                                                К сожалению, на ваш поисковый запрос ничего не найдено.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -343,7 +370,20 @@
                                 </div>
                                 <div class="header__icons">
                                     <ul class="nav align-items-center">
-                                        <li>
+                                        <li class="header__icons__only-mob">
+                                            <a data-bs-toggle="offcanvas" href="#mobSearch" class="header__icons__item">
+
+                                                <div class="header__icons__item__ico">
+                                                    <svg width="24" height="24">
+                                                        <use xlink:href="#svg-search"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="header__icons__item__caption">
+                                                    Поиск
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__icons__mob-hidden">
                                             <a href="" class="header__icons__item">
                                                 <div class="header__icons__item__ico">
                                                     <svg width="24" height="24">
@@ -355,7 +395,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li>
+                                        <li class="header__icons__mob-hidden">
                                             <a href="" class="header__icons__item">
                                                 <div class="header__icons__item__ico">
                                                     <svg width="24" height="24">
@@ -404,6 +444,20 @@
                                                 </div>
                                             </a>
                                         </li>
+                                        <li class="header__icons__only-mob">
+                                            <a href="#mobmenuCatalogModal" data-bs-toggle="modal"
+                                               data-bs-target="#mobmenuCatalogModal" class="header__icons__item">
+
+                                                <div class="header__icons__item__ico">
+                                                    <svg width="24" height="24">
+                                                        <use xlink:href="#svg-catalog"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="header__icons__item__caption">
+                                                    Каталог
+                                                </div>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -418,65 +472,65 @@
                                     <div class="catalog-menu__left">
                                         <ul class="nav flex-column catalog-menu__nav">
                                             <li class="active" data-target="nav1">
-                                                <a href="" class="catalog-menu__nav__item " >
+                                                <a href="" class="catalog-menu__nav__item ">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav1.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav1.svg" alt="">
                                                     </div>
                                                     <span>Отопление</span>
                                                 </a>
                                             </li>
-                                            <li  data-target="nav2">
+                                            <li data-target="nav2">
                                                 <a href="" class="catalog-menu__nav__item ">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav2.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav2.svg" alt="">
                                                     </div>
                                                     <span>Водоснабжение</span>
                                                 </a>
                                             </li>
                                             <li data-target="nav3">
-                                                <a href="" class="catalog-menu__nav__item" >
+                                                <a href="" class="catalog-menu__nav__item">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav3.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav3.svg" alt="">
                                                     </div>
                                                     <span>Канализация</span>
                                                 </a>
                                             </li>
                                             <li data-target="nav4">
-                                                <a href="" class="catalog-menu__nav__item" >
+                                                <a href="" class="catalog-menu__nav__item">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav4.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav4.svg" alt="">
                                                     </div>
                                                     <span>Кондиционирование</span>
                                                 </a>
                                             </li>
                                             <li data-target="nav5">
-                                                <a href="" class="catalog-menu__nav__item" >
+                                                <a href="" class="catalog-menu__nav__item">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav5.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav5.svg" alt="">
                                                     </div>
                                                     <span>Сантехника</span>
                                                 </a>
                                             </li>
                                             <li data-target="nav6">
-                                                <a href="" class="catalog-menu__nav__item" >
+                                                <a href="" class="catalog-menu__nav__item">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav6.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav6.svg" alt="">
                                                     </div>
                                                     <span>Энергоснабжение</span>
                                                 </a>
                                             </li>
                                             <li data-target="nav7">
-                                                <a href="" class="catalog-menu__nav__item" >
+                                                <a href="" class="catalog-menu__nav__item">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav7.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav7.svg" alt="">
                                                     </div>
                                                     <span>Распродажа</span>
                                                 </a>
                                             </li>
                                             <li data-target="nav8" class="catalog-menu__nav__bottom">
-                                                <a href="" class="catalog-menu__nav__item" >
+                                                <a href="" class="catalog-menu__nav__item">
                                                     <div class="catalog-menu__nav__item__ico">
-                                                        <img class="d-block" src="images/dist/nav8.svg" alt="" >
+                                                        <img class="d-block" src="images/dist/nav8.svg" alt="">
                                                     </div>
                                                     <span>Бренды</span>
                                                 </a>
@@ -537,7 +591,8 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <ul class="nav flex-column catalog-menu__submenu__list">
-                                                                    <li><a href="">Теплоаккумуляторы (буферные емкости)</a></li>
+                                                                    <li><a href="">Теплоаккумуляторы (буферные
+                                                                        емкости)</a></li>
                                                                     <li><a href="">Комплектующие</a></li>
                                                                     <li><a href="">Запчасти для котлов</a></li>
                                                                     <li><a href="">Котлы со сменным горелками</a></li>

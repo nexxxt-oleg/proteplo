@@ -353,6 +353,142 @@
   .mob-menu-modal__submenu {
     padding-bottom: 10px;
   }
+  .breadcrumbs {
+    padding-bottom: 15px;
+  }
+  .title-page {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .sb-link-hidden {
+    display: none;
+  }
+  .nav--sb {
+    border-bottom: none;
+    padding-bottom: 0;
+    li:not(:first-child) {
+      border-top: 1px solid #dce3e7;
+    }
+    li {
+      padding: 10px 0;
+      a {
+        display: flex;
+        .count {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+  .sb-link-more {
+    display: block;
+    padding-top: 10px;
+    &__btn {
+      color: #22a34a;
+      font-size: 14px;
+      line-height: 1.3;
+      text-decoration: none;
+    }
+  }
+  .cat__filter__mob {
+    display: block;
+    padding: 25px 0;
+    &__btn {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 5px 15px;
+      background: transparent;
+      height: 48px;
+      border-radius: 10px;
+      border: 2px solid #eef2f4;
+      &__caption {
+        font-size: 14px;
+        color: #404042;
+      }
+    }
+  }
+  .offcanvas-lg.offcanvas-start {
+    width: 100vw;
+    border-right: none;
+    .offcanvas-header {
+      padding: 0;
+    }
+  }
+  .cat__list-top {
+    display: block !important;
+    padding-bottom: 25px;
+    &__view {
+      display: none;
+    }
+    &__count {
+      width: 100%;
+      padding-bottom: 15px;
+      padding-top: 10px;
+    }
+    &__sort {
+      width: 100%;
+    }
+  }
+  .fpad30 {
+    padding-bottom: 15px;
+  }
+
+  .cat__loop__item {
+    .product-box {
+      display: flex;
+      flex-direction: row;
+      &__img {
+        min-width: 200px;
+      }
+      &__body {
+        flex-grow: 1;
+      }
+      &__tips {
+        position: relative;
+        top: auto;
+        left: auto;
+        flex-direction: row !important;
+        padding-bottom: 10px;
+        li {
+          margin: 0 10px 0 0;
+        }
+      }
+
+      &__btns {
+        position: relative;
+        right: auto;
+        top: auto;
+        flex-wrap: nowrap;
+        flex-direction: row !important;
+        li {
+          padding-right: 10px;
+          padding-bottom: 0;
+          .btn.btn--mini {
+            height: 36px;
+            min-width: 36px;
+            width: 36px;
+          }
+        }
+      }
+
+      &__col-btn {
+        display: flex;
+        align-items: center;
+        .product-box__bay {
+          flex-grow: 1;
+          height: 36px !important;
+          padding-bottom: 5px !important;
+          padding-top: 5px !important;
+          font-size: 12px;
+          &.btn--silver {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {

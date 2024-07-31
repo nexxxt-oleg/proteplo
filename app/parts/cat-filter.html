@@ -37,10 +37,10 @@
                                  data-bs-target="#collapseOne">
                                 <span class="cat__filter__item__title">Цена, руб.</span>
                                 <span class="cat__filter__item__btn">
-                        <svg width="12" height="6">
-                            <use xlink:href="#svg-up"></use>
-                        </svg>
-                    </span>
+                                    <svg width="12" height="6">
+                                        <use xlink:href="#svg-up"></use>
+                                    </svg>
+                                </span>
                             </div>
                             <div id="collapseOne" class="accordion-collapse collapse show">
                                 <div class="cat__filter__item__body cat__filter__range">
@@ -82,10 +82,10 @@
                                  data-bs-target="#collapse2">
                                 <span class="cat__filter__item__title">Производитель</span>
                                 <span class="cat__filter__item__btn">
-                        <svg width="12" height="6">
-                            <use xlink:href="#svg-up"></use>
-                        </svg>
-                    </span>
+                                    <svg width="12" height="6">
+                                        <use xlink:href="#svg-up"></use>
+                                    </svg>
+                                </span>
                             </div>
                             <div id="collapse2" class="accordion-collapse collapse ">
                                 <div class="cat__filter__item__body">
@@ -153,10 +153,10 @@
                                  data-bs-target="#collapse3">
                                 <span class="cat__filter__item__title">Высота, мм</span>
                                 <span class="cat__filter__item__btn">
-                        <svg width="12" height="6">
-                            <use xlink:href="#svg-up"></use>
-                        </svg>
-                    </span>
+                                    <svg width="12" height="6">
+                                        <use xlink:href="#svg-up"></use>
+                                    </svg>
+                                </span>
                             </div>
                             <div id="collapse3" class="accordion-collapse collapse ">
                                 <div class="cat__filter__item__body">
@@ -222,13 +222,18 @@
 
                     </div>
                     <div class="cat__filter__footer">
-                        <button type="submit" class="btn cat__filter__submit">Применить</button>
-                        <button type="reset" class="btn cat__filter__reset">
-                            <svg width="9" height="9" class="me-2">
-                                <use xlink:href="#svg-close"></use>
-                            </svg>
-                            Сбросить фильтры
-                        </button>
+                        <div class="container ">
+                            <div class="cat__filter__footer__wrap">
+                                <button type="submit" class="btn cat__filter__submit" id="filterSubmit" data-bs-target="#filterBox">Применить</button>
+                                <button type="reset" class="btn cat__filter__reset" id="filterReset" data-bs-target="#filterBox">
+                                    <svg width="9" height="9" class="me-2">
+                                        <use xlink:href="#svg-close"></use>
+                                    </svg>
+                                    <span>Сбросить <span class="cat__filter__reset__only-pc">фильтры</span></span>
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

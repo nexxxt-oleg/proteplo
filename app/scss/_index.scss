@@ -2792,9 +2792,14 @@ body.menu_open {
     &:focus {
       box-shadow: none;
       outline: none;
-      border-color: #404042;
+      border-color: #565656;
     }
   }
+}
+.cat__filter__item__header:hover {
+   .cat__filter__item__title {
+     color: #828b90;
+   }
 }
 
 .pagination {
@@ -2819,8 +2824,12 @@ body.menu_open {
       text-decoration: none;
 
       &.active {
-        background: #404042;
-        color: #fff;
+        background: #404042 !important;
+        color: #fff !important;
+      }
+
+      &:hover {
+        color: #828b90;
       }
     }
 
@@ -2853,6 +2862,9 @@ body.menu_open {
       border-style: solid;
       border-width: 2px;
       border-color: rgb(238, 242, 244);
+      &:hover {
+        border-color: #565656;
+      }
     }
 
   }
@@ -2883,6 +2895,10 @@ body.menu_open {
     background-color: rgb(255, 255, 255);
     &:hover {
       border-color: #404042;
+
+      .cat__dop-list__item__title {
+        color: #828b90;
+      }
     }
     &__title {
       font-size: 15px;
@@ -2933,6 +2949,72 @@ body.menu_open {
   background-color: #fff;
   color: #565656;
 }
+.active-filter {
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 1.2;
+    border-radius: 10px;
+    height: 36px;
+    background: #404042;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      background: #565656;
+    }
+  }
+  .swiper .swiper-slide {
+    margin-right: 10px;
+  }
+}
+.cat__filter__res {
+  display: none;
+}
+.accordion-collapse.collapse.show .cat__filter__res {
+  position: absolute;
+  z-index: 100;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.2;
+  left: 100%;
+  background: #404042;
+  white-space: nowrap;
+  &::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #404042;
+    position: absolute;
+    left: -3px;
+    margin-top: -3px;
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  &:hover {
+    background: #565656;
+    &::after {
+      background: #565656;
+    }
+  }
+}
+.cat__filter__item {
+  position: relative;
+}
+.cat__filter {
+  position: relative;
+}
+
 
 @media screen and (min-width: 992px) {
   .header__icons__only-mob {

@@ -3068,6 +3068,16 @@ body.menu_open {
     }
   }
 }
+.mob-menu-modal__nav__item--sub-cat {
+  & > a {
+    svg {
+      transition: all 0.2s ease-in-out;
+    }
+    &:not(.collapsed) svg {
+      transform: rotate(-180deg);
+    }
+  }
+}
 
 
 @media screen and (min-width: 575px) {

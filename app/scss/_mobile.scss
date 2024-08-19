@@ -727,6 +727,9 @@
   .cat__loop {
     padding-bottom: 10px;
   }
+  .header__search__bg {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 768px) {

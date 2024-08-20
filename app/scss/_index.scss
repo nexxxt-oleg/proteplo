@@ -3085,3 +3085,109 @@ body.menu_open {
     display: none;
   }
 }
+
+
+.brands {
+  &__top {
+    display: flex;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dce3e7;
+    align-items: center;
+  }
+  &__sort {
+    display: flex;
+    &__all {
+      padding-right: 30px;
+      .control {
+        font-weight: bold;
+      }
+    }
+    .control {
+      padding: 0;
+      border: none;
+      background: transparent;
+      color: #404042;
+      font-size: 14px;
+      line-height: 1.2;
+    }
+    &__nav {
+      padding-right: 30px;
+      li {
+        padding-right: 10px;
+        height: 24px;
+      }
+    }
+  }
+  &__list {
+    &__header {
+      padding: 5px 0 30px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #404042;
+    }
+
+    &__item {
+      &__letter {
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        span {
+          width: 48px;
+          height: 48px;
+          text-align: center;
+          display: block;
+          border-radius: 6px;
+          background: #eef2f4;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 48px;
+          color: #404042;
+        }
+      }
+      &__nav {
+        margin: 0 -15px;
+        li {
+          padding: 0 15px 30px 15px;
+          width: 20%;
+        }
+      }
+    }
+  }
+}
+
+.brands__single {
+  color: #404042;
+  display: block;
+  height: 130px;
+  border-radius: 10px;
+  border: 2px solid #eef2f4;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 5px;
+    img {
+      max-width: 100%;
+      height: auto;
+      max-height: 100%;
+      width: auto;
+    }
+  }
+  &__title {
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  &:hover {
+    border-color: #565656;
+  }
+}

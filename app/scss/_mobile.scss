@@ -758,6 +758,12 @@
   .brands__list__item__nav li {
     width: 33.333%;
   }
+  .brand-nav__header {
+    display: none;
+  }
+  .brand-logo {
+    padding-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -767,6 +773,12 @@
       width: 50%;
       padding: 0 8px 16px;
     }
+  }
+  .nav--sb li {
+    padding: 5px 0;
+  }
+  .nav--sb li a {
+    font-size: 14px;
   }
   .brands__single__title {
     font-size: 14px;

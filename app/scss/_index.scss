@@ -3276,3 +3276,17 @@ body.menu_open {
 .footer__soc-big__yt:hover {
   background: #ff3333;
 }
+.brand-logo {
+  padding-bottom: 25px;
+}
+.brand-nav {
+  &__header {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-bottom: 12px;
+  }
+  .nav--sb {
+    border-bottom: none;
+  }
+}

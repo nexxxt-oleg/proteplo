@@ -2672,7 +2672,7 @@ body.menu_open {
 }
 
 .popular-cat {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   &__list {
     li {
       padding: 0 10px 0 0;
@@ -3105,18 +3105,13 @@ body.menu_open {
       margin-top: 0;
       position: absolute;
       z-index: 10;
-      bottom: 0;
+      bottom: 10px;
       right: 0;
       width: auto !important;
       height: 36px;
       background: #fff;
       padding-top: 8px;
 
-    }
-    &.open_list {
-      .seo-text__footer {
-        bottom: 10px;
-      }
     }
   }
 }
@@ -3339,5 +3334,26 @@ body.menu_open {
   .product-box__col-price {
     width: 185px;
     min-width: 185px;
+  }
+}
+.product-box__col-btn--list {
+  min-width: 230px;
+  width: 230px;
+  align-items: center;
+  .product-box__btns {
+    position: relative;
+    top: auto;
+    right: auto;
+    li {
+      padding: 0 10px 0 0;
+      .btn--mini {
+        width: 48px;
+        height: 48px;
+        svg {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
   }
 }

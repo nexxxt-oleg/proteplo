@@ -291,6 +291,52 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="analogModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">
+                    Подобрать аналог
+                </div>
+                <div class="btn-close2" data-bs-dismiss="modal">
+                    <svg width="32" height="32">
+                        <use xlink:href="#svg-close2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form action="/send/" class="form-modal" onsubmit="return false">
+
+                    <div class="form-modal__row">
+
+                        <input type="tel"
+                               name="phoneModal"
+                               class="form-modal__inp js-mask-phone"
+                               autocomplete="off"
+                               placeholder="Номер телефона"
+                        />
+                        <div class="form-modal__error-inp">Укажите номер телефона</div>
+                    </div>
+
+                    <div class="form-modal__submit">
+                        <button type="submit"
+                                class="btn btn--green w-100"
+                                data-bs-dismiss="modal"
+                                data-bs-toggle="modal"
+                                data-bs-target="#sendOk"
+                        >
+                            Отправить
+                        </button>
+                    </div>
+                    <div class="form-modal__footer">
+                        Нажимая кнопку “Отправить”, Вы соглашаетесь с <a href="">политикой
+                        конфиденциальности</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="modal fade" id="sendOk" tabindex="-1">
     <div class="modal-dialog">

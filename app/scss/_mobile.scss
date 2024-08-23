@@ -526,8 +526,11 @@
     padding-bottom: 30px;
 
     .product-box {
-      display: flex;
-      flex-direction: row;
+
+      &:not(.product-box--fav) {
+        display: flex;
+        flex-direction: row;
+      }
 
       &__img {
         min-width: 200px;
@@ -763,6 +766,69 @@
   }
   .brand-logo {
     padding-bottom: 15px;
+  }
+
+  .product-box.product-box--fav {
+    .product-box__btns {
+      position: static !important;
+      padding-top: 10px;
+      .product-box__col-remove {
+        padding: 0;
+        position: absolute;
+        z-index: 10;
+        top: 10px;
+        right: 5px;
+      }
+      .product-box__col-compare {
+        padding-right: 0;
+        width: 100%;
+      }
+    }
+  }
+  .btn--mob {
+    width: 100% !important;
+    min-width: 100% !important;
+    justify-content: center;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: 400;
+    span {
+      display: block;
+      padding-left: 10px;
+    }
+  }
+  .fav-filter {
+    flex-direction: column-reverse;
+    padding-bottom: 0;
+    border-bottom: none;
+    .fav-filter__remove {
+      margin: 0 0 25px 0;
+      padding: 5px 15px;
+      height: 48px;
+      width: 100%;
+      border: 2px solid #eef2f4;
+      border-radius: 5px;
+    }
+  }
+  .cat__list-top__sort.mr-50 {
+    margin-right: 0;
+  }
+  .fav-filter__col {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    .fav-filter__label {
+      width: 100%;
+      display: block;
+      margin-right: 0;
+      padding-bottom: 5px;
+    }
+  }
+  .fav-filter .dropdown {
+    min-width: 100%;
   }
 }
 
@@ -1135,9 +1201,38 @@
   .cat__dop-list {
     padding-bottom: 15px;
   }
+  .product-box.product-box--fav {
+    .product-box__col-price {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+    }
+    .price__val {
+      font-size: 16px;
+    }
+    .price__old span,
+    & .product-box__title {
+      font-size: 14px;
+    }
+    .product-box__body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .fav-filter {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 574px) {
+  .row {
+    margin-left: -8px;
+    margin-right: -8px;
+    & > * {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
   .modal-header--send-ok {
     border-bottom: none !important;
     padding: 0 13px !important;

@@ -1222,6 +1222,20 @@
   .fav-filter {
     margin-bottom: 10px;
   }
+  .favourites-empty {
+    padding-top: 20px;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+    &__ico {
+      margin-bottom: 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 574px) {

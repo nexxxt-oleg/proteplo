@@ -854,6 +854,13 @@
   .fav-filter .dropdown {
     min-width: 100%;
   }
+  .rev-product__item__wrap {
+    padding-left: 53px;
+  }
+  .rev-menu.nav--sb li {
+    padding: 0;
+    border-top: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -968,6 +975,9 @@
   }
   .box__title {
     font-size: 26px;
+    &.box__title--fs-24 {
+      font-size: 20px;
+    }
   }
   .btn-link {
     font-size: 14px;
@@ -1319,6 +1329,28 @@
 }
 
 @media screen and (max-width: 574px) {
+  .rev-product__item__wrap {
+    padding-left: 0;
+  }
+  .rev-product__item__header {
+    margin-left: 0;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+  }
+  .rev-product__item__name {
+    padding-right: 0;
+    width: calc(100% - 54px);
+  }
+  .rev-product__item__date {
+    flex-grow: 1;
+  }
+  .rev-product__item__desc__group__caption {
+    padding-bottom: 0;
+  }
+  .rev-product__item__desc__group {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
   .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -1449,6 +1481,9 @@
 @media screen and (max-width: 440px) {
   .header__middle__col-mob-r li:not(:last-child) {
     padding-right: 15px;
+  }
+  .btn {
+    padding: 5px 10px;
   }
   .box__consultation__form__inp {
     padding: 10px 20px;

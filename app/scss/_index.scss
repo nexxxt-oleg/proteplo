@@ -2457,7 +2457,7 @@ body.menu_open {
     }
 
     &__btn {
-      color: #828b90;
+      color: #828b90 !important;
       transition: all 0.2s ease-in-out;
     }
 
@@ -2682,6 +2682,11 @@ body.menu_open {
   }
 }
 
+.count {
+  color: #828b90;
+  font-size: 12px;
+}
+
 .cat__top {
   padding-bottom: 15px;
 }
@@ -2712,6 +2717,15 @@ body.menu_open {
       border-color: #565656;
       color: #828b90;
     }
+  }
+}
+
+.filter-stars {
+  display: inline-flex;
+  align-items: center;
+  color: #f9b42d;
+  svg {
+    margin-left: 5px;
   }
 }
 
@@ -3779,4 +3793,99 @@ body.menu_open {
       color: #fff !important;
     }
   }
+}
+
+.rev-product {
+  flex-direction: column;
+  &__item {
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #dce3e7;
+    }
+  }
+}
+
+.nav--sb {
+  .catalog-menu__nav__item {
+    .catalog-menu__nav__item__ico {
+      width: 32px;
+      min-width: 32px;
+      justify-content: flex-start;
+    }
+    .count {
+      font-size: 12px;
+      font-weight: 400;
+      color: #828b90;
+    }
+  }
+  .sub-menu {
+    padding-left: 32px;
+    & > li {
+      padding-bottom: 0;
+      & > a {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.rev-menu {
+  border-bottom: none;
+  margin-top: -10px;
+}
+
+.rev-product {
+  padding-bottom: 30px;
+  &__item {
+
+    &__wrap {
+      padding-left: 110px;
+    }
+
+    &__header {
+      display: flex;
+      align-items: center;
+      margin-left: -54px;
+      padding-bottom: 20px;
+    }
+    &__ava {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 16px;
+      margin-right: 22px;
+      background: #eef2f4;
+      font-size: 16px;
+      font-weight: bold;
+      color: #828b90;
+    }
+    &__name {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: bold;
+      color: #404042;
+      padding-right: 30px;
+    }
+    &__date {
+      color: #828b90;
+      font-size: 13px;
+      padding-right: 25px;
+    }
+    &__desc {
+      padding-bottom: 10px;
+      &__group {
+        font-size: 15px;
+        line-height: 24px;
+        color: #404042;
+        padding-bottom: 20px;
+        &__caption {
+          font-weight: bold;
+          padding-bottom: 2px;
+        }
+      }
+    }
+  }
+
 }

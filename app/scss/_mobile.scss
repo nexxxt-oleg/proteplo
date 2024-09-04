@@ -1210,9 +1210,18 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
   }
+  .fpad50 {
+    padding-bottom: 20px;
+  }
+  .sb-art--pc {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .title-page.title-page--mob-fs-20 {
+    font-size: 20px;
+  }
   .price__val .price__currency {
     font-size: 14px;
   }

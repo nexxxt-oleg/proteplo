@@ -4298,3 +4298,6 @@ body.fixCompare {
 .rounded {
   --bs-border-radius: 20px;
 }
+.product-box__img:hover + .product-box__body .product-box__title {
+  color: #24a44a;
+}

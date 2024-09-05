@@ -1216,6 +1216,9 @@
   .sb-art--pc {
     display: none;
   }
+  .fs-18 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1706,6 +1709,18 @@
 }
 
 @media screen and (max-width: 574px) {
+  .prim-box.prim-box--ver2 {
+    padding-left: 0;
+    .prim-box__title {
+      display: flex;
+      align-items: center;
+      .prim-box__ico {
+        position: relative;
+        top: auto;
+        left: auto;
+      }
+    }
+  }
   .compare__mob-param__wrap {
     padding: 0 5vw;
   }

@@ -56,6 +56,12 @@
 }
 
 @media screen and (max-width: 991px) {
+  .only-pc {
+    display: none;
+  }
+  .service-single__header {
+    padding: 30px;
+  }
   .sb-art {
     padding-bottom: 15px;
     .cat__filter__mob {
@@ -1222,6 +1228,44 @@
 }
 
 @media screen and (max-width: 768px) {
+  .service-single__info-time {
+    padding: 25px;
+  }
+  .service-single__info-time__header {
+    font-size: 20px;
+  }
+  .service-single__info-time__body {
+    font-size: 15px;
+  }
+  .service-single__info-time__footer {
+    font-size: 15px;
+    .phone {
+      font-size: 16px;
+    }
+  }
+  .service-single__header {
+    min-height: 500px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px 15px 100px;
+    align-items: flex-start;
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .text ol, .text ul {
+    font-size: 14px;
+  }
+  .fs-16 {
+    font-size: 15px;
+  }
+  .text h3 {
+    font-size: 16px;
+  }
+  .service-single__header__wrap p {
+    font-size: 14px;
+  }
+
   .title-page.title-page--mob-fs-20 {
     font-size: 20px;
   }
@@ -1709,6 +1753,24 @@
 }
 
 @media screen and (max-width: 574px) {
+  .service-single__form__footer {
+    .input-group {
+      display: block;
+      .form-control {
+        width: 100%;
+        border-radius: 10px !important;
+        margin-bottom: 10px;
+        height: 48px;
+      }
+      .btn {
+        border-radius: 10px !important;
+        width: 100%;
+      }
+    }
+  }
+  .img-slider__pagination {
+    padding-top: 20px;
+  }
   .prim-box.prim-box--ver2 {
     padding-left: 0;
     .prim-box__title {

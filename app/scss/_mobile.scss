@@ -1228,6 +1228,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .service-single__body {
+    padding-bottom: 20px;
+  }
   .service-single__info-time {
     padding: 25px;
   }

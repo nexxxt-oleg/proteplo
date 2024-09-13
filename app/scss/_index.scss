@@ -4826,3 +4826,20 @@ body.fixCompare {
     padding-bottom: 20px;
   }
 }
+
+.brands__sort .control:hover,
+.brands__single:hover .brands__single__title,
+.brands__list__item__nav--list li a:hover {
+  color: #24a44a;
+}
+
+.articles__item__link {
+  text-decoration: none;
+  display: block;
+  color: #404042;
+  &:hover {
+    .articles__item__title {
+      color: #24a44a;
+    }
+  }
+}

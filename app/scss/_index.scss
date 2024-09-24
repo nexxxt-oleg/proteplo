@@ -4795,6 +4795,9 @@ body.fixCompare {
     li {
       position: relative;
       padding: 0 0 0 40px;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
 
       &::after {
         content: '';
@@ -4842,4 +4845,46 @@ body.fixCompare {
       color: #24a44a;
     }
   }
+}
+.links-list {
+  a {
+    font-size: 15px;
+    line-height: 18px;
+    color: #24a44a;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.section-anchor {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dce3e7;
+  &--last {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  &__header {
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+  }
+}
+.image-circle {
+  display: flex;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  background: #eef2f4;
 }

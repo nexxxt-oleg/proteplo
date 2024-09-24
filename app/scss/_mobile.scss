@@ -1237,6 +1237,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .links-list a {
+    font-size: 14px;
+  }
   .jobs-hh {
     padding: 20px;
     &__title {

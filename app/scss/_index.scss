@@ -4936,6 +4936,10 @@ body.fixCompare {
     color: #404042;
     font-weight: bold;
     font-size: 14px;
-
+  }
+  &:hover {
+    .contacts__btn-download__caption {
+      color: #24a44a;
+    }
   }
 }

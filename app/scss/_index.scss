@@ -4888,3 +4888,25 @@ body.fixCompare {
   justify-content: center;
   background: #eef2f4;
 }
+.contacts-box {
+  padding: 25px;
+  border-radius: 20px;
+  background: #eef2f4;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404042;
+   a {
+     white-space: nowrap;
+     font-size: 18px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #231f20;
+     &:hover {
+       color: #24a44a;
+     }
+   }
+}
+
+.mob-delivery-map {
+  display: none;
+}

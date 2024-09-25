@@ -1237,6 +1237,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .mob-d-block {
+    display: block;
+  }
+  .mob-delivery-map {
+    display: block;
+    margin: 25px 0;
+  }
   .links-list a {
     font-size: 14px;
   }
@@ -1778,6 +1785,9 @@
 }
 
 @media screen and (max-width: 574px) {
+  .text h2 {
+    font-size: 18px;
+  }
   .service-single__form__footer {
     .input-group {
       display: block;

@@ -4910,3 +4910,32 @@ body.fixCompare {
 .mob-delivery-map {
   display: none;
 }
+
+.fpad20 {
+  padding-bottom: 20px;
+}
+
+.contacts__footer-doc {
+  padding-top: 20px;
+}
+
+.contacts__btn-download {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  height: 48px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #e9f6ed;
+  &__ico {
+    min-width: 20px;
+    margin-right: 14px;
+    color: #24a44a;
+  }
+  &__caption {
+    color: #404042;
+    font-weight: bold;
+    font-size: 14px;
+
+  }
+}

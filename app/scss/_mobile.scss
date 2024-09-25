@@ -1234,6 +1234,9 @@
   .fs-18 {
     font-size: 16px;
   }
+  .contacts__box-map {
+    padding-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1780,6 +1783,10 @@
   }
   .news-single__img {
     padding-bottom: 20px;
+  }
+  .contacts__work-time {
+    border-bottom: none;
+    margin-bottom: 0;
   }
 
 }

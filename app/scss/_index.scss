@@ -4795,6 +4795,7 @@ body.fixCompare {
     li {
       position: relative;
       padding: 0 0 0 40px;
+
       &:not(:last-child) {
         margin-bottom: 10px;
       }
@@ -4818,9 +4819,11 @@ body.fixCompare {
   padding: 30px 40px;
   border: 2px solid #eef2f4;
   border-radius: 10px;
+
   &__ico {
     padding-bottom: 16px;
   }
+
   &__title {
     font-size: 16px;
     line-height: 24px;
@@ -4840,28 +4843,33 @@ body.fixCompare {
   text-decoration: none;
   display: block;
   color: #404042;
+
   &:hover {
     .articles__item__title {
       color: #24a44a;
     }
   }
 }
+
 .links-list {
   a {
     font-size: 15px;
     line-height: 18px;
     color: #24a44a;
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
     }
   }
 }
+
 .section-anchor {
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 15px;
   border-bottom: 1px solid #dce3e7;
+
   &--last {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -4877,6 +4885,7 @@ body.fixCompare {
     height: 1px;
   }
 }
+
 .image-circle {
   display: flex;
   width: 100%;
@@ -4888,6 +4897,7 @@ body.fixCompare {
   justify-content: center;
   background: #eef2f4;
 }
+
 .contacts-box {
   padding: 25px;
   border-radius: 20px;
@@ -4895,16 +4905,18 @@ body.fixCompare {
   font-size: 16px;
   line-height: 30px;
   color: #404042;
-   a {
-     white-space: nowrap;
-     font-size: 18px;
-     font-weight: bold;
-     text-decoration: none;
-     color: #231f20;
-     &:hover {
-       color: #24a44a;
-     }
-   }
+
+  a {
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #231f20;
+
+    &:hover {
+      color: #24a44a;
+    }
+  }
 }
 
 .mob-delivery-map {
@@ -4927,19 +4939,84 @@ body.fixCompare {
   border-radius: 10px;
   text-decoration: none;
   background: #e9f6ed;
+
   &__ico {
     min-width: 20px;
     margin-right: 14px;
     color: #24a44a;
   }
+
   &__caption {
     color: #404042;
     font-weight: bold;
     font-size: 14px;
   }
+
   &:hover {
     .contacts__btn-download__caption {
       color: #24a44a;
     }
+  }
+}
+
+.mr-m-20 {
+  margin-right: -25px;
+}
+
+.credit__step {
+  padding-bottom: 30px;
+
+  &__item {
+    margin-bottom: 30px;
+    padding: 25px 25px 25px 85px;
+    position: relative;
+    border-radius: 20px;
+    background: #eef2f4;
+
+    &__numb {
+      position: absolute;
+      z-index: 10;
+      top: 20px;
+      left: 20px;
+      width: 34px;
+      height: 34px;
+      border-radius: 17px;
+      background: #fff;
+      text-align: center;
+      line-height: 34px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #404042;
+    }
+
+    &__title {
+      font-size: 16px;
+      color: #404042;
+      font-weight: bold;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.credit__bank {
+  display: block;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #eef2f4;
+  padding: 25px 40px;
+  color: #404042;
+  &__label {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-bottom: 25px;
+  }
+  &__img {
+    padding-bottom: 30px;
+  }
+  &__body {
+    font-size: 14px;
+    line-height: 18px;
   }
 }

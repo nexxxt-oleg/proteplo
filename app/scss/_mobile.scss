@@ -62,6 +62,9 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  .mr-m-20 {
+    margin-right: 0;
+  }
   .jobs {
     padding-bottom: 40px;
   }
@@ -1240,6 +1243,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .credit__step__item {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    &__title {
+      font-size: 15px;
+    }
+  }
+  .credit__bank__label {
+    font-size: 15px;
+  }
+  .credit__step {
+    padding-bottom: 20px;
+  }
   .mob-d-block {
     display: block;
   }

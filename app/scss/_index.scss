@@ -5295,3 +5295,14 @@ body.fixCompare {
 .footer-group-btns {
   display: flex;
 }
+.certificate-item {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #eef2f4;
+  border-radius: 5px;
+  &:hover {
+    border-color: #404042;
+  }
+}

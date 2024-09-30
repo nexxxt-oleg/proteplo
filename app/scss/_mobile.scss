@@ -2167,6 +2167,16 @@
       padding-right: 20px;
     }
   }
+  .footer-group-btns {
+    width: 160px;
+    flex-direction: column;
+    .mr-30 {
+      margin: 0 0 30px;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
 
 }
 

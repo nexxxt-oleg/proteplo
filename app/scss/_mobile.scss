@@ -55,6 +55,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .border-box-top {
+    padding: 30px 0;
+  }
   .jobs__item__header {
     font-size: 16px;
     line-height: 24px;
@@ -1263,10 +1266,35 @@
 }
 
 @media screen and (max-width: 768px) {
+  .mob-pl-0 {
+    padding-left: 0 !important;
+  }
+  .info-alert {
+    &__title {
+      font-size: 14px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+  }
+  .fs-24 {
+    font-size: 20px;
+  }
   .info-box--center {
     align-items: flex-start;
     .info-box__ico {
       margin-top: 8px;
+    }
+  }
+  .info-box__desc p.fs-15 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .info-box.info-box--left {
+    h4 {
+      padding: 0 0 0 14px;
+      font-size: 16px;
     }
   }
   .about__services__item {

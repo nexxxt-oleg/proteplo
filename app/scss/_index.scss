@@ -1460,6 +1460,7 @@ a.icon-caption:hover {
     font-size: 24px;
     line-height: 1.3;
     margin-bottom: 30px;
+
     &.fs-30 {
       font-size: 30px;
     }
@@ -5009,15 +5010,18 @@ body.fixCompare {
   border: 2px solid #eef2f4;
   padding: 25px 40px;
   color: #404042;
+
   &__label {
     font-size: 16px;
     line-height: 24px;
     font-weight: bold;
     padding-bottom: 25px;
   }
+
   &__img {
     padding-bottom: 30px;
   }
+
   &__body {
     font-size: 14px;
     line-height: 18px;
@@ -5031,8 +5035,9 @@ body.fixCompare {
   height: 400px;
   margin-bottom: 70px;
   padding: 30px 84px;
-  border-radius: 0 60px 0 60px ;
+  border-radius: 0 60px 0 60px;
   overflow: hidden;
+
   &__bg {
     position: absolute;
     z-index: 1;
@@ -5048,11 +5053,13 @@ body.fixCompare {
       object-position: 100% 100%;
     }
   }
+
   &__wrap {
     position: relative;
     z-index: 10;
     width: 100%;
     max-width: 600px;
+
     h1 {
       color: #fff;
       margin: 0;
@@ -5061,6 +5068,7 @@ body.fixCompare {
       line-height: 1.2;
       font-weight: bold;
     }
+
     p {
       font-size: 16px;
       line-height: 30px;
@@ -5072,40 +5080,49 @@ body.fixCompare {
 
 .about__prim {
   padding-bottom: 60px;
+
   &__value {
     font-size: 48px;
     line-height: 1;
     font-weight: bold;
     color: #404042;
   }
+
   &__caption {
     font-size: 16px;
     line-height: 30px;
     color: #828b90;
+
     a {
       color: #24a44a;
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
     }
   }
 }
+
 .about {
   padding: 0 84px;
 }
+
 .fs-30 {
   font-size: 30px;
 }
+
 .lpad-35 {
   padding-left: 35px;
 }
+
 .lpad-10 {
   padding-left: 10px;
 }
 
 .info-box {
   display: flex;
+
   &__ico {
     width: 48px;
     min-width: 48px;
@@ -5117,9 +5134,11 @@ body.fixCompare {
     color: #fff;
     border-radius: 24px;
   }
+
   &__desc {
     flex-grow: 1;
     padding-left: 25px;
+
     h3 {
       font-size: 30px;
       font-weight: bold;
@@ -5127,11 +5146,13 @@ body.fixCompare {
       padding-bottom: 10px;
       line-height: 1.3;
     }
+
     p {
       margin: 0;
       padding: 0;
       font-size: 16px;
       line-height: 30px;
+
       a {
         color: #404042;
         text-decoration: none;
@@ -5142,41 +5163,49 @@ body.fixCompare {
         font-size: 15px;
       }
     }
+
     h4 {
       margin: 0;
       font-size: 18px;
       font-weight: bold;
       line-height: 1.4;
       padding-bottom: 5px;
+
       a {
         color: #24a44a;
       }
     }
   }
 }
+
 .h2 {
   font-size: 30px;
   font-weight: bold;
   line-height: 1.4;
   margin-bottom: 30px;
 }
+
 .about__services {
   padding-bottom: 20px;
+
   &__item {
     display: flex;
     text-decoration: none;
     color: #404042;
     align-items: center;
     margin-bottom: 40px;
+
     &__ico {
       width: 80px;
       min-width: 80px;
       display: flex;
       justify-content: center;
     }
+
     &__desc {
       flex-grow: 1;
       padding-left: 25px;
+
       h3 {
         font-weight: bold;
         font-size: 20px;
@@ -5184,6 +5213,7 @@ body.fixCompare {
         margin: 0;
         padding-bottom: 2px;
       }
+
       p {
         margin: 0;
         padding: 0;
@@ -5203,9 +5233,11 @@ body.fixCompare {
 .info-box--center {
   align-items: center;
 }
+
 .info-box--left {
   position: relative;
   padding-left: 48px;
+
   .info-box__ico {
     position: absolute;
     z-index: 1;
@@ -5213,19 +5245,46 @@ body.fixCompare {
     left: 0;
   }
 }
+
 .fs-24 {
   font-size: 24px;
   line-height: 30px;
 }
-.border-box {
+
+.border-box-top {
   padding: 40px 20px;
-  border: 1px solid #dce3e7;
+  border-top: 1px solid #dce3e7;
 }
+
 .fmar-30 {
   margin-bottom: 30px;
 }
+
 .info-box__header.info-box__header--center {
   min-height: 50px;
   display: flex;
   align-items: center;
+}
+
+.info-alert {
+  border-radius: 10px;
+  border: 2px solid #eef2f4;
+  padding: 15px 20px 15px 62px;
+  background-position: 20px 20px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg id='_Слой_2' data-name='Слой 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B stroke-width: 0px; fill: %231fa24a; %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_1' data-name='Layer 1'%3E%3Cpath class='cls-1' d='m256,0C114.51,0,0,114.5,0,256s114.5,256,256,256,256-114.5,256-256S397.5,0,256,0Zm26.29,357.62c0,8.09-11.79,16.17-26.28,16.17s-25.95-8.09-25.95-16.17v-128.39c0-9.43,10.78-15.84,25.95-15.84s26.28,6.4,26.28,15.84v128.39Zm-26.28-175.23c-15.5,0-27.63-11.46-27.63-24.26s12.13-23.93,27.63-23.93,27.3,11.12,27.3,23.93-12.13,24.26-27.3,24.26Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 24px 24px;
+  margin-bottom: 30px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 5px;
+  }
+
+  &__text {
+    font-size: 15px;
+    line-height: 24px;
+  }
 }

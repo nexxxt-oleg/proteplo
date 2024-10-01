@@ -5306,3 +5306,20 @@ body.fixCompare {
     border-color: #404042;
   }
 }
+
+.cooperation {
+  &__item {
+    display: flex;
+    flex-grow: 1;
+    padding: 40px;
+    border-radius: 20px;
+    background: #eef2f4;
+    &__ico {
+      min-width: 64px;
+    }
+    &__desc {
+      flex-grow: 1;
+      padding-left: 45px;
+    }
+  }
+}

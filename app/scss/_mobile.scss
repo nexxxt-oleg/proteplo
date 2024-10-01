@@ -2180,6 +2180,25 @@
   .certificate-item {
     padding: 15px
   }
+  .cooperation__item {
+    padding: 20px;
+    flex-direction: column;
+    &__ico {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 15px;
+      img {
+        width: 48px;
+        height: 48px;
+        display: block;
+      }
+    }
+
+    &__desc {
+      padding-left: 0;
+    }
+  }
+
 }
 
 @media screen and (max-width: 440px) {

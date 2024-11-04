@@ -981,7 +981,7 @@
         </div>
         <div class="product-single__body">
             <div class="row">
-                <div class="col-lg-9 product-single__col-left">
+                <div class="col-xl-9 product-single__col-left">
                     <div class="row">
                         <div class="product-single__col-img">
                             <div class="product-single__images">
@@ -996,55 +996,68 @@
                                         <span class="product-tips__item product-tips__item--sale">Скидка -20%</span>
                                     </li>
                                 </ul>
-
-                                <div id="imageProductSlider" class="swiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="images/dist/product@2.jpg" class="product-single__images__item"
-                                               data-fancybox="product">
-                                                <picture>
-                                                    <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
-                                                    <img src="images/dist/product.jpg" loading="lazy" alt="">
-                                                </picture>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="images/dist/product@2.jpg" class="product-single__images__item"
-                                               data-fancybox="product">
-                                                <picture>
-                                                    <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
-                                                    <img src="images/dist/product.jpg" loading="lazy" alt="">
-                                                </picture>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="images/dist/product@2.jpg" class="product-single__images__item"
-                                               data-fancybox="product">
-                                                <picture>
-                                                    <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
-                                                    <img src="images/dist/product.jpg" loading="lazy" alt="">
-                                                </picture>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="images/dist/product@2.jpg" class="product-single__images__item"
-                                               data-fancybox="product">
-                                                <picture>
-                                                    <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
-                                                    <img src="images/dist/product.jpg" loading="lazy" alt="">
-                                                </picture>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="images/dist/product@2.jpg" class="product-single__images__item"
-                                               data-fancybox="product">
-                                                <picture>
-                                                    <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
-                                                    <img src="images/dist/product.jpg" loading="lazy" alt="">
-                                                </picture>
-                                            </a>
+                                <div class="product-single__images__inner">
+                                    <div id="imageProductSlider" class="swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="images/dist/product@2.jpg" class="product-single__images__item"
+                                                   data-fancybox="product">
+                                                    <picture>
+                                                        <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
+                                                        <img src="images/dist/product.jpg" loading="lazy" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/dist/product@2.jpg" class="product-single__images__item"
+                                                   data-fancybox="product">
+                                                    <picture>
+                                                        <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
+                                                        <img src="images/dist/product.jpg" loading="lazy" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/dist/product@2.jpg" class="product-single__images__item"
+                                                   data-fancybox="product">
+                                                    <picture>
+                                                        <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
+                                                        <img src="images/dist/product.jpg" loading="lazy" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/dist/product@2.jpg" class="product-single__images__item"
+                                                   data-fancybox="product">
+                                                    <picture>
+                                                        <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
+                                                        <img src="images/dist/product.jpg" loading="lazy" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/dist/product@2.jpg" class="product-single__images__item"
+                                                   data-fancybox="product">
+                                                    <picture>
+                                                        <source srcset="images/dist/product.jpg 1x, images/dist/product@2.jpg 2x">
+                                                        <img src="images/dist/product.jpg" loading="lazy" alt="">
+                                                    </picture>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <button class="product-single__images__nav product-single__images__nav--prev swiper-button-disabled"
+                                            id="imgPrev">
+                                        <svg width="8" height="16">
+                                            <use xlink:href="#svg-left"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="product-single__images__nav product-single__images__nav--next swiper-button-disabled"
+                                            id="imgNext">
+                                        <svg width="8" height="16">
+                                            <use xlink:href="#svg-right"></use>
+                                        </svg>
+                                    </button>
                                 </div>
                                 <div class="product-single__images__thumbnail thumbnail">
                                     <button class="thumbnail__nav thumbnail__nav--prev swiper-button-disabled"
@@ -1105,7 +1118,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="" class="card-price__warranty">
+                                        <a href="#bestPriceModal" class="card-price__warranty" data-bs-toggle="modal"
+                                           data-bs-target="#bestPriceModal">
                                             <div class="ico-green">
                                                 <svg width="20" height="24">
                                                     <use xlink:href="#svg-warranty"></use>
@@ -1217,7 +1231,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="" class="card-price__warranty">
+                                        <a href="#bestPriceModal" class="card-price__warranty" data-bs-toggle="modal"
+                                           data-bs-target="#bestPriceModal">
                                             <div class="ico-green">
                                                 <svg width="20" height="24">
                                                     <use xlink:href="#svg-warranty"></use>
@@ -1611,7 +1626,7 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-lg-3 product-single__col-delivery">
+                <div class="col-xl-3 product-single__col-delivery">
                     <div class="product-single__delivery">
                         <div class="product-single__delivery__item">
                             <div class="fpad20">
@@ -2050,7 +2065,9 @@
                             <div class="text fpad30">
                                 <h2>Об этом товаре отзывов нет</h2>
                                 <p>Cтаньте первым, кто оставит отзыв об этом товаре</p>
-                                <button class="btn btn--black w-24">Написать отзыв</button>
+                                <button class="btn btn--black w-24" data-bs-toggle="modal" data-bs-target="#revModal">
+                                    Написать отзыв
+                                </button>
                             </div>
 
                             <div class="text">
@@ -2263,7 +2280,9 @@
                                         </div>
                                         <div class="product-single__reviews__count">на основе 5 оценок</div>
                                         <div class="product-single__reviews__footer">
-                                            <button class="btn w-100 btn--black">Написать отзыв</button>
+                                            <button class="btn w-100 btn--black" data-bs-toggle="modal"
+                                                    data-bs-target="#revModal">Написать отзыв
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -4283,7 +4302,8 @@
                             <div class="form-row">
                                 <label for="credit-tel" class="form-row__label">Номер телефона*</label>
                                 <div class="form-row__col-inp">
-                                    <input type="text" class="form-inp js-mask-phone" id="credit-tel" placeholder="Номер телефона">
+                                    <input type="text" class="form-inp js-mask-phone" id="credit-tel"
+                                           placeholder="Номер телефона">
                                 </div>
                             </div>
                             <div class="form-row-submit">
@@ -4317,7 +4337,8 @@
                                 <a href="" class="product-box__title">Газовый настенный котел Buderus Logamax U072 18K
                                     7736900187RU</a>
                                 <div class="price">
-                                    <div class="price__val"><span>66 190 <small class="price__currency">руб.</small></span></div>
+                                    <div class="price__val"><span>66 190 <small
+                                            class="price__currency">руб.</small></span></div>
                                 </div>
                             </div>
                         </div>
@@ -4333,7 +4354,9 @@
                             </li>
                             <li>
                                 <h3>Я заполнил и отправил кредитную заявку на сайте интернет-магазина. Что дальше?</h3>
-                                В течение часа ваша заявка будет обработана, после чего с вами свяжется кредитный менеджер. Вам нужно будет ответить на несколько стандартных вопросов и подтвердить свои паспортные данные.
+                                В течение часа ваша заявка будет обработана, после чего с вами свяжется кредитный
+                                менеджер. Вам нужно будет ответить на несколько стандартных вопросов и подтвердить свои
+                                паспортные данные.
                             </li>
                             <li>
                                 <h3>Кредитный менеджер позвонил мне.</h3>
@@ -4342,7 +4365,9 @@
                             </li>
                             <li>
                                 <h3>Мне позвонили и сообщили, что банк одобрил мою заявку. Что дальше?</h3>
-                                Вам позвонит кредитный менеджер и договорится о времени приезда к вам для подписания платежных документов. После подписания договора Вы ожидаете доставки вашей покупки и при получении оплачиваете первоначальный взнос.
+                                Вам позвонит кредитный менеджер и договорится о времени приезда к вам для подписания
+                                платежных документов. После подписания договора Вы ожидаете доставки вашей покупки и при
+                                получении оплачиваете первоначальный взнос.
                             </li>
                         </ol>
                     </div>
@@ -4357,6 +4382,260 @@
                                 Генеральная лицензия Банка России №3354 от 26.04.2013г.
                             </div>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="bestPriceModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">
+                    Кто-то предлагает вам<br>
+                    лучшую цену?
+                </div>
+                <div class="btn-close2" data-bs-dismiss="modal">
+                    <svg width="32" height="32">
+                        <use xlink:href="#svg-close2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form onsubmit="return false" class="form-modal">
+                    <div class="form-modal__text">
+                        Пришлите нам ссылку на этот товар в другом магазине, и не позднее конца следующего рабочего дня
+                        мы свяжемся с вами.
+                    </div>
+                    <div class="form-modal__row">
+
+                        <input type="tel"
+                               name="phoneModal"
+                               class="form-modal__inp js-mask-phone"
+                               autocomplete="off"
+                               placeholder="Номер телефона"
+                        />
+                    </div>
+                    <div class="form-modal__row">
+
+                        <input type="text"
+                               name="link"
+                               class="form-modal__inp"
+                               autocomplete="off"
+                               placeholder="Ссылка на этот товар в другом магазине"
+                        />
+                    </div>
+                    <div class="form-modal__row">
+                        <textarea class="form-modal__inp" placeholder="Комментарий"></textarea>
+                    </div>
+                    <div class="form-modal__submit">
+                        <button type="submit"
+                                class="btn btn--green w-100"
+                                data-bs-dismiss="modal"
+                                data-bs-toggle="modal"
+                                data-bs-target="#bestPriceSendOk"
+                        >
+                            отправить
+                        </button>
+                    </div>
+                    <div class="form-modal__footer">
+                        Нажимая кнопку “Отправить”, Вы соглашаетесь с <a href="">политикой
+                        конфиденциальности</a>
+                    </div>
+                    <div class="form-modal__footer-link">
+                        <a href="">Как это работает?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="revModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">
+                    Оставить отзыв
+                </div>
+                <div class="btn-close2" data-bs-dismiss="modal">
+                    <svg width="32" height="32">
+                        <use xlink:href="#svg-close2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form onsubmit="return false" class="form-modal">
+                    <div class="form-modal__text">
+                        Газовый настенный котел Buderus Logamax U072 24K 7736900188RU
+                    </div>
+                    <div class="form-modal__row form-modal__row--rating">
+                        <span>Ваша оценка</span>
+                        <div class="rating-area">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка 5">
+                                <svg width="32" height="32">
+                                    <use xlink:href="#svg-star"></use>
+                                </svg>
+                            </label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка 4">
+                                <svg width="32" height="32">
+                                    <use xlink:href="#svg-star"></use>
+                                </svg>
+                            </label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка 3">
+                                <svg width="32" height="32">
+                                    <use xlink:href="#svg-star"></use>
+                                </svg>
+                            </label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка 2">
+                                <svg width="32" height="32">
+                                    <use xlink:href="#svg-star"></use>
+                                </svg>
+                            </label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка 1">
+                                <svg width="32" height="32">
+                                    <use xlink:href="#svg-star"></use>
+                                </svg>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-modal__row">
+
+                        <input type="text"
+                               name="name"
+                               class="form-modal__inp"
+                               autocomplete="off"
+                               placeholder="Ваше имя"
+                        />
+                    </div>
+                    <div class="form-modal__row">
+
+                        <input type="email"
+                               name="email"
+                               class="form-modal__inp"
+                               autocomplete="off"
+                               placeholder="E-mail"
+                        />
+                    </div>
+                    <div class="form-modal__row">
+                        <label for="rev_prim" class="form-modal__label">Достоинства</label>
+                        <textarea id="rev_prim" class="form-modal__inp"
+                                  placeholder="Опишите достоинства"></textarea>
+                    </div>
+                    <div class="form-modal__row">
+                        <label for="dis_comment" class="form-modal__label">Недостатки</label>
+                        <textarea id="dis_comment" class="form-modal__inp"
+                                  placeholder="Опишите недостатки"></textarea>
+                    </div>
+                    <div class="form-modal__row">
+                        <label for="rev_comment" class="form-modal__label">Комментарий</label>
+                        <textarea id="rev_comment" class="form-modal__inp"
+                                  placeholder="Оставьте комментарий"></textarea>
+                    </div>
+                    <div class="form-modal__submit">
+                        <button type="submit"
+                                class="btn btn--green w-100"
+                                data-bs-dismiss="modal"
+                                data-bs-toggle="modal"
+                                data-bs-target="#revSendOk"
+                        >
+                            отправить
+                        </button>
+                    </div>
+                    <div class="form-modal__footer">
+                        Нажимая кнопку “Отправить”, Вы соглашаетесь с <a href="">политикой
+                        конфиденциальности</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="bestPriceSendOk" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header modal-header--only-mob">
+                <div class="modal-title ">
+                </div>
+                <div class="btn-close2" data-bs-dismiss="modal">
+                    <svg width="20" height="20">
+                        <use xlink:href="#svg-close2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-content__img">
+                <div class="modal-content__ico">
+                    <svg width="24" height="17">
+                        <use xlink:href="#svg-ok2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-header justify-content-center modal-header--send-ok">
+                <div class="modal-title text-center">
+                    Спасибо, Ваша заявка принята!
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="form-modal__text text-center">
+                    После рассмотрения заявки с вами свяжется менеджер и в случае положительного решения предложит
+                    лучшую цену.
+                </div>
+                <div class="d-flex justify-content-center tpad10 modal-close-hidden-mob">
+                    <div class="btn-close2" data-bs-dismiss="modal">
+                        <svg width="32" height="32">
+                            <use xlink:href="#svg-close2"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="revSendOk" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header modal-header--only-mob">
+                <div class="modal-title ">
+                </div>
+                <div class="btn-close2" data-bs-dismiss="modal">
+                    <svg width="20" height="20">
+                        <use xlink:href="#svg-close2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-content__img">
+                <div class="modal-content__ico">
+                    <svg width="24" height="17">
+                        <use xlink:href="#svg-ok2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-header justify-content-center modal-header--send-ok">
+                <div class="modal-title text-center">
+                    Спасибо за Ваш отзыв!
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="form-modal__text text-center">
+                    Отзывы проходят модерацию нашими специалистами. Если оставленный отзыв не соответствует <a
+                        href="">правилам</a>,
+                    <br>то он не пройдет модерацию и не будет опубликован.
+                </div>
+                <div class="d-flex justify-content-center tpad10 modal-close-hidden-mob">
+                    <div class="btn-close2" data-bs-dismiss="modal">
+                        <svg width="32" height="32">
+                            <use xlink:href="#svg-close2"></use>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -4719,7 +4998,7 @@
             <div class="modal-content__img">
                 <div class="modal-content__ico">
                     <svg width="24" height="17">
-                        <use xlink:href="#svg-ok"></use>
+                        <use xlink:href="#svg-ok2"></use>
                     </svg>
                 </div>
             </div>
@@ -5446,6 +5725,11 @@
 
         <symbol id="svg-ok" viewBox="0 0 511.99 368.41">
             <path fill="currentColor"
+                  d="m500.09,11.89c-15.84-15.86-41.56-15.85-57.43,0L184.21,270.36l-114.87-114.87c-15.86-15.86-41.57-15.86-57.44,0-15.86,15.86-15.86,41.57,0,57.44l143.59,143.58c7.93,7.93,18.32,11.9,28.71,11.9s20.8-3.96,28.72-11.9L500.09,69.33c15.86-15.85,15.86-41.57,0-57.43Z"/>
+        </symbol>
+
+        <symbol id="svg-ok2" viewBox="0 0 511.99 368.41">
+            <path fill="currentColor" stroke-width="0"
                   d="m500.09,11.89c-15.84-15.86-41.56-15.85-57.43,0L184.21,270.36l-114.87-114.87c-15.86-15.86-41.57-15.86-57.44,0-15.86,15.86-15.86,41.57,0,57.44l143.59,143.58c7.93,7.93,18.32,11.9,28.71,11.9s20.8-3.96,28.72-11.9L500.09,69.33c15.86-15.85,15.86-41.57,0-57.43Z"/>
         </symbol>
 

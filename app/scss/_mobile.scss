@@ -2312,6 +2312,10 @@
   .form-modal__text {
     padding-bottom: 15px;
   }
+  .block-info {
+    align-items: flex-start;
+    padding-right: 20px !important;
+  }
 }
 
 @media screen and (max-width: 574px) {

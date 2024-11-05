@@ -2364,9 +2364,40 @@
   .card-price__footer {
     border-radius: 0 0 15px 15px;
   }
+  .form-row {
+    display: block;
+    .form-row__label {
+      width: 100%;
+      padding: 0 0 5px 0;
+    }
+  }
+  .form-row-submit {
+    padding-left: 0;
+  }
+
+  .footer-product__item__img.footer-product__item__img--modal {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .btn-close {
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .modal-credit{
+    padding-top: 15px;
+  }
+  .modal-credit__header {
+    margin-bottom: 15px;
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 574px) {
+  .modal-close-hidiven-mob {
+    display: none !important;
+  }
   .text h2 {
     font-size: 18px;
   }

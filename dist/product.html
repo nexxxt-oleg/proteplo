@@ -1185,6 +1185,18 @@
                                                 </div>
                                             </a>
                                         </div>
+                                        <div class="card-price__mob-best-price">
+                                            <a href="#bestPriceModal" class="card-price__warranty"
+                                               data-bs-toggle="modal"
+                                               data-bs-target="#bestPriceModal">
+                                                <div class="ico-green">
+                                                    <svg width="20" height="24">
+                                                        <use xlink:href="#svg-warranty"></use>
+                                                    </svg>
+                                                </div>
+                                                <span>Гарантия лучшей цены</span>
+                                            </a>
+                                        </div>
                                         <div class="сard-price__col-montage">
                                             <a href="" class="card-price__montage">
                                                 <div class="ico-green">
@@ -1285,48 +1297,45 @@
                                 <div class="product-single__props__title">Характеристики</div>
                                 <ul class="nav flex-column product-single__props__list">
                                     <li>
-                                        <dl class="product-single__property">
-                                            <dt class="product-single__property__label">
+                                        <div class="product-single__property">
+                                            <div class="product-single__property__label">
                                                 <span>Тип установки</span>
-                                            </dt>
-                                            <dd class="product-single__property__value">Настенный</dd>
-                                        </dl>
+                                            </div>
+                                            <div class="product-single__property__value">Настенный</div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <dl class="product-single__property">
-                                            <dt class="product-single__property__label">
+                                        <div class="product-single__property">
+                                            <div class="product-single__property__label">
                                                 <span>Тип установки</span>
-                                            </dt>
-                                            <dd class="product-single__property__value">Настенный</dd>
-                                        </dl>
+                                            </div>
+                                            <div class="product-single__property__value">Настенный</div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <dl class="product-single__property">
-                                            <dt class="product-single__property__label">
+                                        <div class="product-single__property">
+                                            <div class="product-single__property__label">
                                                 <span>Тип установки</span>
-                                            </dt>
-                                            <dd class="product-single__property__value">Настенный</dd>
-                                        </dl>
+                                            </div>
+                                            <div class="product-single__property__value">Настенный</div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <dl class="product-single__property">
-                                            <dt class="product-single__property__label">
+                                        <div class="product-single__property">
+                                            <div class="product-single__property__label">
                                                 <span>Тип топлива</span>
-                                            </dt>
-                                            <dd class="product-single__property__value">Газ</dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <a href="#propsLink" id="moreProps"
-                                           class="product-single__props__all btn-link btn-link--green">
-                                            Все характеристики
-                                            <svg width="12" height="6" class="ml-5">
-                                                <use xlink:href="#svg-bottom"></use>
-                                            </svg>
-                                        </a>
+                                            </div>
+                                            <div class="product-single__property__value">Газ</div>
+                                        </div>
                                     </li>
                                 </ul>
-
+                                <a href="#propsLink" id="moreProps"
+                                   class="product-single__props__all btn-link btn-link--green">
+                                    Все характеристики
+                                    <svg width="12" height="6" class="ml-5">
+                                        <use xlink:href="#svg-bottom"></use>
+                                    </svg>
+                                </a>
 
                             </div>
                         </div>
@@ -1627,61 +1636,71 @@
                     </section>
                 </div>
                 <div class="col-xl-3 product-single__col-delivery">
-                    <div class="product-single__delivery">
-                        <div class="product-single__delivery__item">
-                            <div class="fpad20">
-                                <div class="product-single__delivery__title">Доставка по Санкт-Петербургу</div>
-                                <dl class="product-single__property">
-                                    <dt class="product-single__property__label">
-                                        <span>Курьер</span>
-                                    </dt>
-                                    <dd class="product-single__property__value">300 руб.</dd>
-                                </dl>
-                                <dl class="product-single__property">
-                                    <dt class="product-single__property__label">
-                                        <span>Самовывоз</span>
-                                    </dt>
-                                    <dd class="product-single__property__value">бесплатно</dd>
-                                </dl>
-                                <div class="product-single__delivery__address">
-                                    г. Санкт-Петербург, Чугунная, дом 14,
-                                    лит. К, (въезд с Менделеевской 5)
+                    <div class="accordion accordion--mob">
+                        <div class="accordion__item accordion__item--mob">
+                            <div class="accordion__header collapsed" data-bs-toggle="collapse" data-bs-target="#mobDelivery">
+                                Доставка
+                            </div>
+                            <div class="accordion-collapse collapse" id="mobDelivery">
+                                <div class="product-single__delivery">
+                                    <div class="product-single__delivery__item">
+                                        <div class="fpad20">
+                                            <div class="product-single__delivery__title">Доставка по Санкт-Петербургу
+                                            </div>
+                                            <div class="product-single__property">
+                                                <div class="product-single__property__label">
+                                                    <span>Курьер</span>
+                                                </div>
+                                                <div class="product-single__property__value">300 руб.</div>
+                                            </div>
+                                            <div class="product-single__property">
+                                                <div class="product-single__property__label">
+                                                    <span>Самовывоз</span>
+                                                </div>
+                                                <div class="product-single__property__value">бесплатно</div>
+                                            </div>
+                                            <div class="product-single__delivery__adivress">
+                                                г. Санкт-Петербург, Чугунная, дом 14,
+                                                лит. К, (въезд с Менделеевской 5)
+                                            </div>
+                                            <a href="">Посмотреть на карте</a>
+                                        </div>
+                                        <div class="product-single__delivery__title">Доставка по России</div>
+                                        <div class="product-single__delivery__adivress">
+                                            По тарифам транспортных компаний
+                                        </div>
+                                        <div class="product-single__property">
+                                            <div class="product-single__property__label">
+                                                <span>Доставка до ТК</span>
+                                            </div>
+                                            <div class="product-single__property__value">бесплатно</div>
+                                        </div>
+                                        <a href="">Подробнее про условия доставки</a>
+                                    </div>
+                                    <div class="product-single__delivery__item">
+                                        <div class="product-single__delivery__title">Способы оплаты</div>
+                                        <div class="product-single__payment">
+                                            Наличными при получении<br>
+                                            Банковским переводом<br>
+                                            Банковской картой<br>
+                                            Покупка в кредит
+                                        </div>
+                                        <a href="">Подробнее про условия оплаты</a>
+                                    </div>
+                                    <div class="product-single__rating">
+                                        <div class="product-single__rating__title">Рейтиг магазина</div>
+                                        <div class="product-single__rating__text">
+                                            Более 2000 клиентов рекомендуют нас!
+                                        </div>
+                                        <a href="" target="_blank" class="product-single__rating__body">
+                                            <img src="images/dist/y-rev.png" width="140" height="27" alt="">
+                                            <div class="product-single__top__reviews">
+                                                4.5
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <a href="">Посмотреть на карте</a>
                             </div>
-                            <div class="product-single__delivery__title">Доставка по России</div>
-                            <div class="product-single__delivery__address">
-                                По тарифам транспортных компаний
-                            </div>
-                            <dl class="product-single__property">
-                                <dt class="product-single__property__label">
-                                    <span>Доставка до ТК</span>
-                                </dt>
-                                <dd class="product-single__property__value">бесплатно</dd>
-                            </dl>
-                            <a href="">Подробнее про условия доставки</a>
-                        </div>
-                        <div class="product-single__delivery__item">
-                            <div class="product-single__delivery__title">Способы оплаты</div>
-                            <div class="product-single__payment">
-                                Наличными при получении<br>
-                                Банковским переводом<br>
-                                Банковской картой<br>
-                                Покупка в кредит
-                            </div>
-                            <a href="">Подробнее про условия оплаты</a>
-                        </div>
-                        <div class="product-single__rating">
-                            <div class="product-single__rating__title">Рейтиг магазина</div>
-                            <div class="product-single__rating__text">
-                                Более 2000 клиентов рекомендуют нас!
-                            </div>
-                            <a href="" target="_blank" class="product-single__rating__body">
-                                <img src="images/dist/y-rev.png" width="140" height="27" alt="">
-                                <div class="product-single__top__reviews">
-                                    4.5
-                                </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -1719,149 +1738,219 @@
                     </ul>
                 </div>
                 <div class="col-12 product-single__col-tab-content">
-                    <div class="tab-content">
+                    <div class="tab-content accordion accordion--mob">
                         <div class="tab-pane fade show active" id="desc">
                             <div class="row">
-                                <div class="col-lg-9 text" id="descText">
-                                    <h2>Описание</h2>
-                                    <p>Конструкция котла адаптирована к устойчивой работе в отечественных условиях
-                                        эксплуатации: оборудование прекрасно справляется как с падением напряжения до
-                                        165 В,
-                                        так и со скачками до 240 В.</p>
-                                    <p>Благодаря модулируемой горелке и модулируемому вентилятору можно точно и
-                                        своевременно
-                                        изменять мощность котла в зависимости от запросов бытовой отопительной системы.
-                                        Подобное решение существенно повысило КПД.</p>
-                                    <p>Использование раздельных теплообменников обеспечивает надёжную работу котла даже
-                                        при
-                                        использовании жёсткой водой с высоким содержанием кальция и магния.</p>
-                                    <p>Котлы Logamax U072 используют для своего функционирования как природный
-                                        магистральный, так и сжиженный газ. В последнем случае требуется
-                                        переоборудование
-                                        устройства при помощи комплекта жиклеров.</p>
-                                    <p><b>Описание Buderus Logamax U072 24K:</b></p>
-                                    <ul>
-                                        <li>Котел мощностью 18 кВт идеальны для установки как в частном доме, так и в
-                                            квартире
-                                        </li>
-                                        <li>Использование вертикальных соединений для подводки труб максимально упрощает
-                                            установку котла
-                                        </li>
-                                        <li>Оборудование работает бесперебойно даже при перепадах давления газа и воды
-                                        </li>
-                                    </ul>
+                                <div class="col-lg-9 text">
+                                    <div class="accordion__item accordion__item--mob">
+                                        <div class="accordion__header collapsed" data-bs-toggle="collapse"
+                                             data-bs-target="#mobDesc">
+                                            Описание
+                                        </div>
+                                        <div class="tab-pane__header">
+                                            <h2>Описание</h2>
+                                        </div>
+                                        <div id="mobDesc" class="accordion-collapse collapse ">
+                                            <div class="tab-pane__body">
+                                                <div id="descText">
+                                                    <p>Конструкция котла адаптирована к устойчивой работе в
+                                                        отечественных
+                                                        условиях
+                                                        эксплуатации: оборудование прекрасно справляется как с падением
+                                                        напряжения
+                                                        до
+                                                        165 В,
+                                                        так и со скачками до 240 В.</p>
+                                                    <p>Благодаря модулируемой горелке и модулируемому вентилятору можно
+                                                        точно и
+                                                        своевременно
+                                                        изменять мощность котла в зависимости от запросов бытовой
+                                                        отопительной
+                                                        системы.
+                                                        Подобное решение существенно повысило КПД.</p>
+                                                    <p>Использование раздельных теплообменников обеспечивает надёжную
+                                                        работу
+                                                        котла
+                                                        даже
+                                                        при
+                                                        использовании жёсткой водой с высоким содержанием кальция и
+                                                        магния.</p>
+                                                    <p>Котлы Logamax U072 используют для своего функционирования как
+                                                        природный
+                                                        магистральный, так и сжиженный газ. В последнем случае требуется
+                                                        переоборудование
+                                                        устройства при помощи комплекта жиклеров.</p>
+                                                    <p><b>Описание Buderus Logamax U072 24K:</b></p>
+                                                    <ul>
+                                                        <li>Котел мощностью 18 кВт идеальны для установки как в частном
+                                                            доме,
+                                                            так и
+                                                            в
+                                                            квартире
+                                                        </li>
+                                                        <li>Использование вертикальных соединений для подводки труб
+                                                            максимально
+                                                            упрощает
+                                                            установку котла
+                                                        </li>
+                                                        <li>Оборудование работает бесперебойно даже при перепадах
+                                                            давления
+                                                            газа
+                                                            и
+                                                            воды
+                                                        </li>
+                                                    </ul>
 
-                                    <p><b>Преимущества котла:</b></p>
-                                    <ul>
-                                        <li>
-                                            Небольшой вес и компактные размеры
-                                        </li>
-                                        <li>Устойчивость к перепадам напряжения и давления газа</li>
-                                        <li>Защищённость от замерзания</li>
-                                        <li>Модулируемый вентилятор</li>
-                                        <li>Электронное зажигание</li>
-                                        <li>Адаптация к отечественным условиям</li>
-                                        <li>Возможность обогрева больших площадей (110…240 кв. м)</li>
-                                        <li>Низкие показатели уровня шума (менее 36 dBA)</li>
-                                        <li>Контроль пламени с помощью ионизационного электрода</li>
-                                        <li>Возможность индикации кодов ошибок на удобном LCD-дисплее</li>
-                                    </ul>
+                                                    <p><b>Преимущества котла:</b></p>
+                                                    <ul>
+                                                        <li>
+                                                            Небольшой вес и компактные размеры
+                                                        </li>
+                                                        <li>Устойчивость к перепадам напряжения и давления газа</li>
+                                                        <li>Защищённость от замерзания</li>
+                                                        <li>Модулируемый вентилятор</li>
+                                                        <li>Электронное зажигание</li>
+                                                        <li>Адаптация к отечественным условиям</li>
+                                                        <li>Возможность обогрева больших площадей (110…240 кв. м)</li>
+                                                        <li>Низкие показатели уровня шума (менее 36 dBA)</li>
+                                                        <li>Контроль пламени с помощью ионизационного электрода</li>
+                                                        <li>Возможность индикации кодов ошибок на удобном LCD-дисплее
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="props">
-                            <div class="product-single__props-full">
-                                <div id="propsLink" class="product-single__props-full__anchor"></div>
-                                <div class="row">
-                                    <div class="col-lg-9 text">
-                                        <h2>Характеристики</h2>
-                                        <div class="product-single__props-full__title">Газовый настенный котел Buderus
-                                            Logamax U072 24K 7736900188RU: основные характеристики
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <ul class="nav d-block product-single__props-full__list">
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный</dd>
-                                                </dl>
-                                            </li>
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный</dd>
-                                                </dl>
-                                            </li>
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный</dd>
-                                                </dl>
-                                            </li>
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный</dd>
-                                                </dl>
-                                            </li>
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный222
-                                                    </dd>
-                                                </dl>
-                                            </li>
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный</dd>
-                                                </dl>
-                                            </li>
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный</dd>
-                                                </dl>
-                                            </li>
-                                            <li>
-                                                <dl class="product-single__property row">
-                                                    <dt class="product-single__property__label col-lg-4">
-                                                        <span>Тип установки</span>
-                                                    </dt>
-                                                    <dd class="product-single__property__value col-lg-5">Настенный</dd>
-                                                </dl>
-                                            </li>
+                            <div class="accordion__item accordion__item--mob">
+                                <div class="product-single__props-full">
+                                    <div id="propsLink" class="product-single__props-full__anchor"></div>
 
-                                        </ul>
+                                    <div class="accordion__header collapsed" data-bs-toggle="collapse"
+                                         data-bs-target="#mobProps">
+                                        Характеристики
                                     </div>
-                                    <div class="col-lg-9">
-                                        <div class="block-info">
-                                            <div class="block-info__ico ico-green">
-                                                <svg width="24" height="24">
-                                                    <use xlink:href="#svg-info"></use>
-                                                </svg>
-                                            </div>
-                                            <div class="block-info__desc">
-                                                Изображения товара, цвет, размер, могут отличаться от реального внешнего
-                                                вида
-                                                товара. Производитель имеет право изменить конструкцию, технических
-                                                характеристики,
-                                                внешний вид, комплектацию товара без уведомления потребителя.
+
+                                    <div class="tab-pane__header text">
+                                        <h2>Характеристики</h2>
+                                    </div>
+                                    <div id="mobProps" class="accordion-collapse collapse ">
+                                        <div class="tab-pane__body">
+                                            <div class="row">
+                                                <div class="col-lg-9">
+                                                    <div class="product-single__props-full__title">Газовый настенный
+                                                        котел
+                                                        Buderus Logamax U072 24K 7736900188RU: основные характеристики
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <ul class="nav d-block product-single__props-full__list">
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный222
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-single__property row">
+                                                                <div class="product-single__property__label col-lg-4">
+                                                                    <span>Тип установки</span>
+                                                                </div>
+                                                                <div class="product-single__property__value col-lg-5">
+                                                                    Настенный
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="block-info">
+                                                        <div class="block-info__ico ico-green">
+                                                            <svg width="24" height="24">
+                                                                <use xlink:href="#svg-info"></use>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="block-info__desc">
+                                                            Изображения товара, цвет, размер, могут отличаться
+                                                            от реального
+                                                            внешнего
+                                                            вида
+                                                            товара. Производитель имеет право изменить
+                                                            конструкцию, технических
+                                                            характеристики,
+                                                            внешний вид, комплектацию товара без уведомления
+                                                            потребителя.
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1869,378 +1958,263 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="docs">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <div class="text">
-                                        <h2>Документация</h2>
-                                    </div>
-                                    <ul class="nav d-block">
-                                        <li class="fpad20">
-                                            <a href="" class="doc-link">
-                                                <svg width="32" height="32">
-                                                    <use xlink:href="#svg-pdf"></use>
-                                                </svg>
-                                                <span>Инструкция по эксплуатации.pdf</span>
-                                            </a>
-                                        </li>
-                                        <li class="fpad20">
-                                            <a href="" class="doc-link">
-                                                <svg width="32" height="32">
-                                                    <use xlink:href="#svg-pdf"></use>
-                                                </svg>
-                                                <span>Инструкция по эксплуатации.pdf</span>
-                                            </a>
-                                        </li>
-                                        <li class="fpad20">
-                                            <a href="" class="doc-link">
-                                                <svg width="32" height="32">
-                                                    <use xlink:href="#svg-pdf"></use>
-                                                </svg>
-                                                <span>Инструкция по эксплуатации.pdf</span>
-                                            </a>
-                                        </li>
-                                    </ul>
+                            <div class="accordion__item accordion__item--mob">
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <div class="accordion__header collapsed" data-bs-toggle="collapse"
+                                             data-bs-target="#mobDocs">
+                                            Документация
+                                        </div>
 
+                                        <div class="tab-pane__header text">
+                                            <h2>Документация</h2>
+                                        </div>
+                                        <div id="mobDocs" class="accordion-collapse collapse ">
+                                            <div class="tab-pane__body">
+                                                <ul class="nav d-block">
+                                                    <li class="fpad20">
+                                                        <a href="" class="doc-link">
+                                                            <svg width="32" height="32">
+                                                                <use xlink:href="#svg-pdf"></use>
+                                                            </svg>
+                                                            <span>Инструкция по эксплуатации.pdf</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="fpad20">
+                                                        <a href="" class="doc-link">
+                                                            <svg width="32" height="32">
+                                                                <use xlink:href="#svg-pdf"></use>
+                                                            </svg>
+                                                            <span>Инструкция по эксплуатации.pdf</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="fpad20">
+                                                        <a href="" class="doc-link">
+                                                            <svg width="32" height="32">
+                                                                <use xlink:href="#svg-pdf"></use>
+                                                            </svg>
+                                                            <span>Инструкция по эксплуатации.pdf</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="tab-pane fade" id="video">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <div class="text">
-                                        <h2>Видеоматериалы</h2>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-6 fpad30 video-box">
-                                            <iframe width="560" height="315"
-                                                    src="https://www.youtube.com/embed/_ymicn0_GYc?si=ucWvaPLEYEFt9CTN"
-                                                    title="YouTube video player" frameborder="0"
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                    referrerpolicy="strict-origin-when-cross-origin"
-                                                    allowfullscreen></iframe>
+                            <div class="accordion__item accordion__item--mob">
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <div class="accordion__header collapsed" data-bs-toggle="collapse"
+                                             data-bs-target="#mobVideo">
+                                            Видеоматериалы
                                         </div>
-                                        <div class="col-sm-6 fpad30 video-box">
-                                            <iframe width="560" height="315"
-                                                    src="https://www.youtube.com/embed/_ymicn0_GYc?si=ucWvaPLEYEFt9CTN"
-                                                    title="YouTube video player" frameborder="0"
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                    referrerpolicy="strict-origin-when-cross-origin"
-                                                    allowfullscreen></iframe>
+
+                                        <div class="tab-pane__header text">
+                                            <h2>Видеоматериалы</h2>
+                                        </div>
+                                        <div id="mobVideo" class="accordion-collapse collapse ">
+                                            <div class="tab-pane__body">
+                                                <div class="row">
+                                                    <div class="col-sm-6 fpad30 video-box">
+                                                        <iframe width="560" height="315"
+                                                                src="https://www.youtube.com/embed/_ymicn0_GYc?si=ucWvaPLEYEFt9CTN"
+                                                                title="YouTube video player" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                                allowfullscreen></iframe>
+                                                    </div>
+                                                    <div class="col-sm-6 fpad30 video-box">
+                                                        <iframe width="560" height="315"
+                                                                src="https://www.youtube.com/embed/_ymicn0_GYc?si=ucWvaPLEYEFt9CTN"
+                                                                title="YouTube video player" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                                allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="related">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <div class="text">
-                                        <h2 class="mb-0">Сопутствующие товары</h2>
+                            <div class="accordion__item accordion__item--mob">
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <div class="accordion__header collapsed" data-bs-toggle="collapse"
+                                             data-bs-target="#mobRele">
+                                            Сопутствующие товары
+                                        </div>
+                                        <div class="text tab-pane__header">
+                                            <h2 class="mb-0">Сопутствующие товары</h2>
+                                        </div>
+                                        <div id="mobRele" class="accordion-collapse collapse ">
+                                            <div class="tab-pane__body">
+                                                <ul class="nav flex-column footer-product">
+                                                    <li>
+                                                        <div class="footer-product__item product-box">
+                                                            <a href="" class="footer-product__item__img">
+                                                                <img src="images/dist/lot_min2.jpg" alt="">
+                                                            </a>
+                                                            <div class="footer-product__desc">
+                                                                <div class="product-box__params product-box__params--art">
+                                                                    <div class="product-box__art">Артикул: 17090</div>
+                                                                    <div class="product-box__rev">
+                                                                        5
+                                                                    </div>
+                                                                </div>
+                                                                <a href="" class="product-box__title">Газовый настенный
+                                                                    котел
+                                                                    Buderus
+                                                                    Logamax U072 18K
+                                                                    7736900187RU</a>
+                                                                <div class="product-box__status">
+                                                                    <span class="status status--in-stock">В наличии</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer-product__right">
+                                                                <div class="footer-product__right__row">
+                                                                    <div class="product-box__col-price price">
+                                                                        <div class="price__val"><span>66 190 <small
+                                                                                class="price__currency">руб.</small></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="footer-product__right__col-bay">
+                                                                        <button class="btn btn--green product-box__bay w-100">
+                                                                            В
+                                                                            КОРЗИНУ
+                                                                        </button>
+                                                                    </div>
+
+                                                                    <ul class="nav footer-product__right__btns">
+                                                                        <li>
+                                                                            <button class="btn btn--label">
+                                                                                <div class="btn__ico">
+                                                                                    <svg width="12" height="14">
+                                                                                        <use xlink:href="#svg-compare"></use>
+                                                                                    </svg>
+                                                                                </div>
+                                                                                <span class="btn__text">Сравнить</span>
+                                                                            </button>
+                                                                        </li>
+                                                                        <li>
+                                                                            <button class="btn btn--label">
+                                                                                <div class="btn__ico">
+                                                                                    <svg width="14" height="13">
+                                                                                        <use xlink:href="#svg-fav"></use>
+                                                                                    </svg>
+                                                                                </div>
+                                                                                <span class="btn__text">В избранное</span>
+                                                                            </button>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="footer-product__item product-box">
+                                                            <a href="" class="footer-product__item__img">
+                                                                <img src="images/dist/lot_min2.jpg" alt="">
+                                                            </a>
+                                                            <div class="footer-product__desc">
+                                                                <div class="product-box__params product-box__params--art">
+                                                                    <div class="product-box__art">Артикул: 17090</div>
+                                                                    <div class="product-box__rev">
+                                                                        5
+                                                                    </div>
+                                                                </div>
+                                                                <a href="" class="product-box__title">Газовый настенный
+                                                                    котел
+                                                                    Buderus
+                                                                    Logamax U072 18K
+                                                                    7736900187RU</a>
+                                                                <div class="product-box__status">
+                                                                    <span class="status status--in-stock">В наличии</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer-product__right">
+                                                                <div class="footer-product__right__row">
+                                                                    <div class="product-box__col-price price">
+                                                                        <div class="price__val"><span>66 190 <small
+                                                                                class="price__currency">руб.</small></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="footer-product__right__col-bay">
+                                                                        <button class="btn btn--green product-box__bay w-100">
+                                                                            В
+                                                                            КОРЗИНУ
+                                                                        </button>
+                                                                    </div>
+
+                                                                    <ul class="nav footer-product__right__btns">
+                                                                        <li>
+                                                                            <button class="btn btn--label">
+                                                                                <div class="btn__ico">
+                                                                                    <svg width="12" height="14">
+                                                                                        <use xlink:href="#svg-compare"></use>
+                                                                                    </svg>
+                                                                                </div>
+                                                                                <span class="btn__text">Сравнить</span>
+                                                                            </button>
+                                                                        </li>
+                                                                        <li>
+                                                                            <button class="btn btn--label">
+                                                                                <div class="btn__ico">
+                                                                                    <svg width="14" height="13">
+                                                                                        <use xlink:href="#svg-fav"></use>
+                                                                                    </svg>
+                                                                                </div>
+                                                                                <span class="btn__text">В избранное</span>
+                                                                            </button>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <ul class="nav flex-column footer-product">
-                                        <li>
-                                            <div class="footer-product__item product-box">
-                                                <a href="" class="footer-product__item__img">
-                                                    <img src="images/dist/lot_min2.jpg" alt="">
-                                                </a>
-                                                <div class="footer-product__desc">
-                                                    <div class="product-box__params product-box__params--art">
-                                                        <div class="product-box__art">Артикул: 17090</div>
-                                                        <div class="product-box__rev">
-                                                            5
-                                                        </div>
-                                                    </div>
-                                                    <a href="" class="product-box__title">Газовый настенный котел
-                                                        Buderus
-                                                        Logamax U072 18K
-                                                        7736900187RU</a>
-                                                    <div class="product-box__status">
-                                                        <span class="status status--in-stock">В наличии</span>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-product__right">
-                                                    <div class="footer-product__right__row">
-                                                        <div class="product-box__col-price price">
-                                                            <div class="price__val"><span>66 190 <small
-                                                                    class="price__currency">руб.</small></span></div>
-                                                        </div>
-                                                        <div class="footer-product__right__col-bay">
-                                                            <button class="btn btn--green product-box__bay w-100">В
-                                                                КОРЗИНУ
-                                                            </button>
-                                                        </div>
-
-                                                        <ul class="nav footer-product__right__btns">
-                                                            <li>
-                                                                <button class="btn btn--label">
-                                                                    <div class="btn__ico">
-                                                                        <svg width="12" height="14">
-                                                                            <use xlink:href="#svg-compare"></use>
-                                                                        </svg>
-                                                                    </div>
-                                                                    <span class="btn__text">Сравнить</span>
-                                                                </button>
-                                                            </li>
-                                                            <li>
-                                                                <button class="btn btn--label">
-                                                                    <div class="btn__ico">
-                                                                        <svg width="14" height="13">
-                                                                            <use xlink:href="#svg-fav"></use>
-                                                                        </svg>
-                                                                    </div>
-                                                                    <span class="btn__text">В избранное</span>
-                                                                </button>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="footer-product__item product-box">
-                                                <a href="" class="footer-product__item__img">
-                                                    <img src="images/dist/lot_min2.jpg" alt="">
-                                                </a>
-                                                <div class="footer-product__desc">
-                                                    <div class="product-box__params product-box__params--art">
-                                                        <div class="product-box__art">Артикул: 17090</div>
-                                                        <div class="product-box__rev">
-                                                            5
-                                                        </div>
-                                                    </div>
-                                                    <a href="" class="product-box__title">Газовый настенный котел
-                                                        Buderus
-                                                        Logamax U072 18K
-                                                        7736900187RU</a>
-                                                    <div class="product-box__status">
-                                                        <span class="status status--in-stock">В наличии</span>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-product__right">
-                                                    <div class="footer-product__right__row">
-                                                        <div class="product-box__col-price price">
-                                                            <div class="price__val"><span>66 190 <small
-                                                                    class="price__currency">руб.</small></span></div>
-                                                        </div>
-                                                        <div class="footer-product__right__col-bay">
-                                                            <button class="btn btn--green product-box__bay w-100">В
-                                                                КОРЗИНУ
-                                                            </button>
-                                                        </div>
-
-                                                        <ul class="nav footer-product__right__btns">
-                                                            <li>
-                                                                <button class="btn btn--label">
-                                                                    <div class="btn__ico">
-                                                                        <svg width="12" height="14">
-                                                                            <use xlink:href="#svg-compare"></use>
-                                                                        </svg>
-                                                                    </div>
-                                                                    <span class="btn__text">Сравнить</span>
-                                                                </button>
-                                                            </li>
-                                                            <li>
-                                                                <button class="btn btn--label">
-                                                                    <div class="btn__ico">
-                                                                        <svg width="14" height="13">
-                                                                            <use xlink:href="#svg-fav"></use>
-                                                                        </svg>
-                                                                    </div>
-                                                                    <span class="btn__text">В избранное</span>
-                                                                </button>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="reviews">
-
-                            <div class="text fpad30">
-                                <h2>Об этом товаре отзывов нет</h2>
-                                <p>Cтаньте первым, кто оставит отзыв об этом товаре</p>
-                                <button class="btn btn--black w-24" data-bs-toggle="modal" data-bs-target="#revModal">
-                                    Написать отзыв
-                                </button>
-                            </div>
-
-                            <div class="text">
-                                <h2>Отзывы</h2>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <ul class="nav rev-product product-single__rev">
-                                        <li class="rev-product__item">
-                                            <div class="rev-product__item__wrap">
-                                                <div class="rev-product__item__header">
-                                                    <div class="rev-product__item__ava">
-                                                        В
-                                                    </div>
-                                                    <div class="rev-product__item__name">
-                                                        Валентина
-                                                    </div>
-                                                    <div class="rev-product__item__date">
-                                                        6 февраля 2024
-                                                    </div>
-                                                    <div class="rev-product__item__stars">
-                                                        <div class="rev-product__item__stars__val" style="width: 60%">
-                                                        <span class="filter-stars">
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                        </span>
-                                                        </div>
-                                                        <span class="filter-stars">
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                    </span>
-                                                    </div>
-                                                </div>
-                                                <div class="rev-product__item__desc">
-                                                    <div class="rev-product__item__desc__group">
-                                                        <div class="rev-product__item__desc__group__caption">Достоинства
-                                                        </div>
-                                                        Привезли в срок, упаковано все хорошо, печать с гарантией стоит.
-                                                    </div>
-                                                    <div class="rev-product__item__desc__group">
-                                                        <div class="rev-product__item__desc__group__caption">Недостатки
-                                                        </div>
-                                                        Нет
-                                                    </div>
-                                                    <div class="rev-product__item__desc__group">
-                                                        <div class="rev-product__item__desc__group__caption">Комментарий
-                                                        </div>
-                                                        Открывать пока не стали, ждём этапа ремонта с установкой котла,
-                                                        видно что все в
-                                                        заводской упаковке, проблем думаю не будет. А так выбирали котел
-                                                        по
-                                                        отзывам,
-                                                        многие выбирают его.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="rev-product__item">
-                                            <div class="rev-product__item__wrap">
-                                                <div class="rev-product__item__header">
-                                                    <div class="rev-product__item__ava">
-                                                        В
-                                                    </div>
-                                                    <div class="rev-product__item__name">
-                                                        Валентина
-                                                    </div>
-                                                    <div class="rev-product__item__date">
-                                                        6 февраля 2024
-                                                    </div>
-                                                    <div class="rev-product__item__stars">
-                                                        <div class="rev-product__item__stars__val" style="width: 60%">
-                                                        <span class="filter-stars">
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                            <svg width="14" height="14">
-                                                                <use xlink:href="#svg-star"></use>
-                                                            </svg>
-                                                        </span>
-                                                        </div>
-                                                        <span class="filter-stars">
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                        <svg width="14" height="14">
-                                                            <use xlink:href="#svg-star"></use>
-                                                        </svg>
-                                                    </span>
-                                                    </div>
-                                                </div>
-                                                <div class="rev-product__item__desc">
-                                                    <div class="rev-product__item__desc__group">
-                                                        <div class="rev-product__item__desc__group__caption">Достоинства
-                                                        </div>
-                                                        Привезли в срок, упаковано все хорошо, печать с гарантией стоит.
-                                                    </div>
-                                                    <div class="rev-product__item__desc__group">
-                                                        <div class="rev-product__item__desc__group__caption">Недостатки
-                                                        </div>
-                                                        Нет
-                                                    </div>
-                                                    <div class="rev-product__item__desc__group">
-                                                        <div class="rev-product__item__desc__group__caption">Комментарий
-                                                        </div>
-                                                        Открывать пока не стали, ждём этапа ремонта с установкой котла,
-                                                        видно что все в
-                                                        заводской упаковке, проблем думаю не будет. А так выбирали котел
-                                                        по
-                                                        отзывам,
-                                                        многие выбирают его.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="more-link">
-                                        <button class="more-link__btn">
-                                            Показать еще
-                                        </button>
-                                    </div>
+                            <div class="accordion__item accordion__item--mob">
+                                <div class="accordion__header collapsed" data-bs-toggle="collapse"
+                                     data-bs-target="#mobRev">
+                                    Отзывы
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="product-single__reviews">
-                                        <div class="product-single__reviews__top">
-                                            <div class="product-single__reviews__val">
-                                                4.5
-                                            </div>
-                                            <div class="rev-product__item__stars">
-                                                <div class="rev-product__item__stars__val" style="width: 90%">
+                                <div id="mobRev" class="accordion-collapse collapse ">
+                                    <div class="tab-pane__body">
+                                        <div class="text fpad30">
+                                            <h2>Об этом товаре отзывов нет</h2>
+                                            <p>Cтаньте первым, кто оставит отзыв об этом товаре</p>
+                                            <button class="btn btn--black w-24" data-bs-toggle="modal"
+                                                    data-bs-target="#revModal">
+                                                Написать отзыв
+                                            </button>
+                                        </div>
+
+                                        <div class="text tab-pane__header">
+                                            <h2>Отзывы</h2>
+                                        </div>
+                                        <div class="row flex-row-reverse">
+                                            <div class="col-lg-3 fpad30">
+                                                <div class="product-single__reviews">
+                                                    <div class="product-single__reviews__top">
+                                                        <div class="product-single__reviews__val">
+                                                            4.5
+                                                        </div>
+                                                        <div class="rev-product__item__stars">
+                                                            <div class="rev-product__item__stars__val"
+                                                                 style="width: 90%">
                                                         <span class="filter-stars">
                                                             <svg width="14" height="14">
                                                                 <use xlink:href="#svg-star"></use>
@@ -2258,8 +2232,8 @@
                                                                 <use xlink:href="#svg-star"></use>
                                                             </svg>
                                                         </span>
-                                                </div>
-                                                <span class="filter-stars">
+                                                            </div>
+                                                            <span class="filter-stars">
                                                         <svg width="14" height="14">
                                                             <use xlink:href="#svg-star"></use>
                                                         </svg>
@@ -2276,13 +2250,196 @@
                                                             <use xlink:href="#svg-star"></use>
                                                         </svg>
                                                     </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-single__reviews__count">на основе 5 оценок</div>
+                                                    <div class="product-single__reviews__footer">
+                                                        <button class="btn w-100 btn--black" data-bs-toggle="modal"
+                                                                data-bs-target="#revModal">Написать отзыв
+                                                        </button>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="product-single__reviews__count">на основе 5 оценок</div>
-                                        <div class="product-single__reviews__footer">
-                                            <button class="btn w-100 btn--black" data-bs-toggle="modal"
-                                                    data-bs-target="#revModal">Написать отзыв
-                                            </button>
+                                            <div class="col-lg-9">
+                                                <ul class="nav rev-product product-single__rev">
+                                                    <li class="rev-product__item">
+                                                        <div class="rev-product__item__wrap">
+                                                            <div class="rev-product__item__header">
+                                                                <div class="rev-product__item__ava">
+                                                                    В
+                                                                </div>
+                                                                <div class="rev-product__item__name">
+                                                                    Валентина
+                                                                </div>
+                                                                <div class="rev-product__item__date">
+                                                                    6 февраля 2024
+                                                                </div>
+                                                                <div class="rev-product__item__stars">
+                                                                    <div class="rev-product__item__stars__val"
+                                                                         style="width: 60%">
+                                                        <span class="filter-stars">
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                        </span>
+                                                                    </div>
+                                                                    <span class="filter-stars">
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rev-product__item__desc">
+                                                                <div class="rev-product__item__desc__group">
+                                                                    <div class="rev-product__item__desc__group__caption">
+                                                                        Достоинства
+                                                                    </div>
+                                                                    Привезли в срок, упаковано все хорошо, печать с
+                                                                    гарантией
+                                                                    стоит.
+                                                                </div>
+                                                                <div class="rev-product__item__desc__group">
+                                                                    <div class="rev-product__item__desc__group__caption">
+                                                                        Недостатки
+                                                                    </div>
+                                                                    Нет
+                                                                </div>
+                                                                <div class="rev-product__item__desc__group">
+                                                                    <div class="rev-product__item__desc__group__caption">
+                                                                        Комментарий
+                                                                    </div>
+                                                                    Открывать пока не стали, ждём этапа ремонта с
+                                                                    установкой
+                                                                    котла,
+                                                                    видно что все в
+                                                                    заводской упаковке, проблем думаю не будет. А так
+                                                                    выбирали
+                                                                    котел
+                                                                    по
+                                                                    отзывам,
+                                                                    многие выбирают его.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rev-product__item">
+                                                        <div class="rev-product__item__wrap">
+                                                            <div class="rev-product__item__header">
+                                                                <div class="rev-product__item__ava">
+                                                                    В
+                                                                </div>
+                                                                <div class="rev-product__item__name">
+                                                                    Валентина
+                                                                </div>
+                                                                <div class="rev-product__item__date">
+                                                                    6 февраля 2024
+                                                                </div>
+                                                                <div class="rev-product__item__stars">
+                                                                    <div class="rev-product__item__stars__val"
+                                                                         style="width: 60%">
+                                                        <span class="filter-stars">
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                            <svg width="14" height="14">
+                                                                <use xlink:href="#svg-star"></use>
+                                                            </svg>
+                                                        </span>
+                                                                    </div>
+                                                                    <span class="filter-stars">
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                        <svg width="14" height="14">
+                                                            <use xlink:href="#svg-star"></use>
+                                                        </svg>
+                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rev-product__item__desc">
+                                                                <div class="rev-product__item__desc__group">
+                                                                    <div class="rev-product__item__desc__group__caption">
+                                                                        Достоинства
+                                                                    </div>
+                                                                    Привезли в срок, упаковано все хорошо, печать с
+                                                                    гарантией
+                                                                    стоит.
+                                                                </div>
+                                                                <div class="rev-product__item__desc__group">
+                                                                    <div class="rev-product__item__desc__group__caption">
+                                                                        Недостатки
+                                                                    </div>
+                                                                    Нет
+                                                                </div>
+                                                                <div class="rev-product__item__desc__group">
+                                                                    <div class="rev-product__item__desc__group__caption">
+                                                                        Комментарий
+                                                                    </div>
+                                                                    Открывать пока не стали, ждём этапа ремонта с
+                                                                    установкой
+                                                                    котла,
+                                                                    видно что все в
+                                                                    заводской упаковке, проблем думаю не будет. А так
+                                                                    выбирали
+                                                                    котел
+                                                                    по
+                                                                    отзывам,
+                                                                    многие выбирают его.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="more-link">
+                                                    <button class="more-link__btn">
+                                                        Показать еще
+                                                    </button>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -4590,7 +4747,7 @@
                     После рассмотрения заявки с вами свяжется менеджер и в случае положительного решения предложит
                     лучшую цену.
                 </div>
-                <div class="d-flex justify-content-center tpad10 modal-close-hidden-mob">
+                <div class="d-flex justify-content-center tpad10 modal-close-hidiven-mob">
                     <div class="btn-close2" data-bs-dismiss="modal">
                         <svg width="32" height="32">
                             <use xlink:href="#svg-close2"></use>
@@ -4631,7 +4788,7 @@
                         href="">правилам</a>,
                     <br>то он не пройдет модерацию и не будет опубликован.
                 </div>
-                <div class="d-flex justify-content-center tpad10 modal-close-hidden-mob">
+                <div class="d-flex justify-content-center tpad10 modal-close-hidiven-mob">
                     <div class="btn-close2" data-bs-dismiss="modal">
                         <svg width="32" height="32">
                             <use xlink:href="#svg-close2"></use>

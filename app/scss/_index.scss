@@ -6319,7 +6319,9 @@ textarea.form-modal__inp {
   margin-top: 5px;
 }
 
-.accordion__item--mob .accordion__header {
+.accordion__item--mob .accordion__header,
+.product-single__mob-sb,
+.price__info--mob {
   display: none;
 }
 

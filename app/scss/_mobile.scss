@@ -581,6 +581,7 @@
   }
   .header__footer__col-2 {
     position: fixed;
+    z-index: 60;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1421,7 +1422,7 @@
     }
   }
   .product-single__promo-code-price {
-    font-size: 12px;
+    display: none;
   }
   .product-single__bay,
   .card-price__warranty span,
@@ -2315,6 +2316,53 @@
   .block-info {
     align-items: flex-start;
     padding-right: 20px !important;
+  }
+  .product-single__mob-sb {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: -30px;
+    display: block;
+    position: fixed;
+    z-index: 50;
+    left: 0;
+    right: 0;
+    background: #fff;
+    bottom: 64px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+    padding: 15px 0;
+    &__wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .card-price__status {
+        display: block;
+        .product-single__available {
+          margin-left: 0;
+        }
+      }
+      .product-box__col-btn {
+        width: 106px;
+      }
+    }
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      margin-bottom: 0;
+    }
+  }
+  .price__info--mob {
+    display: block;
+    margin: 0 0 0 5px;
+    .price__info__desc {
+      left: -78px;
+    }
+  }
+  .card-price {
+    overflow: visible;
+  }
+  .card-price__footer {
+    border-radius: 0 0 15px 15px;
   }
 }
 

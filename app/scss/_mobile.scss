@@ -2398,6 +2398,12 @@
   .footer {
     padding-bottom: 150px;
   }
+  .form-modal__error-inp {
+    position: relative;
+    margin-bottom: 10px;
+    top: auto;
+    left: auto;
+  }
 }
 
 @media screen and (max-width: 574px) {

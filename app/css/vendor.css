@@ -824,16 +824,16 @@ progress {
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -13px;
+    margin-left: -13px;
 }
 
 .row > * {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 13px;
+    padding-left: 13px;
     margin-top: var(--bs-gutter-y);
 }
 

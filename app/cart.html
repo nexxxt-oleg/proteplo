@@ -1,0 +1,786 @@
+<!--#set var="title" value="cart" -->
+<!--#include virtual="/parts/header.html" -->
+
+<div class="container">
+    <div class="container fpad70">
+        <ul class="breadcrumbs nav" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item"
+                                                                                                 href="/"><span
+                    itemprop="name">Главная</span></a>
+                <meta itemprop="position" content="1">
+            </li>
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span itemprop="name">Корзина</span>
+                <meta itemprop="position" content="2">
+            </li>
+        </ul>
+
+        <div class="d-flex fpad30">
+            <h1 class="title-page mb-0">Корзина</h1>
+
+            <a href="/personal/cart/?clear=y" class="fav-filter__remove cart-remove">
+                <svg width="14" height="18">
+                    <use xlink:href="#svg-remove"></use>
+                </svg>
+                <span>Очистить корзину</span>
+            </a>
+        </div>
+
+        <div id="basket-root" class="bx-basket bx-blue bx-step-opacity" style="opacity: 1;">
+
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="basket-items-list-wrapper basket-items-list-wrapper-height-fixed basket-items-list-wrapper-light"
+                         id="basket-items-list-wrapper">
+                        <div class="basket-items-list-header" data-entity="basket-items-list-header">
+
+                        </div>
+                        <div class="basket-items-list-container" id="basket-items-list-container">
+                            <div class="basket-items-list-overlay" id="basket-items-list-overlay"
+                                 style="display: none;"></div>
+                            <div class="basket-items-list" id="basket-item-list">
+                                <div class="basket-search-not-found" id="basket-item-list-empty-result"
+                                     style="display: none;">
+                                    <div class="basket-search-not-found-icon"></div>
+                                    <div class="basket-search-not-found-text">
+                                        По данному запросу товаров не найдено
+                                    </div>
+                                </div>
+                                <table class="basket-items-list-table">
+                                    <thead>
+                                    <tr>
+                                        <th>Артиул</th>
+                                        <th>Наименование</th>
+                                        <th>Количество</th>
+                                        <th>Стоимость</th>
+                                        <th></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="basket-item-table">
+
+
+                                    <tr class="basket-items-list-item-container" id="basket-item-1118498"
+                                        data-entity="basket-item" data-id="1118498">
+                                        <td>
+                                            17235
+                                        </td>
+
+                                        <td class="basket-items-list-item-descriptions">
+                                            <div class="basket-items-list-item-descriptions-inner"
+                                                 id="basket-item-height-aligner-1118498">
+                                                <div class="basket-item-block-image">
+                                                    <a href="/product/gazovyi-napolnyi-kotel-pechkin-ksgv-16"
+                                                       class="basket-item-image-link">
+
+                                                        <img class="basket-item-image"
+                                                             alt="Печкин КСГВ-16 с УГ-19 TGV-307 Газовый напольный котел"
+                                                             src="https://static.proteplo-spb.ru/resize_cache/340600/42ed40b47d994ffff47fe56ceba789d5/iblock/1a8/unnamed_5.jpg">
+
+
+                                                    </a>
+                                                </div>
+                                                <div class="basket-item-block-info">
+                                                    <span class="basket-item-actions-remove visible-xs"
+                                                          data-entity="basket-item-delete"></span>
+                                                    <h2 class="basket-item-info-name">
+                                                        <a href="/product/gazovyi-napolnyi-kotel-pechkin-ksgv-16"
+                                                           class="basket-item-info-name-link">
+
+                                                            <span data-entity="basket-item-name">Печкин КСГВ-16 с УГ-19 TGV-307 Газовый напольный котел</span>
+
+                                                        </a>
+                                                    </h2>
+
+                                                    <div class="product-box__status">
+                                                        <span class="status status--in-stock">В наличии</span>
+                                                    </div>
+
+                                                    <div class="basket-item-block-properties">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+
+
+                                        <td class="basket-items-list-item-amount">
+                                            <div class="basket-item-block-amount"
+                                                 data-entity="basket-item-quantity-block">
+                                                <span class="basket-item-amount-btn-minus"
+                                                      data-entity="basket-item-quantity-minus"></span>
+                                                <div class="basket-item-amount-filed-block">
+
+                                                    <input type="text" class="basket-item-amount-filed" value="1"
+                                                           data-value="1" data-entity="basket-item-quantity-field"
+                                                           id="basket-item-quantity-1118498">
+                                                </div>
+                                                <span class="basket-item-amount-btn-plus"
+                                                      data-entity="basket-item-quantity-plus"></span>
+
+                                            </div>
+                                        </td>
+                                        <td class="basket-items-list-item-price">
+                                            <div class="basket-item-block-price">
+
+                                                <div class="basket-item-price-current">
+							<span class="basket-item-price-current-text" id="basket-item-sum-price-1118498">
+								29 590 руб.
+							</span>
+                                                </div>
+
+                                                <div class="basket-item-amount-field-description">
+                                                    шт
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="basket-items-list-item-remove">
+                                            <div class="basket-item-block-actions">
+                                                <span class="basket-item-actions-remove"
+                                                      data-entity="basket-item-delete">
+                                                    <svg width="14" height="18">
+                                                        <use xlink:href="#svg-remove"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="basket-items-list-item-container" id="basket-item-1118499"
+                                        data-entity="basket-item" data-id="1118499">
+                                        <td>
+                                            81153
+                                        </td>
+
+                                        <td class="basket-items-list-item-descriptions">
+                                            <div class="basket-items-list-item-descriptions-inner"
+                                                 id="basket-item-height-aligner-1118499">
+                                                <div class="basket-item-block-image">
+                                                    <a href="/product/ferroli_torino_7_5kvt_kotyel_gazovyy_0qn004ya"
+                                                       class="basket-item-image-link">
+
+                                                        <img class="basket-item-image"
+                                                             alt="Ferroli Torino 7,5 кВт Котёл газовый 0QN004YA"
+                                                             src="https://static.proteplo-spb.ru/resize_cache/427670/42ed40b47d994ffff47fe56ceba789d5/iblock/2c6/2c6f360272e7ef6cd0627ecdcdb14bc4/49f962b9_dcc9_11ec_80ce_a4bf01706106_c3f947ed_ec9a_11ec_80ce_a4bf01706106.png">
+
+
+                                                    </a>
+                                                </div>
+                                                <div class="basket-item-block-info">
+                                                    <span class="basket-item-actions-remove visible-xs"
+                                                          data-entity="basket-item-delete"></span>
+                                                    <h2 class="basket-item-info-name">
+                                                        <a href="/product/ferroli_torino_7_5kvt_kotyel_gazovyy_0qn004ya"
+                                                           class="basket-item-info-name-link">
+
+                                                            <span data-entity="basket-item-name">Ferroli Torino 7,5 кВт Котёл газовый 0QN004YA</span>
+
+                                                        </a>
+                                                    </h2>
+
+                                                    <div class="product-box__status">
+                                                        <span class="status status--in-stock">В наличии</span>
+                                                    </div>
+
+                                                    <div class="basket-item-block-properties">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+
+
+                                        <td class="basket-items-list-item-amount">
+                                            <div class="basket-item-block-amount"
+                                                 data-entity="basket-item-quantity-block">
+                                                <span class="basket-item-amount-btn-minus"
+                                                      data-entity="basket-item-quantity-minus"></span>
+                                                <div class="basket-item-amount-filed-block">
+
+                                                    <input type="text" class="basket-item-amount-filed" value="1"
+                                                           data-value="1" data-entity="basket-item-quantity-field"
+                                                           id="basket-item-quantity-1118499">
+                                                </div>
+                                                <span class="basket-item-amount-btn-plus"
+                                                      data-entity="basket-item-quantity-plus"></span>
+
+                                            </div>
+                                        </td>
+                                        <td class="basket-items-list-item-price">
+                                            <div class="basket-item-block-price">
+
+                                                <div class="basket-item-price-current">
+                                                    <span class="basket-item-price-current-text" id="basket-item-sum-price-1118499">
+                                                        30 990 руб.
+                                                    </span>
+                                                </div>
+
+                                                <div class="basket-item-amount-field-description">
+                                                    шт
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="basket-items-list-item-remove">
+                                            <div class="basket-item-block-actions">
+                                                <span class="basket-item-actions-remove"
+                                                      data-entity="basket-item-delete">
+                                                    <svg width="14" height="18">
+                                                        <use xlink:href="#svg-remove"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12" data-entity="basket-total-block">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-lg-5">
+                            <div class="card-montag">
+                                <label class="card-montag__chek">
+                                    <input type="checkbox" value="1" name="montag">
+                                    <span class="card-montag__chek__text">Нужен монтаж</span>
+                                </label>
+                                <div class="card-montag__ps">Условия и стоимость монтажа уточняются менеджером</div>
+                            </div>
+
+                            <div class="card-price__footer one-bay-click">
+                                <div class="one-bay-click__title">
+                                    Заказать в 1 клик
+                                </div>
+                                <div class="one-bay-click__text">
+                                    И мы перезвоним вам
+                                </div>
+                                <form action="">
+                                    <div class="one-bay-click__form">
+                                        <input type="tel" placeholder="+7 495 555-55-55"
+                                               class="js-mask-phone one-bay-click__form__inp" inputmode="text">
+                                        <button type="submit" class="btn btn--green one-bay-click__form__submit">
+                                            ЗАКАЗАТЬ
+                                        </button>
+                                    </div>
+                                    <div class="one-bay-click__ps">
+                                        Нажимая кнопку “Заказать”, Вы соглашаетесь с <a href="">политикой
+                                        конфиденциальности</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 basket-checkout-container" data-entity="basket-checkout-aligner">
+                            <div class="basket-coupon-section">
+                                <div class="basket-coupon-block-field">
+                                    <!--div class="basket-coupon-block-field-description">
+                                        Введите код купона для скидки:
+                                    </div-->
+                                    <div class="form">
+                                        <div class="form-group" style="position: relative;">
+                                            <input type="text" class="form-control" placeholder="Укажите промокод"
+                                                   data-entity="basket-coupon-input">
+                                            <span class="basket-coupon-block-coupon-btn">Применить</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basket-checkout-section">
+                                <div class="basket-checkout-section-inner">
+                                    <ul class="nav basket-checkout-list">
+                                        <li class="basket-checkout-block">
+                                            <div class="basket-checkout-block__label">
+                                                Экономия по промокоду:
+                                            </div>
+                                            <div class="basket-checkout-block__value">
+                                                <span class="basket-checkout-block__basket-coupon">
+                                                    - 9 350 руб.
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="basket-checkout-block">
+                                            <div class="basket-checkout-block__label">
+                                                Товаров:
+                                            </div>
+                                            <div class="basket-checkout-block__value">
+                                                2 шт.
+                                            </div>
+                                        </li>
+                                        <li class="basket-checkout-block">
+                                            <div class="basket-checkout-block__label">
+                                                Итого:
+                                            </div>
+                                            <div class="basket-checkout-block__value">
+                                                <span class="basket-coupon-block-total-price-current"
+                                                      data-entity="basket-total-price">
+                                                    60 580
+                                                </span>
+                                                руб.
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                            <div class="basket-coupon-alert-section">
+                                <div class="basket-coupon-alert-inner">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="title-page">Оформление заказа</h1>
+
+        <a name="order_form"></a>
+
+        <div id="order_form_div" class="order-checkout">
+
+
+            <div class="bx_order_make">
+
+                <form action="/personal/cart/" method="POST" name="ORDER_FORM" id="ORDER_FORM"
+                      enctype="multipart/form-data">
+                    <input type="hidden" name="sessid" id="sessid" value="236013e73dbe2ad28be189ba8e61806a">
+                    <div id="order_form_content">
+
+                        <div class="bx_section">
+                            <h4>
+                                Укажите персональные данные
+                                <input type="hidden" name="showProps" id="showProps" value="N">
+                            </h4>
+                            <div id="sale_order_props">
+                                <div class="bx_block r1x3 pt8">
+                                    Ф.И.О. <span class="bx_sof_req">*</span>
+                                </div>
+
+                                <div class="bx_block r3x1">
+                                    <input type="text" maxlength="250" size="" value="test" name="ORDER_PROP_1"
+                                           id="ORDER_PROP_1">
+
+                                </div>
+                                <div class="bx_block r1x3 pt8">
+                                    Телефон <span class="bx_sof_req">*</span>
+                                </div>
+
+                                <div class="bx_block r3x1">
+                                    <input type="text" maxlength="250" size="" value="(111) 111 1111"
+                                           name="ORDER_PROP_3" id="ORDER_PROP_3">
+
+                                    <div class="bx_description">
+                                        Наш менеджер позвонит Вам для утверждения деталей заказа
+                                    </div>
+                                </div>
+                                <div class="bx_block r1x3 pt8">
+                                    E-Mail <span class="bx_sof_req">*</span>
+                                </div>
+
+                                <div class="bx_block r3x1">
+                                    <input type="text" maxlength="250" size="" value="lamess49@gmail.com"
+                                           name="ORDER_PROP_2" id="ORDER_PROP_2">
+
+                                    <div class="bx_description">
+                                        На почту будут приходить уведомления о статусе заказа
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="section">
+
+                            <div class="bx_section">
+                                <div class="bx_section__title">
+                                    <h4 class="mb-0">Выберите способ оплаты</h4>
+                                    <div class="pl-30">
+                                        <a href="#telModal" data-bs-toggle="modal" data-bs-target="#telModal"
+                                           class="bx_section__title__link">Подробнее о способах оплаты</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-wrap bx_section__params-list">
+                                    <div class="bx_block horizontal">
+                                        <div class="bx_element">
+
+                                            <input type="radio" id="ID_PAY_SYSTEM_ID_1" name="PAY_SYSTEM_ID" value="1"
+                                                   onclick="changePaySystem();">
+
+                                            <label for="ID_PAY_SYSTEM_ID_1"
+                                                   onclick="BX('ID_PAY_SYSTEM_ID_1').checked=true;changePaySystem();">
+                                                <div class="bx_logotype">
+                                                    <span style="background-image:url(https://static.proteplo-spb.ru/sale/paysystem/logotip/c1b/c1b1259bf905b77af0ea0df39b7be79a.gif);"></span>
+                                                </div>
+                                                <div class="bx_description">
+                                                    <div class="clear"></div>
+                                                    <strong>
+                                                        Наличными </strong>
+                                                </div>
+
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="bx_block horizontal">
+                                        <div class="bx_element">
+
+                                            <input type="radio" id="ID_PAY_SYSTEM_ID_9" name="PAY_SYSTEM_ID" value="9"
+                                                   onclick="changePaySystem();">
+
+                                            <label for="ID_PAY_SYSTEM_ID_9"
+                                                   onclick="BX('ID_PAY_SYSTEM_ID_9').checked=true;changePaySystem();">
+                                                <div class="bx_logotype">
+                                                    <span style="background-image:url(https://static.proteplo-spb.ru/sale/paysystem/logotip/581/581bebe3434a06c39adc86b1780c7f49.gif);"></span>
+                                                </div>
+                                                <div class="bx_description">
+                                                    <div class="clear"></div>
+                                                    <strong>
+                                                        Банковский перевод </strong>
+                                                </div>
+
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="bx_block horizontal">
+                                        <div class="bx_element">
+                                            <input type="radio" id="ID_PAY_SYSTEM_ID_10" name="PAY_SYSTEM_ID" value="10"
+                                                   checked="checked" onclick="changePaySystem();">
+                                            <label for="ID_PAY_SYSTEM_ID_10"
+                                                   onclick="BX('ID_PAY_SYSTEM_ID_10').checked=true;changePaySystem();">
+                                                <div class="bx_logotype">
+                                                    <span style="background-image:url(https://static.proteplo-spb.ru/sale/paysystem/logotip/ae2/ae27cbe15f242531e57981f35c7645ab.gif);"></span>
+                                                </div>
+                                                <div class="bx_description">
+                                                    <strong>В кредит</strong>
+                                                </div>
+                                            </label>
+                                            <div class="pl-30 d-flex align-items-center">
+                                                <a href="#telModal" data-bs-toggle="modal" data-bs-target="#telModal"
+                                                   class="bx_section__title__link">Условия предоставления кредита</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+
+                                    <h4 class="w-100">Кредитные условия</h4>
+                                    <div class="bx_block r1x3 pt8">
+                                        Сумма кредита
+                                    </div>
+
+                                    <div class="bx_block r3x1">
+                                        <input type="text" maxlength="250" size="" value="" name="ORDER_PROP_27"
+                                               id="ORDER_PROP_27">
+
+                                    </div>
+
+                                    <div class="bx_block r1x3 pt8">
+                                        Срок, мес.
+                                    </div>
+
+                                    <div class="bx_block r3x1">
+                                        <select name="ORDER_PROP_23" id="ORDER_PROP_23" size="1">
+                                            <option value="6d3b5744ffbf6f777afdea6250466829">6</option>
+                                            <option value="c5af2d3e5ada3a9eef47922594719353">10</option>
+                                            <option value="7e39b98945632ba867fb26922db2d6d9" selected="">12</option>
+                                            <option value="982440292e1330d8f3b41474c1c3adf6">24</option>
+                                            <option value="74041983b3ead0adf6f94d73faee54c0">30</option>
+                                            <option value="8d36afc2c167a93ef4a6374077c3834f">36</option>
+                                        </select>
+
+                                    </div>
+
+                                    <div class="bx_block r1x3 pt8">
+                                        Взнос, %
+                                    </div>
+
+                                    <div class="bx_block r3x1">
+                                        <select name="ORDER_PROP_24" id="ORDER_PROP_24" size="1">
+                                            <option value="10">10</option>
+                                            <option value="20" selected="">20</option>
+                                            <option value="30">30</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <input type="hidden" name="BUYER_STORE" id="BUYER_STORE" value="0">
+                        <div class="bx_section">
+                            <h4>Выберите способ доставки</h4>
+                            <div class="d-flex flex-wrap bx_section__params-list">
+                                <div class="bx_block horizontal">
+
+                                    <div class="bx_element">
+
+                                        <input type="radio" id="ID_DELIVERY_ID_2" name="DELIVERY_ID" value="2"
+                                               onclick="submitForm();">
+
+                                        <label for="ID_DELIVERY_ID_2"
+                                               onclick="BX('ID_DELIVERY_ID_2').checked=true;submitForm();">
+
+
+                                            <div class="bx_logotype"><span
+                                                    style="background-image:url(https://proteplo-new.koti.co/local/templates/kotico/components/bitrix/sale.order.ajax/simple/images/logo-default-d.gif);"></span>
+                                            </div>
+
+                                            <div class="bx_description">
+                                                <div class="name"><strong>Самовывоз</strong></div>
+                                            </div>
+
+                                        </label>
+                                        <div class="pl-30">
+                                            <div class="row">
+                                                <div class="col-lg-9">
+                                                     <span class="bx_result_price">
+                                                        Стоимость: <b>0 руб.</b><br>
+                                                    </span>
+                                                    <p>
+                                                        Санкт-Петербург, Чугунная, дом 14, лит. К, (въезд с Менделеевской 9)
+                                                        ПН
+                                                        – ПТ с 10:00 до 19:00<br>
+                                                    </p>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a href="#telModal" data-bs-toggle="modal" data-bs-target="#telModal" class="bx_section__title__link"><b>Схема проезда</b></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="bx_block horizontal">
+
+                                    <div class="bx_element">
+
+                                        <input type="radio" id="ID_DELIVERY_ID_1" name="DELIVERY_ID" value="1"
+                                               checked=""
+                                               onclick="submitForm();">
+
+                                        <label for="ID_DELIVERY_ID_1"
+                                               onclick="BX('ID_DELIVERY_ID_1').checked=true;submitForm();">
+
+
+                                            <div class="bx_logotype"><span
+                                                    style="background-image:url(https://proteplo-new.koti.co/local/templates/kotico/components/bitrix/sale.order.ajax/simple/images/logo-default-d.gif);"></span>
+                                            </div>
+
+                                            <div class="bx_description">
+                                                <div class="name"><strong>Доставка</strong></div>
+                                            </div>
+
+                                        </label>
+
+                                        <div class="pl-30">
+                                            <div class="row">
+                                                <div class="col-lg-9">
+                                            <span class="bx_result_price">
+												Стоимость: <b>0 руб.</b><br>
+									        </span>
+                                            <p>
+                                                Стоимость доставки по Санкт-Петербургу в пределах контура (см.
+                                                карту) —
+                                                <b>300 рублей</b> (для некоторых товаров бесплатно), при заказе от
+                                                <b>75000
+                                                    рублей</b> — всегда&nbsp;<b>бесплатно</b>.<br> По Ленинградской
+                                                области
+                                                стоимость доставки <b>300 рублей + 30 рублей км.</b><br>По России
+                                                доставляем любой транспортной компанией, доставка до транспортной
+                                                компании бесплатная. Любые вопросы по доставке вы можете задать нам
+                                                по
+                                                телефонам <b>8 (812) 347-78-77 и 8 800 775-63-03</b>
+                                            </p>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <a href="#telModal" data-bs-toggle="modal" data-bs-target="#telModal" class="bx_section__title__link"><b>Зона доставки</b></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="w-100">Адрес доставки</h4>
+                                <div class="bx_block r1x3 pt8">
+                                    Город <span class="bx_sof_req">*</span>
+                                </div>
+
+                                <div class="bx_block r3x1">
+
+
+                                    <div class="location-block-wrapper">
+                                        <div id="sls-89953" class="bx-sls ">
+
+                                            <div class="dropdown-block bx-ui-sls-input-block">
+
+                                                <span class="dropdown-icon"></span>
+                                                <input type="text" autocomplete="off" name="ORDER_PROP_6" value="817"
+                                                       class="dropdown-field" placeholder="Введите название ..."
+                                                       style="display: none;">
+                                                <div class="bx-ui-sls-container"
+                                                     style="margin: 0px; padding: 0px; border: none; position: relative;">
+                                                    <!--input type="text" disabled="disabled" autocomplete="off"
+                                                           class="bx-ui-sls-route"
+                                                           style="padding: 0px; margin: 0px;"-->
+                                                    <input
+                                                        type="text" autocomplete="off" value=""
+                                                        class="bx-ui-sls-fake"
+                                                        placeholder="Введите название ..."
+                                                        title="Санкт-Петербург, Ленинградская область, Северо-Запад, Россия">
+                                                </div>
+
+                                                <div class="dropdown-fade2white"></div>
+                                                <div class="bx-ui-sls-loader"></div>
+                                                <div class="bx-ui-sls-clear" title="Отменить выбор"
+                                                     style="display: block;"></div>
+                                                <div class="bx-ui-sls-pane"
+                                                     style="overflow: hidden auto; display: none;">
+                                                    <div class="bx-ui-sls-variants"></div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="bx-ui-sls-error-message">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="bx_block r1x3 pt8">
+                                    Улица <span class="bx_sof_req">*</span>
+                                </div>
+
+                                <div class="bx_block r3x1">
+                                    <input type="text" maxlength="250" size="" value="32123123" name="ORDER_PROP_20"
+                                           id="ORDER_PROP_20">
+
+                                </div>
+                                <div class="bx_block r1x3 pt8">
+                                    Дом, корпус <span class="bx_sof_req">*</span>
+                                </div>
+
+                                <div class="bx_block r3x1">
+                                    <input type="text" maxlength="250" size="" value="13123" name="ORDER_PROP_21"
+                                           id="ORDER_PROP_21">
+
+                                </div>
+                                <div class="bx_block r1x3 pt8">
+                                    Квартира, офис <span class="bx_sof_req">*</span>
+                                </div>
+
+                                <div class="bx_block r3x1">
+                                    <input type="text" maxlength="250" size="" value="11" name="ORDER_PROP_22"
+                                           id="ORDER_PROP_22">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="confirmorder" id="confirmorder" value="Y">
+                    <input type="hidden" name="profile_change" id="profile_change" value="N">
+                    <input type="hidden" name="is_ajax_post" id="is_ajax_post" value="Y">
+                    <input type="hidden" name="json" value="Y">
+                    <div class="bx_ordercart_order_pay_center">
+                        <div class="order_ps">
+                            Нажимая кнопку “Оформить заказ”, Вы соглашаетесь с <a href="" target="_blank">политикой конфиденциальности</a>
+                        </div>
+                        <a  href="javascript:void();" onclick="submitForm('Y'); return false;"
+                                                                  id="ORDER_CONFIRM_BUTTON" class="checkout">
+                            Оформить заказ
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div style="display: none">
+            <div id="sls-68446" class="bx-slst">
+
+
+                <input type="hidden" name="LOCATION" value="" class="bx-ui-slst-target">
+
+                <div class="bx-ui-slst-pool">
+                    <div class="dropdown-block bx-ui-slst-input-block">
+                        <span class="dropdown-icon"></span>
+                        <input type="text" name="" value="" autocomplete="off" class="dropdown-field"
+                               style="display: none;">
+                        <div class="bx-ui-combobox-container"
+                             style="margin: 0; padding: 0; border: none; position: relative;">
+                            <input type="text" value="" autocomplete="off" class="bx-ui-combobox-fake"
+                                   placeholder="Выберите местоположение ...">
+                        </div>
+                        <div class="dropdown-fade2white"></div>
+                        <div class="bx-ui-combobox-loader" data-bx-ui-id="combobox-loader"></div>
+                        <div class="bx-ui-combobox-toggle" title="Открыть / закрыть"
+                             data-bx-ui-id="combobox-toggle"></div>
+
+                        <div class="bx-ui-combobox-dropdown" data-bx-ui-id="combobox-dropdown">
+
+                            <div data-bx-ui-id="pager-pane">
+                                <div style="height: 100px;"></div>
+                                <div></div>
+                                <div style="height: 100px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-bx-ui-id="slst-error">
+                </div>
+
+
+                <div class="bx-ui-slst-loader"></div>
+            </div>
+
+
+            <div id="sls-63008" class="bx-sls ">
+
+                <div class="dropdown-block bx-ui-sls-input-block">
+
+                    <span class="dropdown-icon"></span>
+                    <input type="text" autocomplete="off" name="LOCATION" value="" class="dropdown-field"
+                           placeholder="Введите название ..." style="display: none;">
+                    <div class="bx-ui-sls-container"
+                         style="margin: 0px; padding: 0px; border: none; position: relative;"><input type="text"
+                                                                                                     disabled="disabled"
+                                                                                                     autocomplete="off"
+                                                                                                     class="bx-ui-sls-route"
+                                                                                                     style="padding: 0px; margin: 0px;"><input
+                            type="text" autocomplete="off" value="" class="bx-ui-sls-fake"
+                            placeholder="Введите название ..."></div>
+
+                    <div class="dropdown-fade2white"></div>
+                    <div class="bx-ui-sls-loader"></div>
+                    <div class="bx-ui-sls-clear" title="Отменить выбор" style="display: none;"></div>
+                    <div class="bx-ui-sls-pane" style="overflow: hidden auto;">
+                        <div class="bx-ui-sls-variants"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="bx-ui-sls-error-message">
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+<!--#include virtual="/parts/footer.html" -->

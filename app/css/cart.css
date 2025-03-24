@@ -514,6 +514,17 @@
     font-weight: bold;
 }
 
+.favourites-empty.cart-finish .favourites-empty__ico {
+    background: #24a44a;
+}
+.favourites-empty.cart-finish h1 {
+    font-size: 24px;
+}
+
+.favourites-empty.cart-finish p {
+    color: #404042;
+}
+
 @media (max-width: 991px) {
     .cart-remove span {
         display: none;
@@ -726,6 +737,9 @@
 }
 
 @media (max-width: 574px) {
+    .favourites-empty__footer .btn {
+        width: 186px;
+    }
     .modal-header-full {
         padding: 5px 0 0;
         border-bottom: none;

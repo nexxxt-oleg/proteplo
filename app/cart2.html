@@ -1,0 +1,59 @@
+<!--#set var="title" value="cart" -->
+<!--#include virtual="/parts/header.html" -->
+
+<div class="container">
+    <div class="container fpad70">
+        <ul class="breadcrumbs nav" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item"
+                                                                                                 href="/"><span
+                    itemprop="name">Главная</span></a>
+                <meta itemprop="position" content="1">
+            </li>
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span itemprop="name">Корзина</span>
+                <meta itemprop="position" content="2">
+            </li>
+        </ul>
+
+        <div class="favourites-empty">
+            <div class="favourites-empty__ico">
+                <svg width="24" height="24">
+                    <use xlink:href="#svg-cart"></use>
+                </svg>
+            </div>
+            <h1>Ваша корзина пуста</h1>
+            <p>Начните покупки прямо сейчас!</p>
+            <div class="favourites-empty__footer">
+                <a href="" class="btn btn--black">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="favourites-empty cart-finish">
+            <div class="favourites-empty__ico">
+                <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 369.61">
+                    <path stroke-width="0" fill="#fff"
+                          d="m165.32,369.61c-14.53,0-28.47-5.77-38.74-16.06L9.45,236.47c-12.6-12.61-12.6-33.04,0-45.65h0c12.61-12.6,33.04-12.6,45.65,0l110.22,110.22L456.9,9.45c12.61-12.6,33.04-12.6,45.65,0h0c12.6,12.61,12.6,33.04,0,45.65L204.06,353.55c-10.27,10.29-24.21,16.06-38.74,16.06Z"/>
+                </svg>
+            </div>
+            <h1>Ваш заказ оформлен!</h1>
+            <p>
+                <span class="d-block fpad15">
+                Спасибо за покупку! Менеджер свяжется с вами в течение часа.<br class="d-lg-block d-none">
+                На почту было направлено письмо с подтверждением заказа
+                </span>
+                Заказу присвоен номер <b>62944</b>
+            </p>
+
+            <div class="favourites-empty__footer">
+                <a href="" class="btn btn--green">ПЕРЕЙТИ на главную</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--#include virtual="/parts/footer.html" -->

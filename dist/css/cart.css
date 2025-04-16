@@ -229,7 +229,17 @@
 
 .card-price__footer.one-bay-click {
     border-radius: 15px;
+
+}
+.bx-basket .card-price__footer.one-bay-click {
     margin-bottom: 20px;
+}
+.cat__filter__item__chekbox a {
+    color: #404042;
+    text-decoration: none;
+}
+.cat__filter__item__chekbox a .custom-checkbox__value {
+    text-decoration: underline;
 }
 
 .basket-coupon-section {
@@ -373,16 +383,43 @@
     outline: none;
 }
 
+.location-block-wrapper {
+    width: 100%;
+    max-width: 300px;
+}
+
+.bx-sls .dropdown-block {
+    border: none !important;
+    padding: 5px 15px;
+    height: 48px;
+    border-radius: 10px;
+    background: #eef2f4;
+}
+.bx-sls .dropdown-icon {
+    display: none !important;
+}
 #sale_order_props .bx_description {
     font-size: 14px;
     color: #404042;
     line-height: 18px;
 }
-
+.bx-sls .bx-ui-sls-container {
+    height: 35px;
+}
+.bx-sls .dropdown-fade2white {
+    background: transparent !important;
+}
 .bx_section__title {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
+}
+.bx-sls .bx-ui-sls-clear {
+    margin-top: 5px;
+}
+
+.bx-sls .bx-ui-sls-container .bx-ui-sls-fake {
+    height: 35px !important;
 }
 
 .bx_section__title h4 {

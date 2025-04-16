@@ -2819,7 +2819,7 @@ body.menu_open {
   }
 
   &__view {
-    a {
+    button {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -2827,6 +2827,9 @@ body.menu_open {
       height: 36px;
       color: #828b90;
       border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background: transparent;
 
       &:hover {
         color: #565656;

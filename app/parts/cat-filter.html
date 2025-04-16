@@ -92,14 +92,16 @@
                                 <div class="cat__filter__item__body">
                                     <ul class="nav d-block cat__filter__item__chekbox">
                                         <li>
-                                            <a href="#" onclick="this.getElementsByTagName('input')[0].checked = !this.getElementsByTagName('input')[0].checked">
-                                                <div class="custom-checkbox">
-                                                    <input type="checkbox" name="1">
-                                                    <span class="custom-checkbox__value">
-                                                        Abat
+
+                                            <label class="custom-checkbox">
+                                                <input type="checkbox" name="1">
+                                                <span class="custom-checkbox__value">
+                                                        <a href="/catalog.html#2">
+                                                             Abat
+                                                        </a>
                                                     </span>
-                                                </div>
-                                            </a>
+                                            </label>
+
                                         </li>
                                         <li>
                                             <label class="custom-checkbox">
@@ -230,8 +232,11 @@
                     <div class="cat__filter__footer">
                         <div class="container ">
                             <div class="cat__filter__footer__wrap">
-                                <button type="submit" class="btn cat__filter__submit" id="filterSubmit" data-bs-target="#filterBox">Применить</button>
-                                <button type="reset" class="btn cat__filter__reset" id="filterReset" data-bs-target="#filterBox">
+                                <button type="submit" class="btn cat__filter__submit" id="filterSubmit"
+                                        data-bs-target="#filterBox">Применить
+                                </button>
+                                <button type="reset" class="btn cat__filter__reset" id="filterReset"
+                                        data-bs-target="#filterBox">
                                     <svg width="9" height="9" class="me-2">
                                         <use xlink:href="#svg-close"></use>
                                     </svg>

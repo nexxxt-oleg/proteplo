@@ -236,7 +236,7 @@
 }
 .cat__filter__item__chekbox a {
     color: #404042;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .cat__filter__item__chekbox a .custom-checkbox__value {
     text-decoration: underline;

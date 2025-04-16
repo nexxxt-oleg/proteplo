@@ -236,7 +236,7 @@
 }
 .cat__filter__item__chekbox a {
     color: #404042;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .cat__filter__item__chekbox a .custom-checkbox__value {
     text-decoration: underline;
@@ -415,7 +415,7 @@
     padding-bottom: 20px;
 }
 .bx-sls .bx-ui-sls-clear {
-    margin-top: 9px;
+    margin-top: 10px;
 }
 
 .bx-sls .bx-ui-sls-container .bx-ui-sls-fake,

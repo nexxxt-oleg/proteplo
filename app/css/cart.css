@@ -415,11 +415,12 @@
     padding-bottom: 20px;
 }
 .bx-sls .bx-ui-sls-clear {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-.bx-sls .bx-ui-sls-container .bx-ui-sls-fake {
-    height: 35px !important;
+.bx-sls .bx-ui-sls-container .bx-ui-sls-fake,
+.bx-sls .bx-ui-sls-container  .bx-ui-sls-route {
+    height: 39px !important;
 }
 
 .bx_section__title h4 {

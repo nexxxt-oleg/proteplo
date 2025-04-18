@@ -563,6 +563,13 @@
     color: #404042;
 }
 
+.header__top__menu a.active {
+    color: #24a44a;
+}
+.btn--green.active {
+    background-color: #29b653 !important;
+}
+
 @media (max-width: 991px) {
     .cart-remove span {
         display: none;

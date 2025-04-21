@@ -292,6 +292,18 @@
     color: #24a44a;
 }
 
+.basket-coupon-alert.text-danger {
+    color: #f64747 !important;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Capa_1' data-name='Capa 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B stroke-width: 0px;%0Afill: %23f64747; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='m256,0C114.61,0,0,114.61,0,256s114.61,256,256,256,256-114.61,256-256C511.85,114.68,397.32.15,256,0Zm0,64c39.84,0,78.69,12.48,111.08,35.67L99.67,367.06c-61.5-86.18-41.5-205.9,44.68-267.4,32.58-23.25,71.62-35.72,111.65-35.66Zm0,384c-39.84,0-78.67-12.48-111.06-35.67L412.33,144.92c61.51,86.17,41.53,205.89-44.64,267.41-32.59,23.26-71.65,35.74-111.69,35.68Z'/%3E%3C/svg%3E");
+}
+
+.basket-coupon-alert.text-danger.close-link {
+    color: #f64747 !important;
+}
+.basket-coupon-alert.text-danger .basket-coupon-text {
+    color: #f64747 !important;
+}
+
 .basket-coupon-block-coupon-btn {
     padding: 5px 20px;
     height: 48px;

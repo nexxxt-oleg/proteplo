@@ -629,6 +629,11 @@
 }
 
 @media (max-width: 991px) {
+    .bx_block.r3x1 .error-inp {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
     .cart-remove span {
         display: none;
     }

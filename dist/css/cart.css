@@ -613,7 +613,27 @@
     box-shadow: none;
 }
 
+.bx_block.r3x1 {
+    position: relative;
+}
+.bx_block.r3x1 .error-inp {
+    position: absolute;
+    z-index: 10;
+    left: 10px;
+    top: 50px;
+    color: #f64747;
+    font-size: 14px;
+}
+.product-tips__item--new {
+    background-color: #0db4b9;
+}
+
 @media (max-width: 991px) {
+    .bx_block.r3x1 .error-inp {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
     .cart-remove span {
         display: none;
     }

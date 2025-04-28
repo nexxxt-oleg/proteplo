@@ -627,6 +627,9 @@
 .product-tips__item--new {
     background-color: #0db4b9;
 }
+.nav--sb li a.active {
+    color: #24a44a;
+}
 
 @media (max-width: 991px) {
     .bx_block.r3x1 .error-inp {

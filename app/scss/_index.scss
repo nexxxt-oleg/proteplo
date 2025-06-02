@@ -6331,6 +6331,30 @@ textarea.form-modal__inp {
   display: none;
 }
 
+.card-price__footer.one-bay-click {
+  input:not(:checked) + .custom-checkbox__value:after {
+    background-color: #fff !important;
+  }
+  .custom-checkbox__value:hover {
+    color: #404042 !important;
+  }
+}
+.box__consultation__form {
+  input:not(:checked) + .custom-checkbox__value:after {
+    background-color: #fff !important;
+  }
+  .custom-checkbox__value:hover {
+    color: #fff !important;
+  }
+}
+.bx_ordercart_order_pay_center {
+  display: flex;
+  justify-content: center;
+}
+.bx_ordercart_order_pay_center .order_ps {
+  display: inline-flex !important;
+}
+
 @media screen and (min-width: 769px) {
   .accordion--mob .accordion-collapse {
     display: block !important;

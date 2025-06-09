@@ -1393,6 +1393,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .mob-fpad30 {
+    padding-bottom: 30px !important;
+  }
   .card-price {
     .price {
       flex-direction: row;

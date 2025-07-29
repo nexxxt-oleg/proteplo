@@ -2840,6 +2840,28 @@ body.menu_open {
         color: #404042;
       }
     }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      color: #828b90;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background: transparent;
+
+      &:hover {
+        color: #565656;
+      }
+
+      &.active {
+        background: #eef2f4;
+        color: #404042;
+      }
+    }
   }
 }
 
@@ -6367,6 +6389,8 @@ textarea.form-modal__inp {
     }
   }
 }
+
+
 
 
 @media screen and (min-width: 769px) {

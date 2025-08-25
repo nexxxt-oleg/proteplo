@@ -757,12 +757,13 @@ a.icon-caption:hover {
   &__img {
     padding: 5px;
     height: 260px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    line-height: 250px;
 
     img {
-      display: block;
+      display: inline-block;
+      vertical-align: middle;
       max-width: 100%;
       height: auto;
       max-height: 100%;

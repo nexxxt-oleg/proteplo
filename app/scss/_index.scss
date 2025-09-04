@@ -764,10 +764,6 @@ a.icon-caption:hover {
     img {
       display: inline-block;
       vertical-align: middle;
-      max-width: 100%;
-      height: auto;
-      max-height: 100%;
-      width: auto;
     }
   }
 
@@ -3087,7 +3083,7 @@ body.menu_open {
 .box__slider {
   .product-box__img {
     img {
-      max-height: 250px;
+      /*max-height: 250px;*/
     }
   }
 }

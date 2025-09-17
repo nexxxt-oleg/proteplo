@@ -1444,18 +1444,21 @@
     padding-bottom: 0;
 
     .product-single__top__info {
-      padding-right: 0;
       order: 2;
       font-size: 12px;
-      padding-bottom: 10px;
+      margin-right: 0;
       width: 100%;
+      margin-bottom: 10px;
 
       &--art {
         order: -1;
-        width: calc(100% - 60px);
+        width: auto;
+
       }
     }
-
+    .product-single__top__reviews {
+      margin-top: 8px;
+    }
     .product-single__top__reviews {
       margin-left: auto;
       font-size: 12px;

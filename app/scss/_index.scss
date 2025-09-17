@@ -5429,10 +5429,22 @@ p .header__phone {
     padding-bottom: 25px;
 
     &__info {
-      padding-right: 35px;
+      margin-right: 35px;
+
+
       font-size: 14px;
       line-height: 20px;
       color: #828b90;
+
+      &--art {
+        padding: 2px 8px;
+        height: 32px;
+        border-radius: 8px;
+        border: 1px solid #24a44a;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+      }
 
       b {
         color: #404042;

@@ -2428,9 +2428,23 @@
     top: auto;
     left: auto;
   }
+  .modal-header__logo {
+    width: 90px;
+    height: 20px;
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 574px) {
+  .modal-tabs li a {
+    font-size: 16px;
+  }
+  #authModal .modal-body {
+    padding-top: 0;
+  }
+  .modal-tabs {
+    padding: 0 15px 30px;
+  }
   .modal-close-hidiven-mob {
     display: none !important;
   }

@@ -1913,7 +1913,7 @@
             <div class="modal-header ">
                 <div class="modal-header__left"></div>
                 <div class="modal-title ">
-                    <img class="d-block" src="images/dist/logo.svg" alt="" width="140" height="33">
+                    <img class="d-block modal-header__logo" src="images/dist/logo.svg" alt="" width="140" height="33">
                 </div>
                 <div class="btn-close2" data-bs-dismiss="modal">
                     <svg width="32" height="32">
@@ -2023,7 +2023,7 @@
             <div class="modal-header ">
                 <div class="modal-header__left"></div>
                 <div class="modal-title ">
-                    <img class="d-block" src="images/dist/logo.svg" alt="" width="140" height="33">
+                    <img class="d-block modal-header__logo" src="images/dist/logo.svg" alt="" width="140" height="33">
                 </div>
                 <div class="btn-close2" data-bs-dismiss="modal">
                     <svg width="32" height="32">
@@ -2032,13 +2032,14 @@
                 </div>
             </div>
             <div class="modal-body">
-                <div class="form-modal__top">
-                    <div class="form-modal__top__caption">Восстановление пароля</div>
-                    <div class="form-modal__text">
-                        Помогаем выбрать товар, даем советы по комплектации и использованию
-                    </div>
-                </div>
+
                 <form action="/send/" class="form-modal" onsubmit="return false">
+                    <div class="form-modal__top">
+                        <div class="form-modal__top__caption">Восстановление пароля</div>
+                        <div class="form-modal__text">
+                            Помогаем выбрать товар, даем советы по комплектации и использованию
+                        </div>
+                    </div>
                     <div class="form-modal__row">
 
                         <input type="email"
@@ -2056,7 +2057,6 @@
                             ОТПРАВИТЬ
                         </button>
                     </div>
-
                     <div class="form-modal__footer text-center">
                         <a data-bs-dismiss="modal" href="#authModal" data-bs-toggle="modal" data-bs-target="#authModal" >Авторизация</a>
                     </div>

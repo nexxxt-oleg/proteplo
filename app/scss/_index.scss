@@ -2299,6 +2299,7 @@ body.menu_open {
 .modal-content {
   padding: 40px;
   border: none;
+  --bs-modal-border-radius: 20px;
 
   .modal-header {
     padding: 0;
@@ -6407,8 +6408,77 @@ textarea.form-modal__inp {
   }
 }
 
+.modal-header__left {
+  width: 32px;
+}
 
+.mb-20 {
+  margin-bottom: 20px;
+}
 
+.password-inp {
+  position: relative;
+  &__ico {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding: 5px 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #93999c;
+  }
+}
+
+.modal-tabs {
+  padding: 20px 0 30px;
+  li {
+    width: 50%;
+    a {
+      display: block;
+      text-align: center;
+      padding: 10px 0;
+      border-bottom: 2px solid #dce3e7;
+      transition: all 0.2s ease-in-out;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      color: #404042;
+      text-decoration: none;
+      &.active{
+        border-bottom-color: #24a44a;
+      }
+    }
+  }
+}
+
+.btn.btn--green:disabled,
+.btn.btn--green.disabled {
+  cursor: not-allowed !important;
+  opacity: 1;
+  background: #828b90 !important;
+  pointer-events: auto !important;
+}
+
+.modal-link {
+  color: #24a44a;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 24px;
+}
+.form-modal__top {
+  padding-top: 20px;
+  &__caption {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: #404042;
+    padding-bottom: 20px;
+  }
+}
 
 @media screen and (min-width: 769px) {
   .accordion--mob .accordion-collapse {

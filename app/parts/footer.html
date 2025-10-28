@@ -7,7 +7,7 @@
                         <span>Каталог</span>
                         <div class="footer__nav__caption__mob-ico">
                             <svg width="12" height="6" class="d-block">
-                               <use xlink:href="#svg-bottom"></use>
+                                <use xlink:href="#svg-bottom"></use>
                             </svg>
                         </div>
                     </div>
@@ -908,6 +908,165 @@
                     </ul>
 
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="authModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <div class="modal-header__left"></div>
+                <div class="modal-title ">
+                    <img class="d-block" src="images/dist/logo.svg" alt="" width="140" height="33">
+                </div>
+                <div class="btn-close2" data-bs-dismiss="modal">
+                    <svg width="32" height="32">
+                        <use xlink:href="#svg-close2"></use>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <ul class="nav modal-tabs">
+                    <li>
+                        <a id="authBtn" href="#auth_tab" class="active" data-bs-toggle="tab" data-bs-target="#auth_tab">Войти</a>
+                    </li>
+                    <li>
+                        <a href="#reg_tab" data-bs-toggle="tab" data-bs-target="#reg_tab">Регистрация</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="auth_tab">
+                        <form action="/send/" class="form-modal" onsubmit="return false">
+
+                            <div class="form-modal__row">
+                                <div class="mb-20">
+                                    <input type="email"
+                                           name="email_auth"
+                                           class="form-modal__inp"
+                                           autocomplete="off"
+                                           placeholder="E-mail"
+                                    />
+                                </div>
+                                <div class="mb-20 password-inp">
+                                    <input type="password"
+                                           name="password_auth"
+                                           class="form-modal__inp"
+                                           autocomplete="off"
+                                           placeholder="Пароль"
+                                           id="password_auth"
+                                    />
+                                    <span class="password-inp__ico js-pass" data-target="password_auth">
+                                         <svg width="24" height="15">
+                                            <use xlink:href="#svg-pass"></use>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="1">
+                                        <span class="custom-checkbox__value">
+                                            Запомнить меня
+                                        </span>
+                                    </label>
+                                    <a href="#passrecoveryModal" data-bs-target="#passrecoveryModal" data-bs-toggle="modal" class="modal-link"
+                                       data-bs-dismiss="modal">Забыли пароль?</a>
+                                </div>
+                            </div>
+
+                            <div class="form-modal__submit">
+                                <button type="submit"
+                                        class="btn btn--green w-100"
+                                        disabled
+                                >
+                                    ВОЙТИ
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="reg_tab">
+                        <form action="/send/" class="form-modal" onsubmit="return false">
+
+                            <div class="form-modal__row">
+                                <div class="mb-20">
+                                    <input type="email"
+                                           name="email_reg"
+                                           class="form-modal__inp"
+                                           autocomplete="off"
+                                           placeholder="E-mail*"
+                                           required
+                                    />
+                                </div>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" name="1">
+                                    <span class="custom-checkbox__value">
+                                    Нажимая кнопку “Заказать звонок”, Вы соглашаетесь с <a class="modal-link" href="">политикой
+                                    конфиденциальности</a>
+                                    </span>
+                                </label>
+                            </div>
+
+                            <div class="form-modal__submit">
+                                <button type="submit"
+                                        class="btn btn--green w-100"
+                                >
+                                    зарегистрироваться
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="passrecoveryModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <div class="modal-header__left"></div>
+                <div class="modal-title ">
+                    <img class="d-block" src="images/dist/logo.svg" alt="" width="140" height="33">
+                </div>
+                <div class="btn-close2" data-bs-dismiss="modal">
+                    <svg width="32" height="32">
+                        <use xlink:href="#svg-close2"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="form-modal__top">
+                    <div class="form-modal__top__caption">Восстановление пароля</div>
+                    <div class="form-modal__text">
+                        Помогаем выбрать товар, даем советы по комплектации и использованию
+                    </div>
+                </div>
+                <form action="/send/" class="form-modal" onsubmit="return false">
+                    <div class="form-modal__row">
+
+                        <input type="email"
+                               name="email_reg"
+                               class="form-modal__inp"
+                               autocomplete="off"
+                               placeholder="E-mail*"
+                               required
+                        />
+                    </div>
+                    <div class="form-modal__submit">
+                        <button type="submit"
+                                class="btn btn--green w-100"
+                        >
+                            ОТПРАВИТЬ
+                        </button>
+                    </div>
+
+                    <div class="form-modal__footer text-center">
+                        <a data-bs-dismiss="modal" href="#authModal" data-bs-toggle="modal" data-bs-target="#authModal" >Авториaзация</a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

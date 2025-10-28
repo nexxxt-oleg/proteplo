@@ -138,7 +138,7 @@
 
                     </div>
                     <div class="header__middle__col-mob-r col">
-                        <ul class="nav justify-content-end align-items-center">
+                        <ul class="nav justify-content-end align-items-center flex-nowrap">
                             <li>
                                 <a href="mailto:sales@proteplo-spb.ru">
                                     <span class="ico-green">
@@ -168,12 +168,20 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#svg-lk-mob"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="#mobmenuModal" data-bs-toggle="modal" data-bs-target="#mobmenuModal">
                                     <svg width="24" height="15">
                                         <use xlink:href="#svg-burger"></use>
                                     </svg>
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                 </div>
@@ -208,7 +216,8 @@
                                                         Поиск
                                                     </div>
 
-                                                    <div class="btn-close2"  data-bs-toggle="offcanvas" data-bs-target="#mobSearch">
+                                                    <div class="btn-close2" data-bs-toggle="offcanvas"
+                                                         data-bs-target="#mobSearch">
                                                         <svg width="20" height="20">
                                                             <use xlink:href="#svg-close2"></use>
                                                         </svg>
@@ -371,7 +380,7 @@
                                     </ul>
                                 </div>
                                 <div class="header__icons">
-                                    <ul class="nav align-items-center">
+                                    <ul class="nav align-items-center flex-nowrap">
                                         <li class="header__icons__only-mob">
                                             <a data-bs-toggle="offcanvas" href="#mobSearch" class="header__icons__item">
 
@@ -459,6 +468,25 @@
                                                     Каталог
                                                 </div>
                                             </a>
+                                        </li>
+                                        <li class="header__icons__mob-hidden">
+                                            <div class="position-relative">
+                                                <a href="" class="header__icons__item" data-bs-toggle="dropdown">
+                                                    <div class="header__icons__item__ico">
+                                                        <svg width="24" height="24">
+                                                            <use xlink:href="#svg-lk"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="header__icons__item__caption">
+                                                        Профиль
+                                                    </div>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end header__menu-lk">
+                                                    <li><a class="dropdown-item" href="#">Мои заказы</a></li>
+                                                    <li><a class="dropdown-item" href="#">Личные данные</a></li>
+                                                    <li><a class="dropdown-item" href="#">Выйти</a></li>
+                                                </ul>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>

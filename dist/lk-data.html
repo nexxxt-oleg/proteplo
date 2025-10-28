@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
 
-    <title>Доставка</title>
+    <title>Личный кабинет</title>
     <meta name="description" content="">
 
     <meta name="viewport"
@@ -988,51 +988,118 @@
 <div class="container fpad70">
     <ul class="breadcrumbs nav">
         <li><a href="#">Главная</a></li>
+        <li><a href="#">Личный кабинет</a></li>
     </ul>
-    <h1 class="title-page">Доставка</h1>
-    <div class="text fpad30">
-        <p>Для постоянных клиентов действует гибкая система скидок. Мы всегда рады предложить Вам лучшие цены.</p>
-    </div>
+
     <div class="row">
-        <div class="col-lg-6">
-            <div class="text">
-                <div class="section-anchor">
-                    <h2>Доставка по Санкт-Петербургу и ЛО</h2>
-                    <p>Стоимость доставки в пределах контура - 300 рублей, при заказе от 75000 рублей - бесплатно.
-                        По Ленинградской области стоимость доставки 300 рублей + 30 рублей км.</p>
-                    <p>Условия доставки объемных и крупногабаритных грузов от 50 кг обсуждаются с менеджером.
-                        <b>Обратите, пожалуйста, внимание, что мы доставляем товары только до подъезда.</b></p>
-                    <div class="mob-delivery-map">
-                        <iframe src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=true&amp;source=constructor-api&amp;um=constructor%3AS3Q3LtUefjEIbzo5o433pcAKN778GSGF"
-                                frameborder="0" allowfullscreen="true" width="100%" height="300" class="d-block"></iframe>
+        <div class="col-lg-3 d-none d-lg-block">
+            <ul class="nav navbar-lk">
+                <li>
+                    <a href="" class="navbar-lk__link">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-order"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Мои заказы</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="navbar-lk__link active">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-data"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Личные данные</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="navbar-lk__link">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-exit"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Выйти</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <h1 class="title-page">Личные данные</h1>
+            <form class="form">
+                <div class="form-line">
+                    <label for="email" class="form-line__label">E-mail*</label>
+                    <input type="email" class="form-inp" id="email" readonly="" value="ivanov@mail.ru"
+                           autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="fio" class="form-line__label">Фамилия Имя Отчество</label>
+                    <input type="text" class="form-inp" id="fio" readonly="" autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="tel" class="form-line__label">Номер телефона</label>
+                    <input type="tel" class="form-inp" id="tel" readonly="" autocomplete="off">
+                </div>
+                <div class="form__footer-submit row">
+                    <div class="col-6">
+                        <a class="btn btn--green w-100">Редактировать</a>
                     </div>
                 </div>
-                <div class="section-anchor">
-                    <h2>Доставка по России</h2>
-                    <p>Доставка по России осуществляется компаниями "Автотрейдинг", "Деловые Линии" или любой удобной
-                        для Вас логистической компанией.</p>
-                    <p>Доставка до терминала в Санкт-Петербурге - бесплатно.</p>
+            </form>
+            <br>
+            <br>
+            <form class="form">
+                <div class="form-line">
+                    <label for="email2" class="form-line__label">E-mail*</label>
+                    <input type="email" class="form-inp" id="email2" value="ivanov@mail.ru" autocomplete="off">
                 </div>
-                <h2>
-                    Самовывоз
-                </h2>
-                <p>Товар можно забрать самостоятельно из офиса по адресу:<br>
-                    <b>Санкт-Петербург, Чугунная, дом 14, лит. K (въезд с Менделеевской 5)</b></p>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="fpad40 only-pc">
-                <iframe src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=true&amp;source=constructor-api&amp;um=constructor%3AS3Q3LtUefjEIbzo5o433pcAKN778GSGF"
-                        frameborder="0" allowfullscreen="true" width="100%" height="470" class="d-block"></iframe>
-            </div>
-
-            <div class="contacts-box">
-                Всю интересующую Вас информацию уточняйте у менеджеров по телефонам:
-                <a href="tel:88124907790">8 812 490-77-90</a> или <span class="mob-d-block"><a href="tel:88124907790">8 812 490-77-90</a></span>
-            </div>
+                <div class="form-line">
+                    <label for="fio2" class="form-line__label">Фамилия Имя Отчество</label>
+                    <input type="text" class="form-inp" id="fio2" value="Иванов Иван Иванович" autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="tel2" class="form-line__label">Номер телефона</label>
+                    <input type="tel" class="form-inp" id="tel2" value="+7 495 555-55-55" autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="pass" class="form-line__label">Новый пароль</label>
+                    <div class="password-inp">
+                        <input type="password" class="form-inp" id="pass" value="123456" autocomplete="off">
+                        <span class="password-inp__ico js-pass" data-target="pass">
+                             <svg width="24" height="15">
+                                <use xlink:href="#svg-pass"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <label for="pass" class="form-line__label">Подтверждение нового пароля</label>
+                    <div class="password-inp">
+                        <input type="password" class="form-inp" id="pass2" value="123456" autocomplete="off">
+                        <span class="password-inp__ico js-pass" data-target="pass2">
+                             <svg width="24" height="15">
+                                <use xlink:href="#svg-pass"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <a href="" class="links-dashed"><span>Сгенерировать пароль автоматически</span></a>
+                </div>
+                <div class="form__footer-submit row">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn--green w-100">СОХРАНИТЬ</button>
+                    </div>
+                    <div class="col-6">
+                        <button type="reset" class="btn btn--black w-100">отменить</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-
 </div>
 
 <footer class="footer">

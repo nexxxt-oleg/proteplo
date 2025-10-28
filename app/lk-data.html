@@ -1,0 +1,121 @@
+<!--#set var="title" value="Личный кабинет" -->
+<!--#include virtual="/parts/header.html" -->
+
+<div class="container fpad70">
+    <ul class="breadcrumbs nav">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Личный кабинет</a></li>
+    </ul>
+
+    <div class="row">
+        <div class="col-lg-3 d-none d-lg-block">
+            <ul class="nav navbar-lk">
+                <li>
+                    <a href="" class="navbar-lk__link">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-order"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Мои заказы</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="navbar-lk__link active">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-data"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Личные данные</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="navbar-lk__link">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-exit"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Выйти</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <h1 class="title-page">Личные данные</h1>
+            <form class="form">
+                <div class="form-line">
+                    <label for="email" class="form-line__label">E-mail*</label>
+                    <input type="email" class="form-inp" id="email" readonly="" value="ivanov@mail.ru"
+                           autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="fio" class="form-line__label">Фамилия Имя Отчество</label>
+                    <input type="text" class="form-inp" id="fio" readonly="" autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="tel" class="form-line__label">Номер телефона</label>
+                    <input type="tel" class="form-inp" id="tel" readonly="" autocomplete="off">
+                </div>
+                <div class="form__footer-submit row">
+                    <div class="col-6">
+                        <a class="btn btn--green w-100">Редактировать</a>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <br>
+            <form class="form">
+                <div class="form-line">
+                    <label for="email2" class="form-line__label">E-mail*</label>
+                    <input type="email" class="form-inp" id="email2" value="ivanov@mail.ru" autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="fio2" class="form-line__label">Фамилия Имя Отчество</label>
+                    <input type="text" class="form-inp" id="fio2" value="Иванов Иван Иванович" autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="tel2" class="form-line__label">Номер телефона</label>
+                    <input type="tel" class="form-inp" id="tel2" value="+7 495 555-55-55" autocomplete="off">
+                </div>
+                <div class="form-line">
+                    <label for="pass" class="form-line__label">Новый пароль</label>
+                    <div class="password-inp">
+                        <input type="password" class="form-inp" id="pass" value="123456" autocomplete="off">
+                        <span class="password-inp__ico js-pass" data-target="pass">
+                             <svg width="24" height="15">
+                                <use xlink:href="#svg-pass"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <label for="pass" class="form-line__label">Подтверждение нового пароля</label>
+                    <div class="password-inp">
+                        <input type="password" class="form-inp" id="pass2" value="123456" autocomplete="off">
+                        <span class="password-inp__ico js-pass" data-target="pass2">
+                             <svg width="24" height="15">
+                                <use xlink:href="#svg-pass"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-line">
+                    <a href="" class="links-dashed"><span>Сгенерировать пароль автоматически</span></a>
+                </div>
+                <div class="form__footer-submit row">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn--green w-100">СОХРАНИТЬ</button>
+                    </div>
+                    <div class="col-6">
+                        <button type="reset" class="btn btn--black w-100">отменить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--#include virtual="/parts/footer.html" -->

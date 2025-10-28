@@ -1,0 +1,75 @@
+<!--#set var="title" value="Личный кабинет" -->
+<!--#include virtual="/parts/header.html" -->
+
+<div class="container fpad70">
+    <ul class="breadcrumbs nav">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Личный кабинет</a></li>
+    </ul>
+
+    <div class="row">
+        <div class="col-lg-3 d-none d-lg-block">
+            <ul class="nav navbar-lk">
+                <li>
+                    <a href="" class="navbar-lk__link active">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-order"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Мои заказы</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="navbar-lk__link ">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-data"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Личные данные</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="navbar-lk__link">
+                        <div class="navbar-lk__link__ico">
+                            <svg width="24" height="24">
+                                <use xlink:href="#svg-lk-exit"></use>
+                            </svg>
+                        </div>
+                        <div class="navbar-lk__link__caption">Выйти</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-9">
+            <h1 class="title-page">Мои заказы</h1>
+            <div class="accordion-item lk-order">
+                <div class="lk-order__header" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                    <div class="lk-order__header__col-date">
+                        10.09.2025
+                    </div>
+                    <div class="lk-order__header__col-number">
+                        Заказ №118
+                    </div>
+                </div>
+                <div class="accordion-collapse collapse" id="collapse1">
+                    <div class="lk-order__product">
+                        <div class="lk-order__product__img">
+
+                        </div>
+                        <div class="lk-order__product__desc">
+                            <div class="lk-order__product__art">Артикул: <b>51530</b></div>
+                        </div>
+                        <div class="lk-order__product__price">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--#include virtual="/parts/footer.html" -->

@@ -44,26 +44,256 @@
         </div>
 
         <div class="col-lg-9">
-            <h1 class="title-page">Мои заказы</h1>
-            <div class="accordion-item lk-order">
-                <div class="lk-order__header" data-bs-toggle="collapse" data-bs-target="#collapse1">
-                    <div class="lk-order__header__col-date">
-                        10.09.2025
-                    </div>
+            <div class="fpad30">
+                <h1 class="title-page">Мои заказы</h1>
+                <div class="text">
+                    <p>Вы пока ничего не заказывали.<br>
+                        Для выбора товаров перейдите в каталог</p>
+                </div>
+                <a href="" class="btn btn--green ps-3 pe-3">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+            <div class="lk-order">
+                <div class="lk-order__header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1">
+
                     <div class="lk-order__header__col-number">
                         Заказ №118
                     </div>
+                    <div class="lk-order__header__col-date">
+                        10.09.2025
+                    </div>
+                    <div class="lk-order__header__col-quantity">
+                        Количество товаров: <b>1 шт.</b>
+                    </div>
+                    <div class="lk-order__header__col-cost">
+                        Сумма к оплате: <b>163 000 руб.</b>
+                    </div>
+                    <div class="lk-order__header__col-ico">
+                        <span>
+                             <svg width="12" height="6">
+                                <use xlink:href="#svg-bottom"></use>
+                            </svg>
+                        </span>
+                    </div>
                 </div>
                 <div class="accordion-collapse collapse" id="collapse1">
-                    <div class="lk-order__product">
-                        <div class="lk-order__product__img">
-
+                    <div class="lk-order__body">
+                        <div class="lk-order__product">
+                            <div class="lk-order__product__img">
+                                <img src="images/dist/lot-min.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="lk-order__product__right">
+                                <div class="lk-order__product__desc">
+                                    <div class="lk-order__product__art">Артикул: <b>51530</b></div>
+                                    <div class="lk-order__product__title">GRANDE HOME SE431 L душевой поддон 120x90
+                                    </div>
+                                    <div class="lk-order__product__count">1 шт.</div>
+                                </div>
+                                <div class="lk-order__product__price">
+                                    <div class="lk-order__product__price__old">12 500 руб.</div>
+                                    <div class="lk-order__product__price__main">5 100 руб.</div>
+                                    <div class="lk-order__product__price__benefit">Выгода 7 400 руб.</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="lk-order__product__desc">
-                            <div class="lk-order__product__art">Артикул: <b>51530</b></div>
-                        </div>
-                        <div class="lk-order__product__price">
+                        <div class="lk-order__product">
+                            <div class="lk-order__product__img">
+                                <img src="images/dist/lot-min.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="lk-order__product__right">
+                                <div class="lk-order__product__desc">
+                                    <div class="lk-order__product__art">Артикул: <b>51530</b></div>
+                                    <div class="lk-order__product__title">GRANDE HOME SE431 L душевой поддон 120x90
+                                    </div>
+                                    <div class="lk-order__product__count">1 шт.</div>
+                                </div>
+                                <div class="lk-order__product__price">
 
+                                    <div class="lk-order__product__price__main">5 100 руб.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lk-order__body__bottom">
+                            <div class="lk-order__body__info">
+                                <div class="lk-order__body__info__group">
+                                    <div class="lk-order__body__info__group__caption">
+                                        Получатель
+                                    </div>
+                                    Космодемьянский Александр Анатольевич<br>
+                                    +7 495 555-55-55<br>
+                                    inbox@mail.ru
+                                </div>
+                                <div class="lk-order__body__info__group">
+                                    <div class="lk-order__body__info__group__caption">
+                                        Способ оплаты
+                                    </div>
+                                    Банковский перевод
+                                </div>
+                                <div class="lk-order__body__info__group">
+                                    <div class="lk-order__body__info__group__caption">
+                                        Способ доставки
+                                    </div>
+                                    Самовывоз<br>
+                                    Санкт-Петербург, Чугунная, дом 14, лит. К, (въезд с Менделеевской 9)
+                                </div>
+                            </div>
+                            <div class="lk-order__body__itog">
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Товары
+                                    </div>
+                                    <div class="lk-order__body__itog__row__value">
+                                        3 шт.
+                                    </div>
+                                </div>
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Выгода
+                                    </div>
+                                    <div class="lk-order__body__itog__row__value">
+                                        7 400 руб.
+                                    </div>
+                                </div>
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Доставка
+                                    </div>
+                                    <div class="lk-order__body__itog__row__value">
+                                        0 руб.
+                                    </div>
+                                </div>
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Итого
+                                    </div>
+                                    <div class="lk-order__body__itog__row__cost">
+                                        229 500 руб.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lk-order">
+                <div class="lk-order__header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2">
+
+                    <div class="lk-order__header__col-number">
+                        Заказ №118
+                    </div>
+                    <div class="lk-order__header__col-date">
+                        10.09.2025
+                    </div>
+                    <div class="lk-order__header__col-quantity">
+                        Количество товаров: <b>1 шт.</b>
+                    </div>
+                    <div class="lk-order__header__col-cost">
+                        Сумма к оплате: <b>163 000 руб.</b>
+                    </div>
+                    <div class="lk-order__header__col-ico">
+                        <span>
+                             <svg width="12" height="6">
+                                <use xlink:href="#svg-bottom"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="accordion-collapse collapse" id="collapse2">
+                    <div class="lk-order__body">
+                        <div class="lk-order__product">
+                            <div class="lk-order__product__img">
+                                <img src="images/dist/lot-min.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="lk-order__product__right">
+                                <div class="lk-order__product__desc">
+                                    <div class="lk-order__product__art">Артикул: <b>51530</b></div>
+                                    <div class="lk-order__product__title">GRANDE HOME SE431 L душевой поддон 120x90
+                                    </div>
+                                    <div class="lk-order__product__count">1 шт.</div>
+                                </div>
+                                <div class="lk-order__product__price">
+                                    <div class="lk-order__product__price__old">12 500 руб.</div>
+                                    <div class="lk-order__product__price__main">5 100 руб.</div>
+                                    <div class="lk-order__product__price__benefit">Выгода 7 400 руб.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lk-order__product">
+                            <div class="lk-order__product__img">
+                                <img src="images/dist/lot-min.jpg" loading="lazy" alt="">
+                            </div>
+                            <div class="lk-order__product__right">
+                                <div class="lk-order__product__desc">
+                                    <div class="lk-order__product__art">Артикул: <b>51530</b></div>
+                                    <div class="lk-order__product__title">GRANDE HOME SE431 L душевой поддон 120x90
+                                    </div>
+                                    <div class="lk-order__product__count">1 шт.</div>
+                                </div>
+                                <div class="lk-order__product__price">
+
+                                    <div class="lk-order__product__price__main">5 100 руб.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lk-order__body__bottom">
+                            <div class="lk-order__body__info">
+                                <div class="lk-order__body__info__group">
+                                    <div class="lk-order__body__info__group__caption">
+                                        Получатель
+                                    </div>
+                                    Космодемьянский Александр Анатольевич<br>
+                                    +7 495 555-55-55<br>
+                                    inbox@mail.ru
+                                </div>
+                                <div class="lk-order__body__info__group">
+                                    <div class="lk-order__body__info__group__caption">
+                                        Способ оплаты
+                                    </div>
+                                    Банковский перевод
+                                </div>
+                                <div class="lk-order__body__info__group">
+                                    <div class="lk-order__body__info__group__caption">
+                                        Способ доставки
+                                    </div>
+                                    Самовывоз<br>
+                                    Санкт-Петербург, Чугунная, дом 14, лит. К, (въезд с Менделеевской 9)
+                                </div>
+                            </div>
+                            <div class="lk-order__body__itog">
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Товары
+                                    </div>
+                                    <div class="lk-order__body__itog__row__value">
+                                        3 шт.
+                                    </div>
+                                </div>
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Выгода
+                                    </div>
+                                    <div class="lk-order__body__itog__row__value">
+                                        7 400 руб.
+                                    </div>
+                                </div>
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Доставка
+                                    </div>
+                                    <div class="lk-order__body__itog__row__value">
+                                        0 руб.
+                                    </div>
+                                </div>
+                                <div class="lk-order__body__itog__row">
+                                    <div class="lk-order__body__itog__row__label">
+                                        Итого
+                                    </div>
+                                    <div class="lk-order__body__itog__row__cost">
+                                        229 500 руб.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
